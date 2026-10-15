@@ -57,9 +57,13 @@ def status_mark(m: dict, ref: dt.date | None) -> str:
     return ""
 
 
-def name_cell(s: dict, m: dict, ref: dt.date | None) -> str:
+def name_line(s: dict, m: dict, ref: dt.date | None) -> str:
     star = "🌟 " if s.get("tier") == "featured" else ""
     stats = f"★ {fmt_stars(m.get('stars'))} · {m.get('pushed_at') or '—'}{status_mark(m, ref)}"
+    return f"{star}**[{display_name(s)}]({gh_url(s['repo'])})** · {stats}"
+
+
+def meta_line(s: dict, m: dict) -> str:
     sub = []
     if s["format"] in FORMAT_BADGE:
         sub.append(FORMAT_BADGE[s["format"]])
@@ -68,11 +72,11 @@ def name_cell(s: dict, m: dict, ref: dt.date | None) -> str:
         sub.append(f"{m['skill_count']}{'+' if m.get('skill_count_truncated') else ''} 个 skill")
     if m.get("license"):
         sub.append(m["license"])
-    return f"{star}[{display_name(s)}]({gh_url(s['repo'])})<br><sub>{stats}</sub><br><sub>{' · '.join(sub)}</sub>"
+    return " · ".join(sub)
 
 
-def desc_cell(s: dict, facet: dict, stage_text: str) -> str:
-    text = cell(s["desc"]) + f"<br><sub>阶段：{stage_text}</sub>"
+def desc_block(s: dict, facet: dict, stage_text: str, meta: str) -> str:
+    text = cell(s["desc"]) + f"<br><sub>阶段：{stage_text}</sub><br><sub>{meta}</sub>"
     if s.get(facet["field"]):
         text += f"<br><sub>{facet['icon']} {' · '.join(facet['values'][v] for v in s[facet['field']])}</sub>"
     if s.get("note"):
@@ -113,14 +117,10 @@ def render_group(key: str, group: dict, items: list[dict], meta: dict, ref: dt.d
     out = [f'<a id="group-{key}"></a>', f"### {group['label']}", ""]
     if group.get("intro"):
         out += [group["intro"], ""]
-    out += [
-        "| 项目 | 简介 |",
-        "|---|---|",
-    ]
     for s in items:
         m = meta.get(s["repo"], {})
         stage_text = " · ".join(st["short"] for k, st in stages.items() if k in s["stages"])
-        out.append(f"| {name_cell(s, m, ref)} | {desc_cell(s, taxonomy['facet'], stage_text)} |")
+        out += [f"- {name_line(s, m, ref)}<br>{desc_block(s, taxonomy['facet'], stage_text, meta_line(s, m))}", ""]
 
     cmds = [(display_name(s), install_cmd(s)) for s in items if install_cmd(s)]
     if cmds:
