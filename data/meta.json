@@ -382,7 +382,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 2111,
+      "stars": 2112,
       "status": "ok"
     },
     "NEKOparapa/AiNiee": {
@@ -466,7 +466,7 @@
       "pushed_at": "2026-10-06",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 3624,
+      "stars": 3627,
       "status": "ok"
     },
     "RRRRUDDDD/Yamibo_Downloader": {
@@ -694,7 +694,7 @@
       "pushed_at": "2026-08-14",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 12472,
+      "stars": 12471,
       "status": "ok"
     },
     "XTmingyue/wenfeng-skill": {
@@ -922,7 +922,7 @@
       "pushed_at": "2026-09-28",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 57049,
+      "stars": 57050,
       "status": "ok"
     },
     "catyiqian/qianqianwriting": {
@@ -1120,13 +1120,13 @@
     "eternityspring/shuohao-skills": {
       "archived": false,
       "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays, storyboards. Runs in Claude Code & codex.",
-      "forks": 626,
+      "forks": 627,
       "full_name": "eternityspring/shuohao-skills",
       "license": "Apache-2.0",
       "pushed_at": "2026-10-15",
       "skill_count": 7,
       "skill_count_truncated": false,
-      "stars": 4578,
+      "stars": 4579,
       "status": "ok"
     },
     "evoworkAI/xiaoci-skill": {
@@ -1486,7 +1486,7 @@
       "pushed_at": "2026-10-08",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 171,
+      "stars": 172,
       "status": "ok"
     },
     "lingfengQAQ/webnovel-writer": {
@@ -1534,7 +1534,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1213,
+      "stars": 1214,
       "status": "ok"
     },
     "lixiaoxiao9888-create/short-drama-factory": {
@@ -1786,7 +1786,7 @@
       "pushed_at": "2026-09-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 19706,
+      "stars": 19710,
       "status": "ok"
     },
     "orange4664/chinese-grammar-proofreader": {
@@ -1846,7 +1846,7 @@
       "pushed_at": "2026-09-01",
       "skill_count": 18,
       "skill_count_truncated": false,
-      "stars": 62,
+      "stars": 63,
       "status": "ok"
     },
     "qingyabailu-git/webfiction-write": {
@@ -2410,7 +2410,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 7577,
+      "stars": 7578,
       "status": "ok"
     },
     "zenstory-ai/oh-story-dsh": {
