@@ -242,16 +242,6 @@ lang    = "zh"
 checked = 2026-10-14
 
 [[skills]]
-repo    = "imerzzhu/ai-novel-writing-skills"
-desc    = "9 个 Codex 网文 skill：选题、大纲细纲、章节写作、逻辑/OOC/伏笔审查、润色、完稿校验，另有男频热梗与女频情绪线/古风素材"
-group   = "pipeline"
-stages  = ["market", "world", "character", "structure", "drafting", "revision"]
-format  = "skill"
-lang    = "zh"
-agents  = ["codex"]
-checked = 2026-10-14
-
-[[skills]]
 repo    = "xwcai999/opencreator-novel"
 desc    = "中文小说 Codex 插件：读者契约与章节控制卡、待兑现承诺账本、确定性校验脚本、整书文学审稿与跨章结构相似度检查、封面"
 group   = "pipeline"

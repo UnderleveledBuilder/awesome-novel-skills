@@ -3,11 +3,13 @@
 from __future__ import annotations
 
 import datetime as dt
+import http.client
 import json
 import os
 import re
 import subprocess
 import sys
+import time
 import tomllib
 import urllib.error
 import urllib.request
@@ -154,16 +156,23 @@ def gh_get(path: str) -> dict:
         "User-Agent": "awesome-novel-skills",
         **({"Authorization": f"Bearer {_TOKEN}"} if _TOKEN else {}),
     })
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.load(resp)
-    except urllib.error.HTTPError as e:
-        if e.code in (404, 409, 451):  # 409：空仓库没有 git tree
-            raise NotFound(path) from e
-        if e.code == 403 and e.headers.get("X-RateLimit-Remaining") == "0":
-            reset = dt.datetime.fromtimestamp(int(e.headers.get("X-RateLimit-Reset", "0")))
-            sys.exit(f"GitHub API 配额用完，{reset:%H:%M} 重置。设置 GITHUB_TOKEN 或登录 gh 可提高配额。")
-        raise
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.load(resp)
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 409, 451):  # 409：空仓库没有 git tree
+                raise NotFound(path) from e
+            if e.code == 403 and e.headers.get("X-RateLimit-Remaining") == "0":
+                reset = dt.datetime.fromtimestamp(int(e.headers.get("X-RateLimit-Reset", "0")))
+                sys.exit(f"GitHub API 配额用完，{reset:%H:%M} 重置。设置 GITHUB_TOKEN 或登录 gh 可提高配额。")
+            if e.code < 500 or attempt == 2:
+                raise
+        except (OSError, http.client.HTTPException):
+            # 网络抖动（SSL 断开、超时、响应体没读完）：几百个仓库刷一遍时难免遇到，重试两次
+            if attempt == 2:
+                raise
+        time.sleep(2 * (attempt + 1))
 
 
 def has_token() -> bool:

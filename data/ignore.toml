@@ -656,3 +656,7 @@ reason = "完整应用，未到 1000★ 门槛"
 [[ignored]]
 repo   = "neavo/KeywordGacha"
 reason = "完整应用，未到 1000★ 门槛（923★）；作者已建议改用 LinguaGacha，最近一次代码提交在 2025-06"
+
+[[ignored]]
+repo   = "imerzzhu/ai-novel-writing-skills"
+reason = "改名换皮：7 个核心 skill 与 xindoo/sumeru 同文（.sumeru 改成 .webnovel），只多了热梗、女频素材两个参考 skill，未注明来源"
