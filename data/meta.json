@@ -473,13 +473,13 @@
     "PenglongHuang/chinese-novelist-skill": {
       "archived": false,
       "description": "🎭 AI 写小说：从零生成 10-50 章完整中文小说，三层问答 · 创作记忆 · 悬念钩子 · 自动校验，长篇网文连载皆宜｜开源免费，适配主流 coding agent｜🤝 Infistar.cc 赞助 · 注册送 $5｜AI novel writing skill",
-      "forks": 525,
+      "forks": 526,
       "full_name": "PenglongHuang/chinese-novelist-skill",
       "license": "MIT",
       "pushed_at": "2026-10-06",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 3793,
+      "stars": 3795,
       "status": "ok"
     },
     "RRRRUDDDD/Yamibo_Downloader": {
@@ -743,7 +743,7 @@
       "pushed_at": "2026-10-12",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 6222,
+      "stars": 6223,
       "status": "ok"
     },
     "YuliangXiu/de-ai-router": {
@@ -929,13 +929,13 @@
     "blader/humanizer": {
       "archived": false,
       "description": "Agent skill that removes signs of AI-generated writing from text",
-      "forks": 4539,
+      "forks": 4538,
       "full_name": "blader/humanizer",
       "license": "MIT",
       "pushed_at": "2026-09-28",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 57261,
+      "stars": 57269,
       "status": "ok"
     },
     "catyiqian/qianqianwriting": {
@@ -1349,7 +1349,7 @@
     "jtydhr88/screenwriting-skills": {
       "archived": false,
       "description": "Professional agent skills for screenwriting, television writing and dramaturgy",
-      "forks": 175,
+      "forks": 176,
       "full_name": "jtydhr88/screenwriting-skills",
       "license": "MIT",
       "pushed_at": "2026-10-03",
@@ -2387,7 +2387,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 12,
       "skill_count_truncated": false,
-      "stars": 2924,
+      "stars": 2925,
       "status": "ok"
     },
     "zenstory-ai/novel-to-game": {
@@ -2411,7 +2411,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 7611,
+      "stars": 7612,
       "status": "ok"
     },
     "zenstory-ai/oh-story-dsh": {
