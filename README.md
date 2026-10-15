@@ -1040,6 +1040,7 @@ npx skills add yunmegnze/fanqie-novel-downloader-skill
 <a id="resources"></a>
 ## 相关资源
 
+- [awesome-llm-storytelling](https://github.com/UnderleveledBuilder/awesome-llm-storytelling)：让大模型讲好故事的方法合集，按规划、长篇记忆、多 agent 审稿、去 AI 味等 12 种方法索引，附方法指南；不限网文，也收剧本、跑团和非虚构叙事
 - [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills)：AI 短剧 · 漫剧 skill 精选，小说改编短剧从这里接着看
 - [anthropics/skills](https://github.com/anthropics/skills)：官方 Agent Skills 仓库，含规范和示例，想自己写 skill 可以从这里看起
 - [vercel-labs/skills](https://github.com/vercel-labs/skills)：`npx skills` 安装工具，配套目录 [skills.sh](https://skills.sh)
