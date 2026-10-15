@@ -59,12 +59,11 @@ def status_mark(m: dict, ref: dt.date | None) -> str:
 
 def name_line(s: dict, m: dict, ref: dt.date | None) -> str:
     star = "🌟 " if s.get("tier") == "featured" else ""
-    stats = f"★ {fmt_stars(m.get('stars'))} · {m.get('pushed_at') or '—'}{status_mark(m, ref)}"
-    return f"{star}**[{display_name(s)}]({gh_url(s['repo'])})** · {stats}"
+    return f"{star}**[{display_name(s)}]({gh_url(s['repo'])})** · ★ {fmt_stars(m.get('stars'))}"
 
 
-def meta_line(s: dict, m: dict) -> str:
-    sub = []
+def meta_line(s: dict, m: dict, ref: dt.date | None) -> str:
+    sub = [f"更新于 {m.get('pushed_at') or '—'}{status_mark(m, ref)}"]
     if s["format"] in FORMAT_BADGE:
         sub.append(FORMAT_BADGE[s["format"]])
     sub.append(LANG_LABEL[s["lang"]])
@@ -120,7 +119,7 @@ def render_group(key: str, group: dict, items: list[dict], meta: dict, ref: dt.d
     for s in items:
         m = meta.get(s["repo"], {})
         stage_text = " · ".join(st["short"] for k, st in stages.items() if k in s["stages"])
-        out += [f"- {name_line(s, m, ref)}<br>{desc_block(s, taxonomy['facet'], stage_text, meta_line(s, m))}", ""]
+        out += [f"- {name_line(s, m, ref)}<br>{desc_block(s, taxonomy['facet'], stage_text, meta_line(s, m, ref))}", ""]
 
     cmds = [(display_name(s), install_cmd(s)) for s in items if install_cmd(s)]
     if cmds:
