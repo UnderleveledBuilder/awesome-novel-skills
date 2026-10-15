@@ -8,7 +8,7 @@
 
 这里收录给 Claude Code、Codex、OpenClaw 等 agent 用的小说和网文 skill，覆盖选题扫榜、拆书、设定和人物、大纲章纲、正文续写、防吃书防 OOC、审稿去 AI 味、书名简介封面、翻译出海和发布，也收短剧剧本这类写剧情的 skill，以及拆书用的下载和书源工具。每个项目都经过人工核对，按类型、创作阶段和投稿平台整理。
 
-收录 205 个 skill 和工具 + 6 个相关开源应用 · 元数据更新于 2026-10-14
+收录 205 个 skill 和工具 + 6 个相关开源应用 · 元数据更新于 2026-10-15
 
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🧩 完整应用 · 📚 针对的投稿平台 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
@@ -68,7 +68,7 @@
 | 🌟 [story-skills](https://github.com/danjdewhurst/story-skills)<br><sub>英文 · 24 个 skill · MIT</sub> | 端到端故事工程：故事圣经、角色、情节、章节、修订、连续性检查、读者评审团、投稿 | 设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿 | 311 | 2026-10-14 |
 | 🌟 [long-novel-writer](https://github.com/jiaw-Zh/long-novel-writer)<br><sub>中文</sub> | 百万字长篇写作 skill：六层摘要冻结、实体档案、正典账本与 POV 知识边界，写后双 agent 校验，防止设定漂移<br><sub>💡 思路来自桌面项目 AI_NovelGenerator；作者另有早期版 jiaw-Zh/long-novel-generator</sub> | 设定 · 人物 · 大纲 · 正文 · 记忆 | 92 | 2026-06-18 |
 | 🌟 [chinese-longnovel-skill](https://github.com/xiaofeng-928/chinese-longnovel-skill)<br><sub>中文 · MIT</sub> | 中文长篇网文工作流：扫榜开书、范文拆解与文风蒸馏、每 50 章分阶段细纲、事实锁与状态仓库、伏笔追踪、双审查自动修复<br><sub>💡 校验脚本需 Python 3；自然化环节内置 Humanizer-zh 规则（已注明来源）</sub> | 选题 · 设定 · 大纲 · 正文 · 记忆 · 审稿 | 70 | 2026-09-12 |
-| [Chinese-WebNovel-Skill](https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill)<br><sub>中文</sub> | 网文写作 skill：主路由分派到开头、转场、对白、章末、剧情逻辑、人物一致性、卷纲、去 AI 味等 10 个模块，写前检索本地语料范例<br><sub>💡 README 未写安装方式：SKILL.md 在仓库根目录，把整个仓库放进 skills 目录即可；附 166 篇短篇语料约 11MB，检索脚本需 Python 3</sub> | 选题 · 人物 · 大纲 · 正文 · 记忆 · 审稿 | 881 | 2026-08-28 |
+| [Chinese-WebNovel-Skill](https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill)<br><sub>中文</sub> | 网文写作 skill：主路由分派到开头、转场、对白、章末、剧情逻辑、人物一致性、卷纲、去 AI 味等 10 个模块，写前检索本地语料范例<br><sub>💡 README 未写安装方式：SKILL.md 在仓库根目录，把整个仓库放进 skills 目录即可；附 166 篇短篇语料约 11MB，检索脚本需 Python 3</sub> | 选题 · 人物 · 大纲 · 正文 · 记忆 · 审稿 | 882 | 2026-08-28 |
 | [awesome-novel-agent](https://github.com/modoojunko/awesome-novel-agent)<br><sub>中文 · AGPL-3.0</sub> | 小说创作搭档：世界观 → 角色 → 章节规划 → 正文，分步陪写整部小说<br><sub>💡 名字带 awesome，但它是创作 agent，不是列表</sub> | 设定 · 人物 · 大纲 · 正文 | 812 | 2026-09-25 |
 | [oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh)<br><sub>中文 · 38 个 skill · MIT</sub> | 把 Oh Story 小说技能装进 DeepSeek Harness：加了文件树、编辑器、Chat 三栏的小说工作台，另带短剧、小说改游戏、视频解说工作台<br><sub>💡 基于同团队的 zenstory-ai/oh-story-claudecode（打包的 Oh Story 0.8.5，小说技能文件与原版相同）和 novel-to-game，另加 DSH Web 工作台界面和短剧、视频解说技能。只能在 DeepSeek Harness 里用，需要 Node.js 24+；Claude Code 用户用原版</sub> | 选题 · 设定 · 人物 · 大纲 · 正文 · 审稿 · 包装 · 改编 | 518 | 2026-10-14 |
 | [novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework)<br><sub>📝 提示词 · 中文 · MIT</sub> | 五份网文写作方法论：通用长篇流程、番茄快节奏、起点慢热、智斗权谋专项、完稿改良诊断，含三章一轮自检和 AI 指纹量化指标<br><sub>📚 番茄 · 起点</sub><br><sub>💡 每份是单独的 .md，需自己放进 skills 目录或手动加载</sub> | 大纲 · 正文 · 审稿 | 257 | 2026-05-31 |
@@ -324,7 +324,7 @@ npx skills add leonluo2008-ops/jiamama-bedtime-story-skill
 | [manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill)<br><sub>中文 · MIT</sub> | 漫剧老李：AIGC 漫剧导演全流程，门控剧本、资产锁定、分镜、投喂提示词、规则化质检<br><sub>💡 作者标注为测试版，整合了其他开源内容</sub> | 正文 · 审稿 | 1.2k | 2026-10-14 |
 | [seedance-2-5-video-director](https://github.com/liyue-aigc/seedance-2-5-video-director)<br><sub>中文 · MIT</sub> | Seedance 2.5 视频导演：提示词、脚本、诊断、人物锁定、续写、编辑、转场 | 正文 · 审稿 | 696 | 2026-08-26 |
 | [XiaoLuo-AI-Drama-Skill](https://github.com/zhurui0523/XiaoLuo-AI-Drama-Skill)<br><sub>📝 提示词 · 中文</sub> | 小逻系列：剧本分析、原创改编、分镜脚本、角色三视图/服装/表情、场景布局<br><sub>💡 一组提示词 .md，不是标准 SKILL.md</sub> | 人物 · 正文 · 改编 | 476 | 2026-07-23 |
-| [screen-creative-skills](https://github.com/VanGong1999/screen-creative-skills)<br><sub>中文 · MIT</sub> | 影视策划与评估：小说/IP 评估、情节点拆解、人物小传与关系、大纲、小说改编短剧或长剧<br><sub>💡 31 个 skill 在仓库里有两份副本</sub> | 选题 · 人物 · 大纲 · 改编 | 457 | 2026-10-12 |
+| [screen-creative-skills](https://github.com/VanGong1999/screen-creative-skills)<br><sub>中文 · 31 个 skill · MIT</sub> | 影视策划与评估：小说/IP 评估、情节点拆解、人物小传与关系、大纲、小说改编短剧或长剧<br><sub>💡 31 个 skill 在仓库里有两份副本</sub> | 选题 · 人物 · 大纲 · 改编 | 457 | 2026-10-12 |
 | [short-drama-factory](https://github.com/lixiaoxiao9888-create/short-drama-factory)<br><sub>中文 · MIT</sub> | 抖音/红果短剧工业化编剧：一句创意或一部网文 → 60–100 集带付费卡点的剧本，配钩子、断章、反转公式和机检规则 | 大纲 · 正文 · 审稿 · 改编 | 362 | 2026-10-14 |
 | [Micro-Drama-Skills](https://github.com/zhaihao118/Micro-Drama-Skills)<br><sub>中文 · 4 个 skill</sub> | 短剧全流程自动化：剧本、角色设计、分镜、出图出视频与提交 | 正文 | 321 | 2026-02-23 💤 |
 | [OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot)<br><sub>中文 · MIT</sub> | 神仙鱼短剧流水线：一句话 → 剧本、分镜、分镜图、视频、剪辑五步，沉淀 17 种失败模式 | 正文 | 317 | 2026-07-07 |
@@ -338,7 +338,7 @@ npx skills add leonluo2008-ops/jiamama-bedtime-story-skill
 | [fight-video-create-skill](https://github.com/qualsenWeb/fight-video-create-skill)<br><sub>多语言</sub> | AI 打戏设计：从打斗构思到剧情、动作、分镜，带招式校验和参考库 | 正文 | 91 | 2026-09-29 |
 | [screenwriter-skill](https://github.com/Vi7QY/screenwriter-skill)<br><sub>多语言 · MIT</sub> | 短剧/漫剧剧本审稿：红果 Top100 操盘经验蒸馏的 37 条规则 | 审稿 | 77 | 2026-04-12 💤 |
 | [ai-short-drama](https://github.com/Hao0321/ai-short-drama)<br><sub>中文 · MIT</sub> | 把「重生、逆袭、隐藏大佬」等题材编译成有爽点和追更钩子的连载：题材调研、故事架构、镜头时间线、连续性校验<br><sub>💡 README 为繁体中文</sub> | 选题 · 大纲 · 正文 · 审稿 | 71 | 2026-08-13 |
-| [infinite-creation](https://github.com/SwotAtmk/infinite-creation)<br><sub>中文 · 28 个 skill · MIT</sub> | 提交小说或剧本，用本地 ComfyUI + MiniMax H3 + Agent 自动连续生产视频，不限时长<br><sub>💡 28 个 skill 里也有广告、宣传片类</sub> | 改编 | 64 | 2026-10-15 |
+| [infinite-creation](https://github.com/SwotAtmk/infinite-creation)<br><sub>中文 · 28 个 skill · MIT</sub> | 提交小说或剧本，用本地 ComfyUI + MiniMax H3 + Agent 自动连续生产视频，不限时长<br><sub>💡 28 个 skill 里也有广告、宣传片类</sub> | 改编 | 65 | 2026-10-15 |
 | [novel-to-manju](https://github.com/senmanx/novel-to-manju)<br><sub>中文</sub> | 小说转漫剧全流程：爆款改文 → 剧本 → 人物/场景三视图 → 分镜 → 视频提示词 | 人物 · 正文 · 改编 | 56 | 2026-08-17 |
 | [ai-short-drama-skill](https://github.com/xixihhhh/ai-short-drama-skill)<br><sub>中文 · MIT</sub> | Dramake：文字转 AI 短剧，串起剧本、分镜、配音、剪辑与质检，适配抖音/红果和横竖屏，自带 evals | 正文 · 审稿 · 改编 | 52 | 2026-08-29 |
 | [qianqianwriting](https://github.com/catyiqian/qianqianwriting)<br><sub>中文</sub> | 短剧/漫剧编剧：救猫咪方法论 + 31 部爆款短剧分析 | 大纲 · 正文 | 47 | 2026-03-05 💤 |
@@ -490,9 +490,9 @@ npx skills add zhu5859243-free/hongguo-shortdrama-screenwriting
 | [sepia](https://github.com/Nanako0129/sepia)<br><sub>英文 · 6 个 skill · MIT</sub> | 面向小说的去 AI 味：修复叙事结构，按场合匹配文风规则，方法来自 StoryScope 论文 | 审稿 | 3.2k | 2026-10-15 |
 | [speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw)<br><sub>中文 · MIT</sub> | 繁体中文去 AI 味：抓 35+ 种 AI 写作痕迹，同时把大陆用语和半角标点改成台湾写法，附交稿前自评检核表<br><sub>💡 面向文案、电子报和办公文字，会把大陆用语改成台湾用语，简体网文别用</sub> | 审稿 | 1k | 2026-10-15 |
 | [De-AI-Prompt-Enhancer-Writer-Booster-SKILL](https://github.com/OUBIGFA/De-AI-Prompt-Enhancer-Writer-Booster-SKILL)<br><sub>中文 · 7 个 skill</sub> | 中文去 AI 味 + 作者文风复现两套 skill，小说文本会先过叙事层十项检查（主题被说破、情绪只靠身体反应等）<br><sub>💡 README 自述在 op7418/Humanizer-zh 基础上升级，叙事层和文风模块是新增内容</sub> | 审稿 | 874 | 2026-09-17 |
-| [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei)<br><sub>中文 · MIT</sub> | 简体中文去 AI 味：清理套话、翻译腔和机械排比，保留事实、正式程度和原文声口，没有问题的真人文字不改<br><sub>💡 通用中文，不专门针对小说</sub> | 审稿 | 656 | 2026-09-10 |
+| [qu-ai-wei](https://github.com/LifelongLazyLearner/qu-ai-wei)<br><sub>中文 · MIT</sub> | 简体中文去 AI 味：清理套话、翻译腔和机械排比，保留事实、正式程度和原文声口，没有问题的真人文字不改<br><sub>💡 通用中文，不专门针对小说</sub> | 审稿 | 657 | 2026-09-10 |
 | [humanize-text-skill](https://github.com/lynote-ai/humanize-text-skill)<br><sub>多语言 · 2 个 skill · MIT</sub> | 中英双语去 AI 味：规则检测器识别 50 类问题并打分，改写时保护数字、命令和引文，再向口语/专业/技术语气靠拢<br><sub>💡 文档以英文为主；检测器是零依赖的 Node.js 脚本；场景偏 README、发布说明、状态更新等技术文本</sub> | 审稿 | 242 | 2026-07-07 |
-| [humanizer-zh-next](https://github.com/Hyacehila/humanizer-zh-next)<br><sub>中文 · MIT</sub> | 中文润色去 AI 味：35 类模式各配中文示例和适用边界，按需加载商务营销、学术写作、基金申请三个专用分支<br><sub>💡 基于 op7418/Humanizer-zh 与 blader/humanizer，另加商务/学术/基金三个分支、文件保护规则和结构检查脚本</sub> | 审稿 | 189 | 2026-10-06 |
+| [humanizer-zh-next](https://github.com/Hyacehila/humanizer-zh-next)<br><sub>中文 · MIT</sub> | 中文润色去 AI 味：35 类模式各配中文示例和适用边界，按需加载商务营销、学术写作、基金申请三个专用分支<br><sub>💡 基于 op7418/Humanizer-zh 与 blader/humanizer，另加商务/学术/基金三个分支、文件保护规则和结构检查脚本</sub> | 审稿 | 189 | 2026-10-15 |
 | [zh-humanizer-literary](https://github.com/mengke-wang/zh-humanizer-literary)<br><sub>中文 · MIT</sub> | 中文去 AI 味与文采增强：删套话，把抽象判断换成具体的人、场景和动作，在准确前提下补命名、意象和节奏<br><sub>💡 风格提炼自作者王梦珂（好事发生 App）的公开写作，示例多为公众号、小红书和产品文案</sub> | 审稿 | 88 | 2026-08-07 |
 | [qu-ai-wei](https://github.com/baibanbao/qu-ai-wei)<br><sub>中文 · MIT</sub> | 中文去 AI 味：合并王佩写作系统、humanizer-zh、lieflat 三家规则并裁决七处冲突，分自家稿、白名单两种改稿模式<br><sub>💡 面向一般中文稿件，不是专为小说写的</sub> | 审稿 | 70 | 2026-09-23 |
 | [de-ai-tone](https://github.com/allenloves/de-ai-tone)<br><sub>中文 · CC-BY-SA-4.0</sub> | 繁体中文写作与翻译的去 AI 味规范：18 条禁用/限用规则、欧化句式还原、台湾用语对照、生成后逐条自检<br><sub>💡 面向繁中（台湾）通用写作与翻译，不是专为小说写的；CC BY-SA 4.0</sub> | 审稿 | 62 | 2026-10-10 |

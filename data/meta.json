@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14",
+  "fetched_at": "2026-10-15",
   "repos": {
     "304769384-png/fanqie-novel-skill": {
       "archived": false,
@@ -130,7 +130,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1554,
+      "stars": 1555,
       "status": "ok"
     },
     "ExplosiveCoderflome/AI-Novel-Writing-Assistant": {
@@ -223,7 +223,7 @@
       "forks": 6,
       "full_name": "Hyacehila/humanizer-zh-next",
       "license": "MIT",
-      "pushed_at": "2026-10-06",
+      "pushed_at": "2026-10-15",
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 189,
@@ -250,7 +250,7 @@
       "pushed_at": "2026-08-11",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 4076,
+      "stars": 4075,
       "status": "ok"
     },
     "Katiros/jp-ln-ocr-epub-skill": {
@@ -310,7 +310,7 @@
       "pushed_at": "2026-09-10",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 656,
+      "stars": 657,
       "status": "ok"
     },
     "LuoJiangYong/muse-video-skill": {
@@ -406,19 +406,19 @@
       "pushed_at": "2026-10-15",
       "skill_count": 6,
       "skill_count_truncated": false,
-      "stars": 3177,
+      "stars": 3178,
       "status": "ok"
     },
     "Narcooo/inkos": {
       "archived": false,
       "description": "Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content",
-      "forks": 1902,
+      "forks": 1903,
       "full_name": "Narcooo/inkos",
       "license": "AGPL-3.0",
       "pushed_at": "2026-10-10",
       "skill_count": 21,
       "skill_count_truncated": false,
-      "stars": 10301,
+      "stars": 10302,
       "status": "ok"
     },
     "Narylr350/book-source-creator-skill": {
@@ -460,13 +460,13 @@
     "PenglongHuang/chinese-novelist-skill": {
       "archived": false,
       "description": "🎭 AI 写小说：从零生成 10-50 章完整中文小说，三层问答 · 创作记忆 · 悬念钩子 · 自动校验，长篇网文连载皆宜｜开源免费，适配主流 coding agent｜🤝 Infistar.cc 赞助 · 注册送 $5｜AI novel writing skill",
-      "forks": 505,
+      "forks": 506,
       "full_name": "PenglongHuang/chinese-novelist-skill",
       "license": "MIT",
       "pushed_at": "2026-10-06",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 3620,
+      "stars": 3624,
       "status": "ok"
     },
     "RRRRUDDDD/Yamibo_Downloader": {
@@ -550,7 +550,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 28,
       "skill_count_truncated": false,
-      "stars": 64,
+      "stars": 65,
       "status": "ok"
     },
     "Tencent/workrally": {
@@ -586,7 +586,7 @@
       "pushed_at": "2026-08-28",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 881,
+      "stars": 882,
       "status": "ok"
     },
     "Treasure-hub-agent/interactive-fiction-skill": {
@@ -632,7 +632,7 @@
       "full_name": "VanGong1999/screen-creative-skills",
       "license": "MIT",
       "pushed_at": "2026-10-12",
-      "skill_count": 0,
+      "skill_count": 31,
       "skill_count_truncated": false,
       "stars": 457,
       "status": "ok"
@@ -922,7 +922,7 @@
       "pushed_at": "2026-09-28",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 57043,
+      "stars": 57049,
       "status": "ok"
     },
     "catyiqian/qianqianwriting": {
@@ -1126,7 +1126,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 7,
       "skill_count_truncated": false,
-      "stars": 4576,
+      "stars": 4578,
       "status": "ok"
     },
     "evoworkAI/xiaoci-skill": {
@@ -1498,7 +1498,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 8,
       "skill_count_truncated": false,
-      "stars": 7491,
+      "stars": 7492,
       "status": "ok"
     },
     "liuxiao20051106-prog/ai-manga-drama": {
@@ -1534,7 +1534,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 1212,
+      "stars": 1213,
       "status": "ok"
     },
     "lixiaoxiao9888-create/short-drama-factory": {
@@ -1570,7 +1570,7 @@
       "pushed_at": "2026-09-11",
       "skill_count": 7,
       "skill_count_truncated": false,
-      "stars": 2657,
+      "stars": 2656,
       "status": "ok"
     },
     "loggg4823-create/renpy-translate": {
@@ -1786,7 +1786,7 @@
       "pushed_at": "2026-09-23",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 19705,
+      "stars": 19706,
       "status": "ok"
     },
     "orange4664/chinese-grammar-proofreader": {
@@ -2386,7 +2386,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 12,
       "skill_count_truncated": false,
-      "stars": 2887,
+      "stars": 2888,
       "status": "ok"
     },
     "zenstory-ai/novel-to-game": {
@@ -2410,7 +2410,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 7575,
+      "stars": 7577,
       "status": "ok"
     },
     "zenstory-ai/oh-story-dsh": {
@@ -2470,7 +2470,7 @@
       "pushed_at": "2026-09-02",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 3991,
+      "stars": 3992,
       "status": "ok"
     },
     "zhouwei713/chinese-epic-scene-director": {
