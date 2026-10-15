@@ -1,0 +1,135 @@
+# 分类体系：skills.toml 里的 group / stages / format / lang / agents / sites 只能取这里定义的值。
+# 表格的展示顺序 = 这里的书写顺序。
+
+# 类型：每个条目只属于一个类型。indexed = false 的类型不进入阶段索引和平台索引。
+[groups.pipeline]
+label = "全流程：开书 → 连载"
+intro = "从选题、设定、大纲一路写到正文和审稿的完整写作系统，主要面向长篇连载。"
+
+[groups.tools]
+label = "单项工具：拆书 · 设定 · 大纲 · 人物"
+intro = "只做一两件事，可以单独用，也可以给全流程系统补短板。"
+
+[groups.short]
+label = "短篇 · 故事"
+intro = "番茄短篇、知乎盐言、儿童故事等短篇体裁。"
+
+[groups.script]
+label = "剧本 · 短剧：用写网文的功夫写剧情"
+intro = "短剧、漫剧和网文是同一套剧情功夫，只是呈现方式不同。这里收写剧情的部分：改编、集纲、钩子、剧本、审稿。分镜和视频提示词见 [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills)。"
+
+[groups.companion]
+label = "去 AI 味 · 润色"
+intro = "让文字读起来不像 AI 写的。不限于小说，网文作者用得最多。"
+
+[groups.craft]
+label = "写作基本功"
+intro = "不限于网文的叙事理论和练习：结构、人物、对白、视角。"
+
+[groups.beyond]
+label = "延伸：互动小说 · 改编"
+intro = "把小说变成互动故事、游戏或漫画。改编成短剧剧本的见上面「剧本 · 短剧」。"
+
+[groups.translate]
+label = "翻译 · 出海"
+intro = "外文小说译成中文、网文译成外文出海，以及轻小说、视觉小说的翻译。"
+
+[groups.sources]
+label = "素材：小说下载 · 书源"
+intro = "拆书要先有原文。这里收下载小说、生成书源、抓取正文的工具，CLI 工具 agent 可以直接调用。"
+
+[groups.apps]
+label = "相关开源应用（完整应用，非 skill）"
+intro = "可自行部署的 AI 写小说应用，不是 skill，供对照参考。"
+indexed = false
+
+# 创作流程阶段，按流程先后排列。label 用于索引，short 用于表格里的阶段列。
+[stages.market]
+label = "选题 · 扫榜 · 拆书"
+short = "选题"
+
+[stages.world]
+label = "设定 · 世界观"
+short = "设定"
+
+[stages.character]
+label = "人物 · 关系"
+short = "人物"
+
+[stages.structure]
+label = "大纲 · 章纲 · 伏笔"
+short = "大纲"
+
+[stages.drafting]
+label = "正文 · 续写"
+short = "正文"
+
+[stages.memory]
+label = "长篇记忆 · 一致性（防吃书、防 OOC）"
+short = "记忆"
+
+[stages.revision]
+label = "审稿 · 润色 · 去 AI 味"
+short = "审稿"
+
+[stages.packaging]
+label = "书名 · 简介 · 封面"
+short = "包装"
+
+[stages.publish]
+label = "发布 · 多平台分发"
+short = "发布"
+
+[stages.translate]
+label = "翻译 · 本地化"
+short = "翻译"
+
+[stages.adaptation]
+label = "改编（小说 → 剧本 / 漫画 / 游戏 / 互动）"
+short = "改编"
+
+[formats]
+skill   = "标准 SKILL.md，可用 npx skills / 插件安装"
+prompts = "提示词文件，非标准 skill，需手动使用"
+app     = "完整应用（可能附带 skill）"
+
+[langs]
+zh    = "中文"
+en    = "英文"
+multi = "多语言"
+
+[agents]
+claude-code = "Claude Code"
+codex       = "Codex"
+cursor      = "Cursor"
+opencode    = "OpenCode"
+openclaw    = "OpenClaw"
+gemini-cli  = "Gemini CLI"
+workbuddy   = "WorkBuddy"
+
+# 第二个索引：仓库说明里明确提到针对的投稿平台
+[facet]
+field = "sites"
+title = "按投稿平台查找"
+intro = "仓库说明里明确提到针对的平台（按星数排序）。"
+icon  = "📚"
+
+[facet.values]
+qidian   = "起点"
+fanqie   = "番茄"
+jjwxc    = "晋江"
+zhihu    = "知乎盐言"
+qimao    = "七猫"
+royalroad = "Royal Road"
+kdp      = "Kindle / KDP"
+
+[discover]
+# scripts/discover.py 用这些关键词在 GitHub 搜候选项目
+queries = [
+  "小说 skill", "网文 skill", "写小说 skill", "长篇 skill", "短篇 skill", "番茄 skill",
+  "拆书 skill", "去AI味 skill", "同人 skill", "互动小说 skill",
+  "novel skill", "fiction skill", "web novel skill", "creative writing skill",
+  "story writing skill", "humanizer skill",
+  "小说下载", "番茄小说下载", "novel downloader", "书源", "番茄 发布", "短剧 skill", "剧本 skill",
+  "小说 翻译 skill", "novel translation skill",
+]

@@ -1,0 +1,658 @@
+# 看过但不收录的仓库。discover.py 会跳过这里的项目，避免重复审核。
+
+[[ignored]]
+repo   = "hylarucoder/seedance-screenwriter-skills"
+reason = "只有一个极简的 Seedance 提示词，信息量不足"
+
+[[ignored]]
+repo   = "YangsonHung/awesome-agent-skills"
+reason = "通用 skill 合集，与虚构创作相关的只有 novel-writer 一个"
+
+# 以下为 discover.py 首轮命中、但不属于虚构创作的项目
+[[ignored]]
+repo   = "nateherkai/hyperframes-student-kit"
+reason = "视频剪辑工具，不是虚构创作"
+
+[[ignored]]
+repo   = "ChenXiangYpily1234/paper-storycraft-skills"
+reason = "学术论文写作"
+
+[[ignored]]
+repo   = "Apprenticew/academic-writing"
+reason = "学术写作"
+
+[[ignored]]
+repo   = "qinkio/prepare-interview-pack"
+reason = "求职面试准备"
+
+[[ignored]]
+repo   = "LucianaiB2004/life-trace-amap"
+reason = "真实人物足迹地图，非虚构"
+
+[[ignored]]
+repo   = "zhaotoday/awesome-ai-video"
+reason = "AI 视频资源索引，不是 skill；可考虑放进「相关资源」"
+
+# 影视剧本、短剧、漫剧类：归 awesome-short-drama-skills，这里不收
+
+[[ignored]]
+repo   = "leynos/visual-storytelling-skills"
+reason = "影视剧本/短剧类，不直接服务小说写作，见 awesome-short-drama-skills"
+
+# ───── 2026-10-14 首轮审核：199 个关键词候选 + 39 个补搜候选 ─────
+
+[[ignored]]
+repo   = "AIScientists-Dev/academic-humanizer"
+reason = "学术论文和基金申请书的去 AI 味，属非虚构写作"
+
+[[ignored]]
+repo   = "Jakeschincariol/linkedin-agent-skill"
+reason = "LinkedIn 账号运营和营销文案，非小说"
+
+[[ignored]]
+repo   = "Jakeschincariol/instagram-agent-skill"
+reason = "Instagram 账号运营和营销文案，非小说"
+
+[[ignored]]
+repo   = "LearnPrompt/humanize-ppt"
+reason = "演示文稿（PPT）大纲工作流，非小说"
+
+[[ignored]]
+repo   = "Shanyin-ai/Story-to-game"
+reason = "skill 只以 .skill 压缩包提供，仓库里没有 SKILL.md 明文，README 列出的目录与实际文件对不上，无法核验内容"
+
+[[ignored]]
+repo   = "dongbeixiaohuo/writing-agent"
+reason = "面向公众号/文章写作的多智能体 Windows 客户端（风格库是公众号作者），非小说，应用也不到 1000★"
+
+[[ignored]]
+repo   = "sergebulaev/instagram-skills"
+reason = "Instagram 营销文案，非小说"
+
+[[ignored]]
+repo   = "Liuxiangjian-ai/official-document-skill"
+reason = "公文写作，非虚构"
+
+[[ignored]]
+repo   = "NulightJens/humanizer-stack"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "matsuikentaro1/humanizer_academic"
+reason = "医学学术论文去 AI 味，非虚构"
+
+[[ignored]]
+repo   = "Aboudjem/humanizer-skill"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "DaleSeo/korean-skills"
+reason = "韩语写作/去 AI 味工具，不是中文，也不针对小说"
+
+[[ignored]]
+repo   = "FlickeringLamp/ai-novelist"
+reason = "完整桌面应用，不到 1000★，没有可单独装进 agent 的小说 skill"
+
+[[ignored]]
+repo   = "smixs/humanizer-ru"
+reason = "俄语去 AI 味，不是中文，也不针对小说"
+
+[[ignored]]
+repo   = "Supreme-Ultimate/novel-to-script-team"
+reason = "短剧/剧本类，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "orange2ai/podcast-to-article"
+reason = "把播客逐字稿整理成文章，非虚构"
+
+[[ignored]]
+repo   = "huangserva/servasyy_skills"
+reason = "多媒体内容生产合集（配图、PPT、TTS、视频），非小说"
+
+[[ignored]]
+repo   = "manavmishra/ZeroSlop"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "brandonwise/humanizer"
+reason = "通用英文去 AI 味（同样基于 Wikipedia 清单的 OpenClaw 版），同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "Vladimir-Human/humanizer-ru"
+reason = "俄语文本清理，不是中文，也不针对小说"
+
+[[ignored]]
+repo   = "woyin2024/lengyi-seedance2.5-prompt"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（Seedance 视频生成提示词）"
+
+[[ignored]]
+repo   = "843645440/wechat-skill"
+reason = "公众号内容工具包，非小说"
+
+[[ignored]]
+repo   = "phuryn/work-humanizer"
+reason = "通用英文去 AI 味（工作文书），同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "Nopon-Knowledge/huawei-cup-modeling-skill"
+reason = "数学建模竞赛论文的润色和 AI 痕迹检测，非虚构"
+
+[[ignored]]
+repo   = "cheyann4399/padwriter"
+reason = "README 主体是安卓 APK（要开无障碍权限、找开发者要 API Key），novel-manager skill 只有一段简介，没有安装说明"
+
+[[ignored]]
+repo   = "bushrabeg/turkce-humanizer"
+reason = "土耳其语去 AI 味，不是中文，也不针对小说"
+
+[[ignored]]
+repo   = "Wenzhi-Ding/wenzhi-plugins"
+reason = "coding agent 行为插件（给输出注入说人话规则、统计技能触发），非小说"
+
+[[ignored]]
+repo   = "LeonardNJU/code-humanizer"
+reason = "清理 AI 生成代码的冗余，与写作无关"
+
+[[ignored]]
+repo   = "sergebulaev/tiktok-skills"
+reason = "TikTok 营销内容 skill，非小说创作"
+
+[[ignored]]
+repo   = "proffitteoy/Mathematician-Humanizer"
+reason = "数学论文去 AI 味，属学术写作"
+
+[[ignored]]
+repo   = "cangtianhuang/humanizer-academic-zh"
+reason = "中文学术论文去 AI 味，属学术写作"
+
+[[ignored]]
+repo   = "nutllwhy/whiteboard-book-video-skill"
+reason = "拆书短视频制作（非虚构视频生产），非小说创作"
+
+[[ignored]]
+repo   = "ilien-dev/quiron"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "avi691/linkedin-agent-skill"
+reason = "LinkedIn 营销 skill，非小说创作"
+
+[[ignored]]
+repo   = "longhang2004/vietnamese-humanizer"
+reason = "通用越南语写作润色，非中文、非小说向"
+
+[[ignored]]
+repo   = "numen-tech/slopornot"
+reason = "通用英文去 AI 味（主打绕过 AI 检测器），同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "FutureFuzzy/novel-distiller"
+reason = "安装说明用占位仓库地址和错误目录，README 写的 Claude Code /ws 命令在仓库里不存在，skills/ 是非标准提示词文件"
+
+[[ignored]]
+repo   = "jin-s13/ai-research-writing-skill"
+reason = "AI 论文写作，属学术写作"
+
+[[ignored]]
+repo   = "00200200/maintainer-skills-lab"
+reason = "软件维护者通用 skill 集，非小说创作"
+
+[[ignored]]
+repo   = "adsorgcn/WorkBuddy"
+reason = "公众号文章写作，属非虚构"
+
+[[ignored]]
+repo   = "mackswendhell/humanizer-pt-br"
+reason = "通用巴西葡语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "thevseprod/humanizer-ru"
+reason = "通用俄语/英语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "forjd/better-writing"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "MADEVAL/HumanAI"
+reason = "通用多语种（不含中文）去 AI 味，偏文案，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "bookforge-ai/bookforge-skills"
+reason = "从非虚构书籍蒸馏的通用 skill，非小说创作"
+
+[[ignored]]
+repo   = "lgwanai/media-skill"
+reason = "视频生成、剪辑与字幕工作站，非小说创作"
+
+[[ignored]]
+repo   = "chengbenchao/short-drama-script"
+reason = "短剧/剧本类，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "Keitark/pcba-design-skills"
+reason = "电子硬件设计 skill，非小说创作"
+
+[[ignored]]
+repo   = "SyntaxSmith/humanize-paper"
+reason = "学术论文去 AI 味，属学术写作"
+
+[[ignored]]
+repo   = "mattwang1230/legal-paper-framework-humanizer-zh"
+reason = "法学论文去 AI 味，属学术写作"
+
+[[ignored]]
+repo   = "bejek/humanizer-czech"
+reason = "通用捷克语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "alxbd/boileau"
+reason = "通用法语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "AAAAAAAJ/sun-yuchen-writing"
+reason = "以单一真人为主角写死，不能泛化"
+
+[[ignored]]
+repo   = "yan-stone-computer/awesome-chenhansheng-skill"
+reason = "把小说主角蒸馏成为人处世手册和角色扮演，非小说创作"
+
+[[ignored]]
+repo   = "shuipingbai6/Skills-for-Long-Online-Novel-Authors"
+reason = "可疑：采集真实网文作者的作品、评论、微博生成「作者人格」，以真实个人为对象；仓库还附带 17MB 预编译 exe"
+
+[[ignored]]
+repo   = "amanmaqsood/prose-humanizer"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "nickture/skills"
+reason = "界面设计审查与俄语文本校对，非小说创作"
+
+[[ignored]]
+repo   = "hypnosdesign/claude-skill-scrittura-italiana"
+reason = "通用意大利语去 AI 味与校对，非小说向"
+
+[[ignored]]
+repo   = "badmuriss/unslop"
+reason = "通用英文去 AI 味（含葡语层），同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "noeigenstate/AI-Writing-without-AI-feel"
+reason = "公众号/博客文章改写与排版的 Web 应用，非虚构且不足 1000★"
+
+[[ignored]]
+repo   = "stephenturner/skill-research-question-validator"
+reason = "学术研究选题查新，非小说创作"
+
+[[ignored]]
+repo   = "Jakeschincariol/x-agent-skill"
+reason = "X（推特）账号运营与营销文案，非小说创作"
+
+[[ignored]]
+repo   = "dafenq/DirectorFrame-AI"
+reason = "短剧/剧本类，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "jangviktor-web/novel2voice"
+reason = "小说/字幕转多角色有声书 TTS，不属于小说创作环节"
+
+[[ignored]]
+repo   = "Heybinshao/book-distiller"
+reason = "非虚构书籍拆解与知识手册整合，非小说创作"
+
+[[ignored]]
+repo   = "zlong6943-commits/samehuman-writing"
+reason = "AI 产品经理中文写作，非虚构"
+
+[[ignored]]
+repo   = "masterball-w/Master-humanizer-skill"
+reason = "面向公众号文章的去 AI 味，且无 README"
+
+[[ignored]]
+repo   = "koaeraser/ARMS-Biostat"
+reason = "生物统计科研自动化，非小说创作"
+
+[[ignored]]
+repo   = "LiZh132707/novel-workspace-mcp"
+reason = "完整应用（本地 Web + MCP 服务），不足 1000★；附带 skill 依赖其 MCP 服务，不能单独使用"
+
+[[ignored]]
+repo   = "LucianaiB2004/novel-fan-graph"
+reason = "读者向的防剧透人物关系图谱，不服务写作"
+
+[[ignored]]
+repo   = "toustifer/dsh-harvest"
+reason = "多平台深度调研流水线，非小说创作"
+
+[[ignored]]
+repo   = "buhuikongpan/chinese-academic-paper-writing"
+reason = "中文学术论文写作，非虚构"
+
+[[ignored]]
+repo   = "beiyege-01/wenfeng-TGKZ-studio"
+reason = "可疑：仓库无源码，要求从 Releases 下载闭源 exe 运行"
+
+[[ignored]]
+repo   = "jiaw-Zh/long-novel-generator"
+reason = "AI_NovelGenerator 提示词的早期蒸馏版，已被同作者 jiaw-Zh/long-novel-writer 取代"
+
+[[ignored]]
+repo   = "liangdabiao/lego-cinematic-remix"
+reason = "短剧/剧本类，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "wzxsph/Novel-Claude"
+reason = "独立 Python CLI 小说生成框架（作者自称练手项目），完整应用不足 1000★"
+
+[[ignored]]
+repo   = "tomerose/stop-slop"
+reason = "可疑：照搬 hardikpandya/stop-slop（references 文件哈希相同）加中文 README、收款码和自动发帖脚本，原版已收"
+
+[[ignored]]
+repo   = "vectorAz/goutoujunshi-jev"
+reason = "恋爱社交聊天回复助手，非小说创作"
+
+[[ignored]]
+repo   = "TianHengZhuang/Chinese-WebNovel-Master"
+reason = "SKILL.md 无 frontmatter，README 未说明安装方式，知识库为每份约 2KB 的英文泛泛条目"
+
+[[ignored]]
+repo   = "esthersjw/book-dissection-skill"
+reason = "经典书籍每日拆读与个人成长提问，非小说创作"
+
+[[ignored]]
+repo   = "bs779517/story-skills"
+reason = "可疑：内容是 danjdewhurst/story-skills（原版已收）的拷贝，README 被改成让人下载藏在 skills/worldbuilding/references/ 里的 zip「安装包」"
+
+[[ignored]]
+repo   = "Aurirlk/AI_novelsTool_obsdian"
+reason = "PyQt 桌面应用，不到 1000★；附带的 skill 有 72 个文件与 zenstory-ai/oh-story-claudecode（原版已收）逐字相同"
+
+[[ignored]]
+repo   = "M1kasaYU/paper-expression-editor-skill"
+reason = "学术论文去 AI 味与润色，非虚构"
+
+[[ignored]]
+repo   = "yichaoli921/Economics-Literature-Review-Skills"
+reason = "经济学文献综述写作，学术非虚构"
+
+[[ignored]]
+repo   = "Cam3L1/ghost-skill"
+reason = "通用英文去 AI 味且主打绕过 GPTZero/Turnitin 等检测，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "jqzhang9307-crypto/realistic-id-photo-skill"
+reason = "生成真实感人像照片，与小说创作无关"
+
+[[ignored]]
+repo   = "way928745-collab/Hermes_Script_Cool"
+reason = "短剧/剧本类，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "Taomitown/douyin-transcript-exporter"
+reason = "短剧/剧本类（抖音漫剧小说转剧本、分镜），见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "Sbbpur/anime-story-weaver"
+reason = "动漫解说短视频的故事脚本框架，属视频文案，非小说"
+
+[[ignored]]
+repo   = "Shun1989/book-video-maker"
+reason = "按书名生成竖屏书单短视频，非小说创作"
+
+[[ignored]]
+repo   = "crJulie-PM/Book-Translator-Skill"
+reason = "调用 DeepSeek 翻译英文电子书的 Python 脚本，不是 skill，也不属于创作"
+
+[[ignored]]
+repo   = "Zhao73/xiaoshuo-studio"
+reason = "本地 Next.js 应用，不到 1000★；附带的 skill 是调用应用 API 的薄壳，不能单独用"
+
+[[ignored]]
+repo   = "fanjack510-ctrl/chinese-webnovel-editor"
+reason = "可安装的 .agents/skills 目录没提交，install.ps1 跑不起来，只剩 dist 里的 zip；README 占位符未替换"
+
+[[ignored]]
+repo   = "7a-z/NovelClaw"
+reason = "安装说明与仓库对不上（要解压不存在的 novelclaw-v2.skill 包，SKILL.md 引用的 scripts/ 目录不存在），一次性上传后未维护"
+
+[[ignored]]
+repo   = "ruodou233/ruodou233"
+reason = "个人主页索引仓库，本身没有 skill"
+
+[[ignored]]
+repo   = "dilidin2/tic"
+reason = "通用思维分解框架，非小说写作"
+
+[[ignored]]
+repo   = "981029l/webnovel-writer"
+reason = "lingfengQAQ/webnovel-writer 早期版本的未署名拷贝（50 个文件哈希相同，描述照搬原版），加了 Web 前端和番茄自动发布；只收原版 lingfengQAQ/webnovel-writer"
+
+[[ignored]]
+repo   = "Deng-m1/MaliangAINovalWriter"
+reason = "完整应用，未到 1000★ 门槛（当前 HEAD 只剩 README，源码已移除，发布页只给 jar）"
+
+[[ignored]]
+repo   = "Flameish/Novel-Grabber"
+reason = "下载工具，但 README 声明已停止开发，主分支最后一次人工提交是 2024-12"
+
+[[ignored]]
+repo   = "zy-zmc/tianming-novel-ai-writer"
+reason = "完整应用，未到 1000★ 门槛（作者说旧版源码已删）；提示词 skill 版 zy-zmc/tianming-skill 已收"
+
+[[ignored]]
+repo   = "HatanoChihiro/obsidian-webnovel-assistant"
+reason = "Obsidian 插件（完整应用），未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "yilujian/easy-writing"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "xiaoshengxianjun/51mazi"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "Mochocyang/QMAI"
+reason = "完整应用，未到 1000★ 门槛；内置 SkillHub 技能是给桌面软件用的，另外还打包了大量真人视角人格 skill（马斯克、特朗普、张一鸣等）"
+
+[[ignored]]
+repo   = "uu201/character-arc"
+reason = "完整应用，未到 1000★ 门槛；内置 skill 主要搬自 oh-story-claudecode 等第三方仓库"
+
+[[ignored]]
+repo   = "sigpanic/goink"
+reason = "完整应用，未到 1000★ 门槛（仓库里的 SKILL.md 只用于开发发版）"
+
+[[ignored]]
+repo   = "unitagain/WenShape"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "Aerdelan/MirrorNovel"
+reason = "完整应用，未到 1000★ 门槛；还内置番茄小说下载器（需 SVIP 账号）导出全文"
+
+[[ignored]]
+repo   = "NEKOparapa/ReaDreamAI"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "Hurricane0698/novelwriter"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "BiranSama/ReNovel-AI"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "WadeZhao23/loom-novel"
+reason = "完整应用，未到 1000★ 门槛（只是能把 Claude Code/Codex 当模型后端，本身不是 skill）"
+
+[[ignored]]
+repo   = "XiaoJiuAI/lingshu"
+reason = "可疑：仓库只有 README 和 LICENSE，没有源码，引导下载 145MB 的 zip 运行里面的 exe；账号 2026-09-01 才注册"
+
+[[ignored]]
+repo   = "ydsgangge-ux/dramatica-flow"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "ypcypc/WhatIf"
+reason = "完整应用（导入小说后以玩家身份互动改写），未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "XTmingyue/harnessNovel"
+reason = "完整应用（pip 安装的 CLI + Web 工作台），未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "musnows/scriverse"
+reason = "完整应用，未到 1000★ 门槛（src/skills 下的 SKILL.md 是应用内部提示词）"
+
+[[ignored]]
+repo   = "iniwap/AIWriteX"
+reason = "公众号等自媒体文章生成、洗稿工具，不是小说写作"
+
+[[ignored]]
+repo   = "wfcz10086/AI-automatically-generates-novels"
+reason = "完整应用，未到 1000★ 门槛（966★）"
+
+[[ignored]]
+repo   = "xcLee001/SonicVale"
+reason = "AI 多角色配音/有声书平台，不属于小说写作"
+
+[[ignored]]
+repo   = "kele-tao/AI_Novel"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "tuxiangxianzhe/NovelWriter_public"
+reason = "基于 YILING0013/AI_NovelGenerator 改出来的应用，未到 1000★ 门槛；原版已收"
+
+[[ignored]]
+repo   = "notnotype/neuro-book"
+reason = "完整应用，未到 1000★ 门槛；里面的中文去 AI 味 lint 有独立仓库 notnotype/llmlint，可另行评估"
+
+[[ignored]]
+repo   = "iLearn-Lab/NovelClaw"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "KazKozDev/NovelGenerator"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "harshaneel/humanize"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer、stop-slop"
+
+[[ignored]]
+repo   = "alfredxw/denova"
+reason = "完整应用，未到 1000★ 门槛"
+
+# ───── 2026-10-14 下载工具与书源候选 ─────
+
+[[ignored]]
+repo   = "POf-L/Fanqie-novel-Downloader"
+reason = "可疑：只放安装包不放源码，公开仓库只有发布脚本和 CI，README 写明 Rust/Tauri 核心在私有仓库；Release 里是 exe/apk/ipa/dmg"
+
+[[ignored]]
+repo   = "Dlmily/Tomato-Novel-Downloader-Lite"
+reason = "作者 2026-08 宣布停更，README 已经没有使用说明，仓库只剩签名逆向的半成品（TomatoSigner.java、u2.smali 等）；后续版本见 zhongbai2333/Tomato-Novel-Downloader"
+
+[[ignored]]
+repo   = "dddinmx/MangaDock"
+reason = "主要是自托管漫画库和漫画爬虫，番茄小说只是附带的一个来源"
+
+[[ignored]]
+repo   = "youshen2/Sine-NovelDownloader"
+reason = "可疑：README 自称闭源，仓库只有 README 和截图，Release 只有 APK"
+
+[[ignored]]
+repo   = "shing-yu/swiftcat-downloader"
+reason = "可疑：闭源，只发二进制，已归档；README 让 macOS 用户执行 sudo spctl --global-disable 关闭 Gatekeeper"
+
+[[ignored]]
+repo   = "mizaawa/QCatBox"
+reason = "可疑：README 自称闭源，仓库只有 README，Release 只有 APK，最新版是 zip"
+
+[[ignored]]
+repo   = "GeraltLab/aliceswNovelDownloadPlugin"
+reason = "只做爱丽丝书屋一个站的小插件，代码只在 2026-06-14 上传过一次，之后只改了 README；404-novel-project/novel-downloader 和 go-novel-dl 已经支持这个站"
+
+[[ignored]]
+repo   = "rastagan-git/Fanqie-Novel-Downloader-"
+reason = "可疑：仓库里提交了 35MB 的第三方安装程序 data/fontcreator15alpha1汉化版x64.exe；代码量很小，基于 huixiaheyu/fanqie_novel_spider"
+
+[[ignored]]
+repo   = "BaoBao666888/Novel-Downloader5"
+reason = "越南语转载社区工具集：dodying/UserJs novelDownloader 的越南语改版，另附 wikidich 自动上传、中越机翻词典等，README 是越南语，不面向中文拆书"
+
+[[ignored]]
+repo   = "JeffersonQin/lightnovel_epub"
+reason = "最后一次代码提交在 2023-09，近 6 个月没有提交；轻之国度加了 Cloudflare 后只能手动存 HTML 再转"
+
+[[ignored]]
+repo   = "m-haisham/novelsave_sources"
+reason = "最后一次实际提交在 2022 年，近 6 个月没有更新"
+
+[[ignored]]
+repo   = "MajoSissi/legado-source"
+reason = "小型轻小说书源整合（58★），主要靠 Actions 定时合并他人书源，按只收大型书源合集的口径不收"
+
+[[ignored]]
+repo   = "xy9144/auto_source_generator"
+reason = "2026-04-17 一次性上传后没再更新，README 是设计说明，没写安装和运行方法"
+
+# ───── 2026-10-14 翻译类候选 ─────
+
+[[ignored]]
+repo   = "Anarcadia/chuanban-jp-novel-tranlate-proma-edition"
+reason = "同作者 chuanban-jp-novel-translator 的 Proma 平台移植版，脚本基本相同，收通用版"
+
+[[ignored]]
+repo   = "qianyeqqq/novel-translate-workflow"
+reason = "Operit 安卓沙盒包，调用的「小说翻译」skill（run.py / sfy_call）没有公开，仓库单独装不上"
+
+[[ignored]]
+repo   = "Waiyakorn1879/for-the-plot"
+reason = "Ren'Py 视觉小说翻译，示例和规则都是英译泰，不涉及中文"
+
+[[ignored]]
+repo   = "fredchu/book-translator"
+reason = "通用整书 EPUB 英译繁中，作者写明主要场景是商管/科普非虚构，小说只是可选文风档"
+
+[[ignored]]
+repo   = "Dystopians/Book-Translator-Skill"
+reason = "通用长文/整书翻译（通用、学术、法律、文学档案），不是小说专用；派生自 deusyu/translate-book"
+
+[[ignored]]
+repo   = "sevenkiii/book-translator"
+reason = "网页电子书/文档翻译，示例和术语规则都针对技术书，不是小说"
+
+[[ignored]]
+repo   = "asadeisa/book-translator"
+reason = "通用整书翻译（任意语言对，侧重代码块、表格、PDF 排版），不是小说专用"
+
+[[ignored]]
+repo   = "eye9444/Dusk-Translate"
+reason = "以日译英为主的 Web 翻译工作台，语言路线里没有中文；也是完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "nhatanh2996/NovelTrans"
+reason = "抓起点再用 Claude 中译越的 Node 脚本，不是 skill"
+
+[[ignored]]
+repo   = "VeyDlin/NektoTranslate"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "tobiasfong/webcomic-toolkit"
+reason = "其中的小说翻译 MCP 只做英日互译，不涉及中文；其余是漫画、视频工具"
+
+[[ignored]]
+repo   = "JD-D3V/beyonder"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "neavo/KeywordGacha"
+reason = "完整应用，未到 1000★ 门槛（923★）；作者已建议改用 LinguaGacha，最近一次代码提交在 2025-06"

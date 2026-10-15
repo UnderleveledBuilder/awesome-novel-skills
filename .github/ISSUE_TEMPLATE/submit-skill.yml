@@ -1,0 +1,52 @@
+name: 推荐项目
+description: 推荐一个 AI 写小说 / 网文的 skill 或工作流
+title: "[推荐] owner/repo"
+labels: ["submission"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: 仓库地址
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: group
+    attributes:
+      label: 类型
+      options:
+        - 全流程：开书 → 连载
+        - 单项工具：拆书 · 设定 · 大纲 · 人物
+        - 短篇 · 故事
+        - 剧本 · 短剧（写剧情）
+        - 去 AI 味 · 润色
+        - 写作基本功
+        - 延伸：互动小说 · 改编
+        - 翻译 · 出海
+        - 素材：小说下载 · 书源
+        - 相关开源应用（完整应用）
+    validations:
+      required: true
+  - type: input
+    id: sites
+    attributes:
+      label: 针对的投稿平台
+      placeholder: 例如 起点、番茄、晋江、知乎盐言（仓库里写了才填）
+  - type: textarea
+    id: desc
+    attributes:
+      label: 它做什么
+      description: 一两句话，写具体能力
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 推荐理由
+      description: 用过的话说说效果；和已收录的同类项目比有什么不同
+  - type: checkboxes
+    id: relation
+    attributes:
+      label: 关系
+      options:
+        - label: 我是这个项目的作者或维护者
