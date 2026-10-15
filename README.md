@@ -75,13 +75,13 @@
 
 - 🌟 **[chinese-novelist-skill](https://github.com/PenglongHuang/chinese-novelist-skill)** · ★ 3.8k<br>从零生成 10–50 章中文小说：三层问答、创作记忆、每章悬念钩子、自动校验<br><sub>阶段：大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-10-06 · 中文 · MIT</sub>
 
-- 🌟 **[story-skills](https://github.com/danjdewhurst/story-skills)** · ★ 314<br>端到端故事工程：故事圣经、角色、情节、章节、修订、连续性检查、读者评审团、投稿<br><sub>阶段：设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-10-14 · 英文 · 24 个 skill · MIT</sub>
+- 🌟 **[story-skills](https://github.com/danjdewhurst/story-skills)** · ★ 315<br>端到端故事工程：故事圣经、角色、情节、章节、修订、连续性检查、读者评审团、投稿<br><sub>阶段：设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-10-14 · 英文 · 24 个 skill · MIT</sub>
 
 - 🌟 **[long-novel-writer](https://github.com/jiaw-Zh/long-novel-writer)** · ★ 93<br>百万字长篇写作 skill：六层摘要冻结、实体档案、正典账本与 POV 知识边界，写后双 agent 校验，防止设定漂移<br><sub>阶段：设定 · 人物 · 大纲 · 正文 · 记忆</sub><br><sub>更新于 2026-06-18 · 中文</sub><br><sub>💡 思路来自桌面项目 AI_NovelGenerator；作者另有早期版 jiaw-Zh/long-novel-generator</sub>
 
 - 🌟 **[chinese-longnovel-skill](https://github.com/xiaofeng-928/chinese-longnovel-skill)** · ★ 70<br>中文长篇网文工作流：扫榜开书、范文拆解与文风蒸馏、每 50 章分阶段细纲、事实锁与状态仓库、伏笔追踪、双审查自动修复<br><sub>阶段：选题 · 设定 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-09-12 · 中文 · MIT</sub><br><sub>💡 校验脚本需 Python 3；自然化环节内置 Humanizer-zh 规则（已注明来源）</sub>
 
-- **[Chinese-WebNovel-Skill](https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill)** · ★ 884<br>网文写作 skill：主路由分派到开头、转场、对白、章末、剧情逻辑、人物一致性、卷纲、去 AI 味等 10 个模块，写前检索本地语料范例<br><sub>阶段：选题 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-08-28 · 中文</sub><br><sub>💡 README 未写安装方式：SKILL.md 在仓库根目录，把整个仓库放进 skills 目录即可；附 166 篇短篇语料约 11MB，检索脚本需 Python 3</sub>
+- **[Chinese-WebNovel-Skill](https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill)** · ★ 886<br>网文写作 skill：主路由分派到开头、转场、对白、章末、剧情逻辑、人物一致性、卷纲、去 AI 味等 10 个模块，写前检索本地语料范例<br><sub>阶段：选题 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-08-28 · 中文</sub><br><sub>💡 README 未写安装方式：SKILL.md 在仓库根目录，把整个仓库放进 skills 目录即可；附 166 篇短篇语料约 11MB，检索脚本需 Python 3</sub>
 
 - **[awesome-novel-agent](https://github.com/modoojunko/awesome-novel-agent)** · ★ 812<br>小说创作搭档：世界观 → 角色 → 章节规划 → 正文，分步陪写整部小说<br><sub>阶段：设定 · 人物 · 大纲 · 正文</sub><br><sub>更新于 2026-09-25 · 中文 · AGPL-3.0</sub><br><sub>💡 名字带 awesome，但它是创作 agent，不是列表</sub>
 
@@ -103,7 +103,7 @@
 
 - **[novel-harness](https://github.com/manhai934/novel-harness)** · ★ 131<br>网文陪写 harness：开书规划，把章节拆成作者自己填的写作块，审稿去 AI 味，维护角色状态、伏笔和章节摘要<br><sub>阶段：设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-08-06 · 中文 · 6 个 skill</sub><br><sub>💡 附本地 Studio Dashboard（需 Python + Node）；可选知识包从作者服务器（阿里云 OSS）下载 zip</sub>
 
-- **[ani-book-skill](https://github.com/ExplosiveCoderflome/ani-book-skill)** · ★ 102<br>长篇中文小说生产：可恢复的 Markdown 工作流，贯通灵感、规划、章节写作、审校与连续性管理<br><sub>阶段：大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-10-15 · 中文 · Apache-2.0</sub>
+- **[ani-book-skill](https://github.com/ExplosiveCoderflome/ani-book-skill)** · ★ 103<br>长篇中文小说生产：可恢复的 Markdown 工作流，贯通灵感、规划、章节写作、审校与连续性管理<br><sub>阶段：大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-10-15 · 中文 · Apache-2.0</sub>
 
 - **[chinese-webnovel-skills](https://github.com/tance-mang/chinese-webnovel-skills)** · ★ 84<br>网文工坊 Claude Code 插件：选题、起名、大纲、金手指、人设、扩写、爽点、追读诊断、连贯检查、去 AI 味、投稿等 30+ 技能<br><sub>阶段：选题 · 设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿 · 包装</sub><br><sub>更新于 2026-06-13 · 中文 · 33 个 skill · MIT</sub><br><sub>📚 起点 · 番茄 · 晋江 · 知乎盐言 · Royal Road</sub><br><sub>💡 另有接自有 API 的终端 CLI 版；含一个短剧剧本技能</sub>
 
@@ -405,7 +405,7 @@ npx skills add leonluo2008-ops/jiamama-bedtime-story-skill
 
 - **[screen-creative-skills](https://github.com/VanGong1999/screen-creative-skills)** · ★ 458<br>影视策划与评估：小说/IP 评估、情节点拆解、人物小传与关系、大纲、小说改编短剧或长剧<br><sub>阶段：选题 · 人物 · 大纲 · 改编</sub><br><sub>更新于 2026-10-12 · 中文 · 31 个 skill · MIT</sub><br><sub>💡 31 个 skill 在仓库里有两份副本</sub>
 
-- **[short-drama-factory](https://github.com/lixiaoxiao9888-create/short-drama-factory)** · ★ 370<br>抖音/红果短剧工业化编剧：一句创意或一部网文 → 60–100 集带付费卡点的剧本，配钩子、断章、反转公式和机检规则<br><sub>阶段：大纲 · 正文 · 审稿 · 改编</sub><br><sub>更新于 2026-10-15 · 中文 · MIT</sub>
+- **[short-drama-factory](https://github.com/lixiaoxiao9888-create/short-drama-factory)** · ★ 371<br>抖音/红果短剧工业化编剧：一句创意或一部网文 → 60–100 集带付费卡点的剧本，配钩子、断章、反转公式和机检规则<br><sub>阶段：大纲 · 正文 · 审稿 · 改编</sub><br><sub>更新于 2026-10-15 · 中文 · MIT</sub>
 
 - **[Micro-Drama-Skills](https://github.com/zhaihao118/Micro-Drama-Skills)** · ★ 321<br>短剧全流程自动化：剧本、角色设计、分镜、出图出视频与提交<br><sub>阶段：正文</sub><br><sub>更新于 2026-02-23 💤 · 中文 · 4 个 skill</sub>
 
@@ -465,7 +465,7 @@ npx skills add leonluo2008-ops/jiamama-bedtime-story-skill
 
 - **[ai-manga-drama](https://github.com/liuxiao20051106-prog/ai-manga-drama)** · ★ 17<br>AI 漫剧工坊：一句创意到成片的八步流程，任务卡剧本、角色参考图库、风格锚、分镜、图/视频提示词、配音字幕与合成终检<br><sub>阶段：人物 · 大纲 · 正文 · 审稿</sub><br><sub>更新于 2026-09-17 · 多语言 · 2 个 skill · MIT</sub>
 
-- **[hardcore-director](https://github.com/jlam00-dev/hardcore-director)** · ★ 16<br>硬核导演：影视与 AI 视频总控，按阶段路由编剧/短剧、角色场景、分镜、Seedance 2.5/Wan 3.0/H3 提示词、声音与剪辑模块<br><sub>阶段：人物 · 大纲 · 正文 · 审稿</sub><br><sub>更新于 2026-10-01 · 中文 · MIT</sub><br><sub>💡 整合包：大部分模块是第三方 skill 快照（已注明来源），也覆盖广告和宣传片</sub>
+- **[hardcore-director](https://github.com/jlam00-dev/hardcore-director)** · ★ 17<br>硬核导演：影视与 AI 视频总控，按阶段路由编剧/短剧、角色场景、分镜、Seedance 2.5/Wan 3.0/H3 提示词、声音与剪辑模块<br><sub>阶段：人物 · 大纲 · 正文 · 审稿</sub><br><sub>更新于 2026-10-01 · 中文 · MIT</sub><br><sub>💡 整合包：大部分模块是第三方 skill 快照（已注明来源），也覆盖广告和宣传片</sub>
 
 - **[Comfy-H3-Director](https://github.com/MIKA6941/Comfy-H3-Director)** · ★ 14<br>MiniMax H3 漫剧导演：网文改分镜、核心/龙套资产分级、文戏长镜与武戏快切、动作连续性锁定、尾帧接力，一次出整集提示词<br><sub>阶段：人物 · 改编</sub><br><sub>更新于 2026-08-30 · 多语言 · 10 个 skill</sub><br><sub>💡 另附 9 个 MiniMax 官方 H3 skill 的搬运/中译版；README 开头有要求 agent 直接执行流程的指令</sub>
 

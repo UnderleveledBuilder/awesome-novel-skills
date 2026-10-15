@@ -155,7 +155,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 2,
       "skill_count_truncated": false,
-      "stars": 3196,
+      "stars": 3198,
       "status": "ok"
     },
     "ExplosiveCoderflome/ani-book-skill": {
@@ -167,7 +167,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 102,
+      "stars": 103,
       "status": "ok"
     },
     "FA-T-T/codex-noval-2-manga": {
@@ -473,13 +473,13 @@
     "PenglongHuang/chinese-novelist-skill": {
       "archived": false,
       "description": "🎭 AI 写小说：从零生成 10-50 章完整中文小说，三层问答 · 创作记忆 · 悬念钩子 · 自动校验，长篇网文连载皆宜｜开源免费，适配主流 coding agent｜🤝 Infistar.cc 赞助 · 注册送 $5｜AI novel writing skill",
-      "forks": 526,
+      "forks": 527,
       "full_name": "PenglongHuang/chinese-novelist-skill",
       "license": "MIT",
       "pushed_at": "2026-10-06",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 3795,
+      "stars": 3798,
       "status": "ok"
     },
     "RRRRUDDDD/Yamibo_Downloader": {
@@ -599,7 +599,7 @@
       "pushed_at": "2026-08-28",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 884,
+      "stars": 886,
       "status": "ok"
     },
     "Treasure-hub-agent/interactive-fiction-skill": {
@@ -875,7 +875,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 0,
       "skill_count_truncated": false,
-      "stars": 6861,
+      "stars": 6862,
       "status": "ok"
     },
     "asass-11/lengdu": {
@@ -935,7 +935,7 @@
       "pushed_at": "2026-09-28",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 57269,
+      "stars": 57275,
       "status": "ok"
     },
     "catyiqian/qianqianwriting": {
@@ -1031,7 +1031,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 24,
       "skill_count_truncated": false,
-      "stars": 314,
+      "stars": 315,
       "status": "ok"
     },
     "deedeekong07-alt/fiction-humanizer-zh": {
@@ -1343,7 +1343,7 @@
       "pushed_at": "2026-10-01",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 16,
+      "stars": 17,
       "status": "ok"
     },
     "jtydhr88/screenwriting-skills": {
@@ -1475,7 +1475,7 @@
       "pushed_at": "2026-09-21",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 2602,
+      "stars": 2603,
       "status": "ok"
     },
     "liangdabiao/smy-seedance-storyboard": {
@@ -1499,7 +1499,7 @@
       "pushed_at": "2026-10-14",
       "skill_count": 8,
       "skill_count_truncated": false,
-      "stars": 7505,
+      "stars": 7507,
       "status": "ok"
     },
     "liuxiao20051106-prog/ai-manga-drama": {
@@ -1547,7 +1547,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 1,
       "skill_count_truncated": false,
-      "stars": 370,
+      "stars": 371,
       "status": "ok"
     },
     "liyue-aigc/seedance-2-5-video-director": {
@@ -2411,7 +2411,7 @@
       "pushed_at": "2026-10-15",
       "skill_count": 13,
       "skill_count_truncated": false,
-      "stars": 7612,
+      "stars": 7613,
       "status": "ok"
     },
     "zenstory-ai/oh-story-dsh": {
