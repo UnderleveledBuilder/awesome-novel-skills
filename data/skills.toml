@@ -772,6 +772,17 @@ lang    = "zh"
 note    = "附两篇示例；CC BY-SA 4.0"
 checked = 2026-10-14
 
+[[skills]]
+repo    = "AAAAAAAJ/sun-yuchen-writing"
+desc    = "冷峻账单式第一人称短篇：先建数字、物件、劳动、空缺四本素材账和叙述者盲点表，按新题材重造双层故事，排六到八个场景、结尾回收物件；附十维审稿量表"
+group   = "short"
+stages  = ["structure", "drafting", "revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["codex", "claude-code"]
+note    = "写法提炼自孙宇晨《我的女友景甜》，SKILL.md 要求不复用原文句子、人物关系和情节；仓库附带原文全文"
+checked = 2026-10-15
+
 # ───────────────────────── 剧本 · 短剧：用写网文的功夫写剧情 ─────────────────────────
 
 [[skills]]

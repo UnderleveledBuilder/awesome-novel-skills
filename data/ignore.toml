@@ -250,10 +250,6 @@ repo   = "alxbd/boileau"
 reason = "通用法语去 AI 味，非中文、非小说向"
 
 [[ignored]]
-repo   = "AAAAAAAJ/sun-yuchen-writing"
-reason = "以单一真人为主角写死，不能泛化"
-
-[[ignored]]
 repo   = "yan-stone-computer/awesome-chenhansheng-skill"
 reason = "把小说主角蒸馏成为人处世手册和角色扮演，非小说创作"
 
