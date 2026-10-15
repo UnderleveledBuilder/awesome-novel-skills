@@ -57,8 +57,9 @@ def status_mark(m: dict, ref: dt.date | None) -> str:
     return ""
 
 
-def name_cell(s: dict, m: dict) -> str:
+def name_cell(s: dict, m: dict, ref: dt.date | None) -> str:
     star = "🌟 " if s.get("tier") == "featured" else ""
+    stats = f"★ {fmt_stars(m.get('stars'))} · {m.get('pushed_at') or '—'}{status_mark(m, ref)}"
     sub = []
     if s["format"] in FORMAT_BADGE:
         sub.append(FORMAT_BADGE[s["format"]])
@@ -67,11 +68,11 @@ def name_cell(s: dict, m: dict) -> str:
         sub.append(f"{m['skill_count']}{'+' if m.get('skill_count_truncated') else ''} 个 skill")
     if m.get("license"):
         sub.append(m["license"])
-    return f"{star}[{display_name(s)}]({gh_url(s['repo'])})<br><sub>{' · '.join(sub)}</sub>"
+    return f"{star}[{display_name(s)}]({gh_url(s['repo'])})<br><sub>{stats}</sub><br><sub>{' · '.join(sub)}</sub>"
 
 
-def desc_cell(s: dict, facet: dict) -> str:
-    text = cell(s["desc"])
+def desc_cell(s: dict, facet: dict, stage_text: str) -> str:
+    text = cell(s["desc"]) + f"<br><sub>阶段：{stage_text}</sub>"
     if s.get(facet["field"]):
         text += f"<br><sub>{facet['icon']} {' · '.join(facet['values'][v] for v in s[facet['field']])}</sub>"
     if s.get("note"):
@@ -98,14 +99,12 @@ def render_packs(packs: list[dict], by_repo: dict) -> list[str]:
         "",
         "> 初版组合依据仓库说明搭配，尚未实测，实测后会更新。",
         "",
-        "| 组合 | 适合 | 包含 | 搭配思路 |",
-        "|---|---|---|---|",
     ]
     for p in packs:
         links = " → ".join(
             f"[{display_name(by_repo[r.lower()])}]({gh_url(by_repo[r.lower()]['repo'])})" for r in p["repos"]
         )
-        out.append(f"| **{cell(p['name'])}** | {cell(p['goal'])} | {links} | {cell(p['why'])} |")
+        out += [f"- **{p['name']}**：{p['goal']}", f"  - 组合：{links}", f"  - 思路：{p['why']}"]
     return out + [""]
 
 
@@ -115,17 +114,13 @@ def render_group(key: str, group: dict, items: list[dict], meta: dict, ref: dt.d
     if group.get("intro"):
         out += [group["intro"], ""]
     out += [
-        "| 项目 | 简介 | 覆盖阶段 | ★ | 最近更新 |",
-        "|---|---|---|--:|---|",
+        "| 项目 | 简介 |",
+        "|---|---|",
     ]
     for s in items:
         m = meta.get(s["repo"], {})
         stage_text = " · ".join(st["short"] for k, st in stages.items() if k in s["stages"])
-        updated = (m.get("pushed_at") or "—") + status_mark(m, ref)
-        out.append(
-            f"| {name_cell(s, m)} | {desc_cell(s, taxonomy['facet'])} | {stage_text} "
-            f"| {fmt_stars(m.get('stars'))} | {updated} |"
-        )
+        out.append(f"| {name_cell(s, m, ref)} | {desc_cell(s, taxonomy['facet'], stage_text)} |")
 
     cmds = [(display_name(s), install_cmd(s)) for s in items if install_cmd(s)]
     if cmds:
