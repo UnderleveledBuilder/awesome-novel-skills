@@ -71,7 +71,7 @@
 
 - 🌟 **[chinese-novelist-skill](https://github.com/PenglongHuang/chinese-novelist-skill)** · ★ 3.8k<br>从零生成 10–50 章中文小说：三层问答、创作记忆、每章悬念钩子、自动校验<br><sub>阶段：大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-10-06 · 中文 · MIT</sub>
 
-- 🌟 **[story-skills](https://github.com/danjdewhurst/story-skills)** · ★ 313<br>端到端故事工程：故事圣经、角色、情节、章节、修订、连续性检查、读者评审团、投稿<br><sub>阶段：设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-10-14 · 英文 · 24 个 skill · MIT</sub>
+- 🌟 **[story-skills](https://github.com/danjdewhurst/story-skills)** · ★ 314<br>端到端故事工程：故事圣经、角色、情节、章节、修订、连续性检查、读者评审团、投稿<br><sub>阶段：设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-10-14 · 英文 · 24 个 skill · MIT</sub>
 
 - 🌟 **[long-novel-writer](https://github.com/jiaw-Zh/long-novel-writer)** · ★ 93<br>百万字长篇写作 skill：六层摘要冻结、实体档案、正典账本与 POV 知识边界，写后双 agent 校验，防止设定漂移<br><sub>阶段：设定 · 人物 · 大纲 · 正文 · 记忆</sub><br><sub>更新于 2026-06-18 · 中文</sub><br><sub>💡 思路来自桌面项目 AI_NovelGenerator；作者另有早期版 jiaw-Zh/long-novel-generator</sub>
 
@@ -81,7 +81,7 @@
 
 - **[awesome-novel-agent](https://github.com/modoojunko/awesome-novel-agent)** · ★ 812<br>小说创作搭档：世界观 → 角色 → 章节规划 → 正文，分步陪写整部小说<br><sub>阶段：设定 · 人物 · 大纲 · 正文</sub><br><sub>更新于 2026-09-25 · 中文 · AGPL-3.0</sub><br><sub>💡 名字带 awesome，但它是创作 agent，不是列表</sub>
 
-- **[oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh)** · ★ 521<br>把 Oh Story 小说技能装进 DeepSeek Harness：加了文件树、编辑器、Chat 三栏的小说工作台，另带短剧、小说改游戏、视频解说工作台<br><sub>阶段：选题 · 设定 · 人物 · 大纲 · 正文 · 审稿 · 包装 · 改编</sub><br><sub>更新于 2026-10-15 · 中文 · 38 个 skill · MIT</sub><br><sub>💡 基于同团队的 zenstory-ai/oh-story-claudecode（打包的 Oh Story 0.8.5，小说技能文件与原版相同）和 novel-to-game，另加 DSH Web 工作台界面和短剧、视频解说技能。只能在 DeepSeek Harness 里用，需要 Node.js 24+；Claude Code 用户用原版</sub>
+- **[oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh)** · ★ 522<br>把 Oh Story 小说技能装进 DeepSeek Harness：加了文件树、编辑器、Chat 三栏的小说工作台，另带短剧、小说改游戏、视频解说工作台<br><sub>阶段：选题 · 设定 · 人物 · 大纲 · 正文 · 审稿 · 包装 · 改编</sub><br><sub>更新于 2026-10-15 · 中文 · 38 个 skill · MIT</sub><br><sub>💡 基于同团队的 zenstory-ai/oh-story-claudecode（打包的 Oh Story 0.8.5，小说技能文件与原版相同）和 novel-to-game，另加 DSH Web 工作台界面和短剧、视频解说技能。只能在 DeepSeek Harness 里用，需要 Node.js 24+；Claude Code 用户用原版</sub>
 
 - **[novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework)** · ★ 257<br>五份网文写作方法论：通用长篇流程、番茄快节奏、起点慢热、智斗权谋专项、完稿改良诊断，含三章一轮自检和 AI 指纹量化指标<br><sub>阶段：大纲 · 正文 · 审稿</sub><br><sub>更新于 2026-05-31 · 📝 提示词 · 中文 · MIT</sub><br><sub>📚 番茄 · 起点</sub><br><sub>💡 每份是单独的 .md，需自己放进 skills 目录或手动加载</sub>
 
@@ -599,9 +599,9 @@ npx skills add zhu5859243-free/hongguo-shortdrama-screenwriting
 
 - 🌟 **[shuorenhua](https://github.com/MrGeDiao/shuorenhua)** · ★ 2.1k<br>中文优先的去套话改写：保留数字、条件、承诺和作者口气，可选自由/句内/原位三档改动范围，附 123 条评测集<br><sub>阶段：审稿</sub><br><sub>更新于 2026-10-15 · 中文 · MIT</sub><br><sub>💡 主要面向说明文、工作文本和个人文章，不专门针对小说</sub>
 
-- **[humanizer](https://github.com/blader/humanizer)** · ★ 57.2k<br>按维基百科「Signs of AI writing」清单去除 AI 写作痕迹<br><sub>阶段：审稿</sub><br><sub>更新于 2026-09-28 · 英文 · MIT</sub>
+- **[humanizer](https://github.com/blader/humanizer)** · ★ 57.3k<br>按维基百科「Signs of AI writing」清单去除 AI 写作痕迹<br><sub>阶段：审稿</sub><br><sub>更新于 2026-09-28 · 英文 · MIT</sub>
 
-- **[stop-slop](https://github.com/hardikpandya/stop-slop)** · ★ 18k<br>识别并删掉 AI 套话、模板句式和节奏问题<br><sub>阶段：审稿</sub><br><sub>更新于 2026-03-17 💤 · 英文 · MIT</sub>
+- **[stop-slop](https://github.com/hardikpandya/stop-slop)** · ★ 18.1k<br>识别并删掉 AI 套话、模板句式和节奏问题<br><sub>阶段：审稿</sub><br><sub>更新于 2026-03-17 💤 · 英文 · MIT</sub>
 
 - **[human-writing](https://github.com/KKKKhazix/human-writing)** · ★ 4.1k<br>活人感写作：让 AI 写的中文像具体的人在说话，适用小说、公众号、口播等<br><sub>阶段：审稿</sub><br><sub>更新于 2026-08-11 · 中文 · MIT</sub>
 
