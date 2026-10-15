@@ -7,6 +7,7 @@
 [[skills]]
 repo    = "Narcooo/inkos"
 desc    = "故事创作 Agent 系统：长短篇写作、续写、同人、仿写、拆文、市场调研、剧本、互动影游"
+desc_en = "Story-creation agent system: long-form and short story writing, continuation, fan fiction, style imitation, book teardown, market research, scripts and interactive film-games"
 group   = "pipeline"
 stages  = ["market", "structure", "drafting", "memory", "revision", "adaptation"]
 format  = "app"
@@ -17,6 +18,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "zenstory-ai/oh-story-claudecode"
 desc    = "中文网文全流程：扫榜（起点/番茄/晋江/知乎盐言）、拆文、长短篇写作、去 AI 味"
+desc_en = "Full Chinese web novel workflow: ranking-chart analysis (Qidian, Fanqie Novel, Jinjiang (JJWXC), Zhihu Yanyan stories), book teardown, long-form and short story writing, de-AI"
 group   = "pipeline"
 stages  = ["market", "structure", "drafting", "revision", "packaging"]
 format  = "skill"
@@ -26,11 +28,13 @@ agents  = ["claude-code", "codex", "opencode"]
 install = "npx -y skills add zenstory-ai/oh-story-claudecode --agent claude-code"
 tier    = "featured"
 note    = "同团队另有 DeepSeek Harness 版 oh-story-dsh"
+note_en = "The same team also maintains oh-story-dsh, a DeepSeek Harness version"
 checked = 2026-10-12
 
 [[skills]]
 repo    = "PenglongHuang/chinese-novelist-skill"
 desc    = "从零生成 10–50 章中文小说：三层问答、创作记忆、每章悬念钩子、自动校验"
+desc_en = "Generates 10–50 chapter Chinese novels from scratch: three-layer Q&A, creative memory, a suspense hook in every chapter and automatic checks"
 group   = "pipeline"
 stages  = ["structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -41,16 +45,19 @@ checked = 2026-10-12
 [[skills]]
 repo    = "modoojunko/awesome-novel-agent"
 desc    = "小说创作搭档：世界观 → 角色 → 章节规划 → 正文，分步陪写整部小说"
+desc_en = "Novel-writing partner that co-writes a whole novel step by step: worldbuilding → characters → chapter planning → draft"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting"]
 format  = "skill"
 lang    = "zh"
 note    = "名字带 awesome，但它是创作 agent，不是列表"
+note_en = "Despite \"awesome\" in the name, it is a writing agent, not a list"
 checked = 2026-10-12
 
 [[skills]]
 repo    = "danjdewhurst/story-skills"
 desc    = "端到端故事工程：故事圣经、角色、情节、章节、修订、连续性检查、读者评审团、投稿"
+desc_en = "End-to-end story engineering: story bible, characters, plot, chapters, revision, continuity checks, a reader panel and submission"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -63,6 +70,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "MJbae/awesome-novel-studio"
 desc    = "网文创作 Claude Code 插件：设定、角色、情节钩子、润色、重写"
+desc_en = "Claude Code plugin for web novel writing: setting, characters, plot hooks, polishing and rewriting"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "revision"]
 format  = "skill"
@@ -73,6 +81,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "ExplosiveCoderflome/ani-book-skill"
 desc    = "长篇中文小说生产：可恢复的 Markdown 工作流，贯通灵感、规划、章节写作、审校与连续性管理"
+desc_en = "Long-form Chinese novel production through a resumable Markdown workflow spanning inspiration, planning, chapter writing, review and continuity management"
 group   = "pipeline"
 stages  = ["structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -83,6 +92,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "xindoo/sumeru"
 desc    = "网文全流程 7 个 skill：选题（含榜单分析）→世界观大纲→章节批量撰写→时间线/OOC 审查→润色→多平台导出，可断点续写"
+desc_en = "Seven skills for the full web novel flow: topic selection (with ranking-chart analysis) → worldbuilding and outline → batch chapter writing → timeline/OOC review → polishing → multi-platform export, resumable from checkpoints"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -94,27 +104,32 @@ checked = 2026-10-14
 [[skills]]
 repo    = "zy-zmc/tianming-skill"
 desc    = "长篇协同创作指令系统：用五份知识库约束世界观与人物，按「天命：大纲/目录/正文/体检/存档」逐步推进"
+desc_en = "Command system for long-form co-writing: five knowledge bases constrain worldbuilding and characters, and work advances step by step via the \"Tianming: outline/contents/draft/checkup/save\" commands"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory"]
 format  = "skill"
 lang    = "zh"
 note    = "CC BY-NC-SA 4.0 非商用许可；README 同时推广作者的同名桌面软件"
+note_en = "CC BY-NC-SA 4.0 noncommercial license; the README also promotes the author's desktop app of the same name"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "manhai934/novel-harness"
 desc    = "网文陪写 harness：开书规划，把章节拆成作者自己填的写作块，审稿去 AI 味，维护角色状态、伏笔和章节摘要"
+desc_en = "Web novel co-writing harness: book setup planning, splits chapters into writing blocks the author fills in, reviews and de-AIs drafts, and maintains character state, foreshadowing and chapter summaries"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex", "claude-code", "cursor", "opencode"]
 note    = "附本地 Studio Dashboard（需 Python + Node）；可选知识包从作者服务器（阿里云 OSS）下载 zip"
+note_en = "Includes a local Studio Dashboard (needs Python + Node); optional knowledge packs are downloaded as zips from the author's server (Alibaba Cloud OSS)"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "jiaw-Zh/long-novel-writer"
 desc    = "百万字长篇写作 skill：六层摘要冻结、实体档案、正典账本与 POV 知识边界，写后双 agent 校验，防止设定漂移"
+desc_en = "Skill for million-character long-form writing: six-layer frozen summaries, entity profiles, a canon ledger and POV knowledge boundaries, with two-agent checks after writing to prevent setting drift"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory"]
 format  = "skill"
@@ -122,11 +137,13 @@ lang    = "zh"
 agents  = ["openclaw", "claude-code", "codex"]
 tier    = "featured"
 note    = "思路来自桌面项目 AI_NovelGenerator；作者另有早期版 jiaw-Zh/long-novel-generator"
+note_en = "Based on ideas from the desktop project AI_NovelGenerator; the author also has an earlier version, jiaw-Zh/long-novel-generator"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "tance-mang/chinese-webnovel-skills"
 desc    = "网文工坊 Claude Code 插件：选题、起名、大纲、金手指、人设、扩写、爽点、追读诊断、连贯检查、去 AI 味、投稿等 30+ 技能"
+desc_en = "Web novel workshop Claude Code plugin with 30+ skills: topic selection, naming, outline, golden finger, character design, expansion, payoff beats, reader-retention diagnosis, continuity check, de-AI, submission and more"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision", "packaging"]
 format  = "skill"
@@ -134,22 +151,26 @@ lang    = "zh"
 sites   = ["qidian", "fanqie", "jjwxc", "zhihu", "royalroad"]
 agents  = ["claude-code"]
 note    = "另有接自有 API 的终端 CLI 版；含一个短剧剧本技能"
+note_en = "There is also a terminal CLI version that connects to your own API; includes one short-drama script skill"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "skyfiredao/dreampowers"
 desc    = "OpenCode 中文小说技能包：14 个 skill，覆盖构思、七维文风问卷、设定文件隔离、大纲伏笔、分场景写作、冷读与一致性审查"
+desc_en = "Chinese novel skill pack for OpenCode: 14 skills covering ideation, a seven-dimension style questionnaire, isolated setting files, outline and foreshadowing, scene-by-scene writing, cold reads and consistency review"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["opencode"]
 note    = "依赖 oh-my-openagent；成人场景技能为选装（install.sh --all 才装）"
+note_en = "Depends on oh-my-openagent; the adult-scene skill is optional (installed only with install.sh --all)"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "xiaofeng-928/chinese-longnovel-skill"
 desc    = "中文长篇网文工作流：扫榜开书、范文拆解与文风蒸馏、每 50 章分阶段细纲、事实锁与状态仓库、伏笔追踪、双审查自动修复"
+desc_en = "Chinese long-form web novel workflow: book setup from ranking-chart analysis, sample teardown and style distillation, staged detailed outlines every 50 chapters, fact locks and a state store, foreshadowing tracking, dual-review auto-fix"
 group   = "pipeline"
 stages  = ["market", "world", "structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -157,65 +178,77 @@ lang    = "zh"
 agents  = ["claude-code", "codex"]
 tier    = "featured"
 note    = "校验脚本需 Python 3；自然化环节内置 Humanizer-zh 规则（已注明来源）"
+note_en = "Check scripts need Python 3; the naturalization step bundles Humanizer-zh rules (source credited)"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Wooooooooood/ai-fiction-writer"
 desc    = "长篇网文十个 skill：扫榜拆文、大纲、角色、知识库、世界与地图、逻辑矩阵、进度、正文、去 AI 味质检、多视角审稿"
+desc_en = "Ten long-form web novel skills: ranking-chart analysis and teardown, outline, characters, knowledge base, world and map, logic matrix, progress, draft, de-AI QA, multi-viewpoint review"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 note    = "README 只写了克隆仓库，需自行把「纯净版skill/」下各目录放进 agent 的 skills 目录"
+note_en = "The README only says to clone the repo; you must copy each folder under 纯净版skill/ (\"clean skills\") into your agent's skills directory yourself"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Fly143/ultimate-novel-creation-skill"
 desc    = "长篇小说全流程 skill：书名立项、世界观人设、黄金开篇、单章写作、记忆圣经与强约束、读者审稿、写后流水线"
+desc_en = "Full-workflow long-form novel skill: title and project setup, worldbuilding and characters, golden opening, single-chapter writing, a memory bible with hard constraints, reader review, post-write pipeline"
 group   = "pipeline"
 stages  = ["packaging", "world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "cursor"]
 note    = "须先把 system_prompt.md 配成宿主的系统提示词，流程才会被严格执行；写后流水线内置朱雀 AIGC 检测对策"
+note_en = "system_prompt.md must first be set as the host's system prompt for the workflow to be strictly followed; the post-write pipeline includes countermeasures against the Zhuque AIGC detector"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "TulanCN/vibe-noveling"
 desc    = "Claude Code 网文插件：苏格拉底式设定讨论、救猫咪全书规划、雪花法事件卡、写后 AI 味检测、标记返修、知识图谱"
+desc_en = "Claude Code web novel plugin: Socratic setting discussion, Save the Cat whole-book planning, snowflake-method event cards, post-write AI-tone detection, marked rework and a knowledge graph"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "针对 GLM-5 调优，作者要求关闭思考模式；默认风格基线是男频爽文"
+note_en = "Tuned for GLM-5, and the author asks you to turn off thinking mode; the default style baseline is male-oriented power-fantasy fiction"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "bbroot/novel-master"
 desc    = "OpenClaw 长篇小说 skill：策划书、分卷大纲与细纲、三层伏笔追踪、角色状态机与节点压缩图谱、每章四维审计"
+desc_en = "OpenClaw long-form novel skill: planning document, volume outlines and detailed outlines, three-layer foreshadowing tracking, a character state machine with node-compression graph, and a four-dimension audit of every chapter"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["openclaw"]
 note    = "ClawHub 上装到的是 v1，v2 脚本需从 GitHub 获取"
+note_en = "ClawHub installs v1; the v2 scripts must be fetched from GitHub"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "xiaotiewinner/xt-webnovel-writing"
 desc    = "OpenClaw 网文 skill：参考文本拆解、立书（书名/人设/简介）、剧情设计、爽点与文笔、25 项反 AI 味体检、磁盘记忆"
+desc_en = "OpenClaw web novel skill: reference-text teardown, book setup (title, characters, blurb), plot design, payoff beats and prose, a 25-item anti-AI-tone checkup, on-disk memory"
 group   = "pipeline"
 stages  = ["market", "character", "structure", "drafting", "memory", "revision", "packaging"]
 format  = "skill"
 lang    = "zh"
 agents  = ["openclaw"]
 note    = "方法论底本是一篇知乎文章，仓库内存档了全文；仓库没有许可证"
+note_en = "The method is based on a Zhihu article whose full text is archived in the repo; the repo has no license"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "kshanxs/book-writer-skill"
 desc    = "英文长篇写作：Story Forge 开书问答，Book Memory Bank 自动维护人物/世界/进度，含节奏蓝图、专项修订与简介/query letter"
+desc_en = "English long-form writing: Story Forge book-setup Q&A, a Book Memory Bank that auto-maintains characters, world and progress, plus pacing blueprints, targeted revisions, synopsis and query letter"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision", "packaging"]
 format  = "skill"
@@ -225,16 +258,19 @@ checked = 2026-10-14
 [[skills]]
 repo    = "ZhangDongyang800/novel-flow-one-by-one"
 desc    = "6 个协作 skill：脑暴→大纲→逐场景写作→六维审稿→设定同步，总控按状态路由，内置冷白描/系统爽文/怪诞悬疑三种文风"
+desc_en = "6 collaborating skills: brainstorm → outline → scene-by-scene writing → six-dimension review → setting sync; a controller routes by state, with three built-in styles (cold plain description, system-flow power fantasy, grotesque suspense)"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 note    = "README 以 Trae 目录结构为例"
+note_en = "The README uses the Trae directory layout as its example"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "jialanhu0915/silver-novel-skills"
 desc    = "男频/女频双系统网文写作：世界观/人物/情节三个框架 agent，按题材加载模板，12 项通用加男女频专项审稿 agent"
+desc_en = "Dual-system web novel writing for male- and female-oriented fiction: three framework agents (worldbuilding, characters, plot) load genre templates, plus 12 general review agents and male/female-specific ones"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "revision"]
 format  = "skill"
@@ -244,28 +280,33 @@ checked = 2026-10-14
 [[skills]]
 repo    = "xwcai999/opencreator-novel"
 desc    = "中文小说 Codex 插件：读者契约与章节控制卡、待兑现承诺账本、确定性校验脚本、整书文学审稿与跨章结构相似度检查、封面"
+desc_en = "Codex plugin for Chinese fiction: reader contract and chapter control cards, a ledger of promises to pay off, deterministic check scripts, whole-book literary review, cross-chapter structural similarity check, covers"
 group   = "pipeline"
 stages  = ["structure", "drafting", "memory", "revision", "packaging"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "wawa-* 两个子 skill 是非官方的蛙蛙写作投稿/统计适配，可不装"
+note_en = "The two wawa-* sub-skills are unofficial adapters for Wawa Writing submission and stats, and are optional"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "waylean/plotrail"
 desc    = "长篇工作流两件套：plotrail 建 canon、章节合同、写后连续性审稿和作者改稿偏好；plotrail-intake 诊断精修已有旧稿再交接续写"
+desc_en = "Two-part long-form workflow: plotrail builds canon, chapter contracts, post-write continuity review and author revision preferences; plotrail-intake diagnoses and refines existing drafts before handing off for continuation"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "en"
 agents  = ["codex", "claude-code"]
 note    = "skill 正文为英文，README 与示例为中文网文"
+note_en = "The skill text is in English; the README and examples are Chinese web novels"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Thatgfsj-easyRep/wangwenwrite-skill"
 desc    = "男频系统流网文单文件 skill：黄金三章、爽点节奏公式、系统设定法则、反 AI 味清单、书名公式与平台差异化"
+desc_en = "Single-file skill for male-oriented system-flow web novels: golden first three chapters, payoff-beat pacing formulas, system design rules, anti-AI-tone checklist, title formulas and platform differentiation"
 group   = "pipeline"
 stages  = ["market", "world", "structure", "drafting", "revision", "packaging"]
 format  = "skill"
@@ -277,16 +318,19 @@ checked = 2026-10-14
 [[skills]]
 repo    = "cnskycn/novel-writing-skill"
 desc    = "长篇连载单文件提示词：大纲 6 步、章节 7 步、人物三锚点、伏笔 P1-P3 分级、六维质检，附追踪与记忆文件模板"
+desc_en = "Single-file prompt for long-form serials: 6-step outline, 7-step chapters, three character anchors, P1-P3 foreshadowing grades, six-dimension QA, with tracking and memory file templates"
 group   = "pipeline"
 stages  = ["structure", "drafting", "memory", "revision"]
 format  = "prompts"
 lang    = "zh"
 note    = "单个 .md 文件，README 按 Trae .trae/skills/ 安装；风格设定偏「孔二狗式」都市江湖叙事"
+note_en = "A single .md file that the README installs to Trae's .trae/skills/; the style leans toward Kong Ergou-style urban underworld narrative"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "xiaoyuCR7/general-novel-skill"
 desc    = "长篇网文 skill：每章正文与摘要、角色状态、伏笔、时间线按事务一起提交，7 道去 AI 味闸口，34 题材与多平台规则按需加载"
+desc_en = "Long-form web novel skill: each chapter's text, summary, character state, foreshadowing and timeline are committed together as a transaction, with 7 de-AI gates and 34 genres plus multi-platform rules loaded on demand"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision", "packaging"]
 format  = "skill"
@@ -294,33 +338,39 @@ lang    = "zh"
 sites   = ["fanqie", "qidian", "jjwxc", "zhihu", "qimao"]
 agents  = ["claude-code", "codex", "cursor", "opencode", "gemini-cli"]
 note    = "体量大（47 个脚本、118 份参考、24 个 MCP 工具），附五章示例书和去 AI 味前后对照"
+note_en = "Large (47 scripts, 118 reference docs, 24 MCP tools); includes a five-chapter sample book and de-AI before/after comparisons"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "chaserr/novel-craft"
 desc    = "Claude Code 长篇写作与审稿插件：5 个 skill + 12 个 agent，用 RTK.md 定题材风格，管大纲、前情、伏笔、人物档案和逐章审稿"
+desc_en = "Claude Code plugin for long-form writing and review: 5 skills + 12 agents, RTK.md sets genre and style, and it manages outline, recaps, foreshadowing, character profiles and chapter-by-chapter review"
 group   = "pipeline"
 stages  = ["character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "作者另有同流程的桌面版 novel-craft-studio"
+note_en = "The author also has a desktop version with the same workflow, novel-craft-studio"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "liuxiao20051106-prog/novel-writer-skill"
 desc    = "中英双语小说写作 skill：构思、人设、章纲、逐章写作与章节衔接检查、去 AI 味，附草稿量化体检脚本和 11 套追踪模板"
+desc_en = "Bilingual Chinese/English novel writing skill: ideation, characters, chapter outlines, chapter-by-chapter writing with chapter-transition checks, de-AI, plus a quantitative draft checkup script and 11 tracking templates"
 group   = "pipeline"
 stages  = ["market", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "multi"
 agents  = ["claude-code", "cursor"]
 note    = "另附 ChatGPT、DeepSeek、Gemini 等网页端的系统提示词用法"
+note_en = "Also explains using it as a system prompt in the web versions of ChatGPT, DeepSeek, Gemini and others"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "XINGANLIU/web-novel-writing-skill"
 desc    = "网文 10 阶段流水线：灵感、世界观、人物、总纲、卷纲、章纲、黄金三章、正文、质检、状态同步，含人物漂移和反派降智检查"
+desc_en = "10-stage web novel pipeline: inspiration, worldbuilding, characters, master outline, volume outlines, chapter outlines, golden first three chapters, draft, QA, state sync, with checks for character drift and villain dumbing-down"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -331,6 +381,7 @@ checked = 2026-10-14
 [[skills]]
 repo    = "chanceline-max/novelist-skill"
 desc    = "Codex 中文小说 skill：从灵感到卷纲章纲、正文续写与改稿，维护人物、世界观、伏笔、时间线和章节总结文件"
+desc_en = "Codex skill for Chinese novels: from inspiration to volume and chapter outlines, draft continuation and revision, maintaining files for characters, worldbuilding, foreshadowing, timeline and chapter summaries"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -341,39 +392,46 @@ checked = 2026-10-14
 [[skills]]
 repo    = "dongyanyuxuana/novel-craft"
 desc    = "通用小说 skill：主控加 7 个子代理，访谈立项、资料拆分、逐章写作、逐段 17 维审查、修订发布，附 34 位作家技法库"
+desc_en = "General-purpose novel skill: a controller plus 7 sub-agents for interview-based setup, source splitting, chapter-by-chapter writing, 17-dimension review of each passage, revision and release, with a library of 34 writers' techniques"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "opencode"]
 note    = "含成人向场景参考文档，按受众分级启用"
+note_en = "Includes reference docs for adult scenes, enabled by audience rating"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "soultt/fanqie-xiaoshuo-skill"
 desc    = "番茄风网文 11 个 skill：设定、总纲与章纲的设计和审查、正文写作和审查、签约潜力评估、日更工作流"
+desc_en = "11 Fanqie Novel-style web novel skills: design and review of setting, master outline and chapter outlines, draft writing and review, contract-potential assessment, daily-update workflow"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 sites   = ["fanqie"]
 note    = "README 安装说明简略；仓库描述里的「包签约」是宣传语，实际是签约评估模板"
+note_en = "The README's install instructions are brief; the \"guaranteed contract\" in the repo description is a marketing line, and it is actually a contract-assessment template"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "zlbigger/novel-webfiction"
 desc    = "OpenClaw 网文连载 skill：开书问 4 个问题建档，每章先读设定、大纲和最近 3 章再写，正文按章存进 Obsidian"
+desc_en = "OpenClaw web novel serial skill: book setup asks 4 questions to create the project, each chapter first reads the setting, outline and last 3 chapters before writing, and chapters are saved to Obsidian"
 group   = "pipeline"
 stages  = ["world", "structure", "drafting", "memory"]
 format  = "skill"
 lang    = "zh"
 agents  = ["openclaw"]
 note    = "单文件、规则较简单，适合轻量连载"
+note_en = "Single file with fairly simple rules, suited to lightweight serials"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "lingfengQAQ/webnovel-writer"
 desc    = "Claude Code 长篇网文插件：分阶段初始化设定与总纲、拆卷纲章纲，写章后多维审查并把事实提交进状态库与 RAG，可查伏笔角色，附只读面板"
+desc_en = "Claude Code long-form web novel plugin: staged setup of setting and master outline, volume and chapter outlines, multi-dimension review per chapter, facts committed to a state store and RAG, foreshadowing/character lookup, read-only panel"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -381,65 +439,77 @@ lang    = "zh"
 agents  = ["claude-code"]
 tier    = "featured"
 note    = "master 为 Claude Code 版，新功能在 v8 分支（DeepSeek Harness）"
+note_en = "master is the Claude Code version; new features are on the v8 branch (DeepSeek Harness)"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "LAY-lgtm/novel-writing-framework"
 desc    = "五份网文写作方法论：通用长篇流程、番茄快节奏、起点慢热、智斗权谋专项、完稿改良诊断，含三章一轮自检和 AI 指纹量化指标"
+desc_en = "Five web novel methodologies: general long-form process, Fanqie Novel fast pacing, Qidian slow burn, scheming and intrigue, finished-draft improvement diagnosis, with a self-check every three chapters and quantified AI-fingerprint metrics"
 group   = "pipeline"
 stages  = ["structure", "drafting", "revision"]
 format  = "prompts"
 lang    = "zh"
 sites   = ["fanqie", "qidian"]
 note    = "每份是单独的 .md，需自己放进 skills 目录或手动加载"
+note_en = "Each is a standalone .md that you must put in a skills directory or load manually"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "dama-cyber/Distilled-Novel-Toolbox"
 desc    = "网文写作知识库 13 个 skill：题材、人设、世界观、节奏、爽点、情绪、文风、商业化、合规、润色去 AI 味与 AIGC 检测应对"
+desc_en = "Web novel writing knowledge base of 13 skills: genre, characters, worldbuilding, pacing, payoff beats, emotion, style, monetization, compliance, de-AI polishing and AIGC-detection countermeasures"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 sites   = ["qidian", "fanqie", "jjwxc", "zhihu"]
 note    = "README 未写安装方式：把各 novel-* 目录复制到 agent 的 skills 目录即可；每个模块附 test-prompts.json"
+note_en = "The README has no install steps: copy each novel-* folder into your agent's skills directory; each module includes a test-prompts.json"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Tomsawyerhu/Chinese-WebNovel-Skill"
 desc    = "网文写作 skill：主路由分派到开头、转场、对白、章末、剧情逻辑、人物一致性、卷纲、去 AI 味等 10 个模块，写前检索本地语料范例"
+desc_en = "Web novel skill: a main router dispatches to 10 modules (opening, transitions, dialogue, chapter endings, plot logic, character consistency, volume outline, de-AI and more), retrieving examples from a local corpus before writing"
 group   = "pipeline"
 stages  = ["market", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "README 未写安装方式：SKILL.md 在仓库根目录，把整个仓库放进 skills 目录即可；附 166 篇短篇语料约 11MB，检索脚本需 Python 3"
+note_en = "The README has no install steps (SKILL.md is at the repo root, so put the whole repo in your skills directory); bundles a corpus of 166 short stories, about 11 MB, and the retrieval script needs Python 3"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "lornshrimp/Lorn.NovelWriteSkills"
 desc    = "长篇网文写作资产库：题材定位、人物、大纲、章节创作闭环、审阅润色、去 AI 味、13 个平台改写与分发，附字数/相似度门禁脚本"
+desc_en = "Long-form web novel writing asset library: genre positioning, characters, outline, a closed chapter-writing loop, review and polishing, de-AI, rewriting and distribution for 13 platforms, with word-count/similarity gate scripts"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "revision", "packaging", "publish"]
 format  = "skill"
 lang    = "zh"
 sites   = ["qidian", "fanqie", "qimao", "zhihu"]
 note    = "README 只写了 VS Code + GitHub Copilot 用法（.github/skills、.github/prompts 结构）；约 350 个 SKILL.md 也可单独复制到其他 agent；仓库约 22MB，大部分是写作研究资料"
+note_en = "The README only covers VS Code + GitHub Copilot (.github/skills and .github/prompts layout); the ~350 SKILL.md files can also be copied individually to other agents; the repo is about 22 MB, mostly writing research material"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "jiangying3222880/novel-engine"
 desc    = "网文写作引擎：拆对标书建素材池，细纲、正文、检验打回、落库四段流水线，管长篇状态，另有短故事模式和 BM25 检索"
+desc_en = "Web novel writing engine: tears down benchmark books into a material pool, runs a four-stage pipeline (detailed outline, draft, check-and-reject, commit to store) managing long-form state, plus a short-story mode and BM25 retrieval"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 note    = "门禁、检索、同步脚本需 Python，不装时降级为手动校验；生成的「叙事总览」目录可作为 Obsidian 库查看"
+note_en = "The gate, retrieval and sync scripts need Python and fall back to manual checks without it; the generated \"narrative overview\" folder can be opened as an Obsidian vault"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "kongxcer555/open-novel-fanqie"
 desc    = "番茄网文长篇流水线 12 个 skill：拆对标书出套路 JSON、换壳选切入点、书名简介与事件、大纲人物设定、细纲、正文、审稿、滚动摘要"
+desc_en = "12-skill Fanqie Novel long-form pipeline: benchmark-book teardown into trope JSON, re-skinning and picking an entry point, title, blurb and events, outline, characters and setting, detailed outline, draft, review, rolling summary"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision", "packaging"]
 format  = "skill"
@@ -447,11 +517,13 @@ lang    = "zh"
 sites   = ["fanqie"]
 agents  = ["claude-code", "openclaw"]
 note    = "原仓库 mosonlab/open-novel-fanqie 已失效，这里是转存；README 里的 git clone 地址要换成 kongxcer555/open-novel-fanqie。脚本依赖 bun，p7 去 AI 味尚未完成"
+note_en = "The original repo mosonlab/open-novel-fanqie is gone and this is a re-upload; replace the git clone URL in the README with kongxcer555/open-novel-fanqie. Scripts depend on bun, and p7 (de-AI) is not finished yet."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "304769384-png/fanqie-novel-skill"
 desc    = "番茄长篇写作 skill：写前读状态文件，写后去 AI 味并跑 8 项最小审计（字数、因果链、战斗、对话占比、话疗、循环等）"
+desc_en = "Fanqie Novel long-form writing skill: reads state files before writing, then de-AIs the text and runs 8 minimal audits (word count, causal chain, fights, dialogue ratio, talk-therapy resolutions, loops and more)"
 group   = "pipeline"
 stages  = ["structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -459,11 +531,13 @@ lang    = "zh"
 sites   = ["fanqie"]
 agents  = ["claude-code", "cursor"]
 note    = "工作流和状态文件（current_state、pending_hooks、character_matrix 等）沿用 Narcooo/inkos，另加番茄平台规则、商业审查和战斗/对话/话疗/循环审计"
+note_en = "The workflow and state files (current_state, pending_hooks, character_matrix, etc.) come from Narcooo/inkos; adds Fanqie Novel platform rules, a commercial review and fight/dialogue/talk-therapy/loop audits"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "ricky-theseus/DaisyWriter"
 desc    = "网文与中短篇写作 skill 合集：扫榜、拆书、开书、大纲、批量写作、审查、去 AI 味、封面生成、番茄自动发布"
+desc_en = "Skill collection for web novels and novellas/short stories: ranking-chart analysis, book teardown, book setup, outline, batch writing, review, de-AI, cover generation, auto-publishing to Fanqie Novel"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision", "packaging", "publish"]
 format  = "skill"
@@ -471,11 +545,13 @@ lang    = "zh"
 sites   = ["qidian", "fanqie", "jjwxc", "qimao", "zhihu"]
 agents  = ["opencode", "claude-code", "codex"]
 note    = "基于 lingfengQAQ/webnovel-writer（init/plan/write/review 等 8 个），另加扫榜、拆书、批量写、设定审查、去 AI 味、中短篇 5 个 skill 和封面生成；番茄发布取自 amm10090/fanqie-publisher-skill；另含技术博客/公众号/小红书技能"
+note_en = "Based on lingfengQAQ/webnovel-writer (8 skills such as init/plan/write/review), adding 5 skills for ranking-chart analysis, book teardown, batch writing, setting review, de-AI and novellas/short stories, plus cover generation; Fanqie publishing is taken from amm10090/fanqie-publisher-skill; also includes tech blog, WeChat Official Account and Xiaohongshu skills"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "qin1473692580-ux/oh-story-claudecode"
 desc    = "oh-story 派生网文 skill 包：扫榜拆文、长短篇写作、去 AI 味、封面，另加后台数据诊断、资料考证、发布物料和番茄自动发布"
+desc_en = "oh-story-derived web novel skill pack: ranking-chart analysis and teardown, long-form and short story writing, de-AI, covers, plus author-dashboard data diagnostics, source research, release materials and auto-publishing to Fanqie Novel"
 group   = "pipeline"
 stages  = ["market", "structure", "drafting", "memory", "revision", "packaging", "publish"]
 format  = "skill"
@@ -483,22 +559,26 @@ lang    = "zh"
 sites   = ["fanqie"]
 agents  = ["claude-code", "opencode", "openclaw", "codex", "workbuddy"]
 note    = "基于 zenstory-ai/oh-story-claudecode，2026-08 起独立演进、不同步上游；另加 story-data-analyze、story-research、story-explore、story-release-package、story-publish 五个 skill，以及错别字门禁、新题材包、TRAE/WorkBuddy 适配"
+note_en = "Based on zenstory-ai/oh-story-claudecode and developed independently since 2026-08 without syncing upstream; adds five skills (story-data-analyze, story-research, story-explore, story-release-package, story-publish) plus a typo gate, new genre packs and TRAE/WorkBuddy support"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "qiyan233/novelops-skill"
 desc    = "长篇小说状态化流水线：truth files 记设定与角色认知，生成下一章工作包，LLM 起草，审计修订，状态回写，快照 diff"
+desc_en = "Stateful long-form novel pipeline: truth files record settings and what characters know, then a next-chapter work package is generated, the LLM drafts, audit and revision follow, state is written back, with snapshot diffs"
 group   = "pipeline"
 stages  = ["structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "multi"
 agents  = ["claude-code", "openclaw", "codex", "cursor", "gemini-cli"]
 note    = "基于 Narcooo/inkos 的思路（truth files、审计-修订-状态回写），用纯 Python 标准库重写成不绑宿主的 skill；另加角色知情边界检查、可配置审计规则、快照/diff、同人与番外的 canon 处理。draft 默认调用本地 Ollama。SKILL.md 以英文为主"
+note_en = "Based on Narcooo/inkos's ideas (truth files, audit-revise-state write-back), rewritten in the pure Python standard library as a host-agnostic skill; adds character knowledge-boundary checks, configurable audit rules, snapshots/diffs and canon handling for fan fiction and side stories. Drafting calls a local Ollama by default. SKILL.md is mostly in English."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "qingyabailu-git/webfiction-write"
 desc    = "Codex 网文工具集 15 个 skill：构思、扫榜、拆文、卷纲细纲、写作与改稿、审查、去AI味、设定查询、导入导出，附项目状态脚本"
+desc_en = "Codex web novel toolkit of 15 skills: ideation, ranking-chart analysis, teardown, volume and detailed outlines, writing and revision, review, de-AI, setting lookup, import/export, with a project-state script"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -506,33 +586,39 @@ lang    = "zh"
 sites   = ["fanqie", "qidian", "qimao"]
 agents  = ["codex", "claude-code"]
 note    = "基于 zenstory-ai/oh-story-claudecode 与 lingfengQAQ/webnovel-writer 融合，另加 fiction.py（初始化、章节提交、审查指标、导出）和正文检查脚本；需 Python 3.8+"
+note_en = "A merge of zenstory-ai/oh-story-claudecode and lingfengQAQ/webnovel-writer, adding fiction.py (init, chapter commit, review metrics, export) and a draft-check script; needs Python 3.8+"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "tianshiemo7/long-novelist-skill"
 desc    = "百万字长篇中文小说：13 步配置问答、副本弧线三级大纲、角色状态档案、JSON 伏笔清单、跨会话恢复，附 11 个网文素材库"
+desc_en = "Million-character Chinese novels: 13-step configuration Q&A, three-level outline of dungeon arcs, character state profiles, a JSON foreshadowing list, cross-session recovery, and 11 web novel material libraries"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "基于 PenglongHuang/chinese-novelist-skill 改写（仓库未注明），另加副本弧线规划、角色状态追踪、伏笔 JSON 清单和网文素材库"
+note_en = "Rewritten from PenglongHuang/chinese-novelist-skill (not credited in the repo), adding dungeon-arc planning, character state tracking, a JSON foreshadowing list and web novel material libraries"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "duiniwukenaihe/novel-assistant-skill"
 desc    = "单入口网文助手：短篇/长篇写作、审阅、拆文、扫榜、导入、去AI味，带任务断点续写、按步召回记忆、改纲影响链和章节扩容迁移"
+desc_en = "Single-entry web novel assistant: short and long-form writing, review, teardown, ranking-chart analysis, import, de-AI, with task resume, step-wise memory recall, an outline-change impact chain and chapter expansion migration"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex", "opencode"]
 note    = "基于 worldwonderer/oh-story-claudecode（现 zenstory-ai/oh-story-claudecode），另加单入口路由、工作流断点、记忆召回、影响链与健康门；作者称短篇已稳定、长篇仍在打磨"
+note_en = "Based on worldwonderer/oh-story-claudecode (now zenstory-ai/oh-story-claudecode), adding single-entry routing, workflow checkpoints, memory recall, impact chains and health gates; the author says short-story mode is stable and long-form is still being refined"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "huahuakandaima/human-novel-writer"
 desc    = "长篇网文全流程：项目骨架与三总控文件、黄金三章合同、角色入场门禁、每章 8 步循环、拆文选题审稿封面，去AI味双门禁脚本"
+desc_en = "Full long-form web novel workflow: project skeleton with three control files, golden-first-three-chapters contract, character entrance gate, 8-step loop per chapter, teardown, topic selection, review, covers, dual-gate de-AI scripts"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision", "packaging"]
 format  = "skill"
@@ -540,11 +626,13 @@ lang    = "zh"
 sites   = ["fanqie"]
 agents  = ["claude-code"]
 note    = "整合 oh-story-claudecode、KKKKhazix/human-writing、writing-dna-skill 与贴吧《小说ai行文规范》，另加角色门禁、黄金三章合同和密度检查脚本；朱雀在线检测需腾讯云 API Key，封面依赖 foxtrai 生图 skill"
+note_en = "Combines oh-story-claudecode, KKKKhazix/human-writing, writing-dna-skill and the Tieba post \"Novel AI Prose Guidelines\", adding a character gate, golden-first-three-chapters contract and density-check scripts; Zhuque online detection needs a Tencent Cloud API key, and covers depend on the foxtrai image-generation skill"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "tinylion1024/web-novel-master"
 desc    = "网文创作工作流：快速、专业、工业、一次生成四种模式，含 11 个赛道的作者文风卡、套路库、平台定位包和项目初始化与校验脚本"
+desc_en = "Web novel writing workflow with four modes (quick, professional, industrial, one-shot), author style cards for 11 genre niches, a trope library, platform positioning packs, and project init and validation scripts"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision", "packaging"]
 format  = "skill"
@@ -552,22 +640,26 @@ lang    = "zh"
 sites   = ["qidian", "fanqie", "jjwxc"]
 agents  = ["claude-code", "openclaw"]
 note    = "基于 PenglongHuang/chinese-novelist-skill（情节结构、人物塑造、对话、扩写等指南沿用原版），另加四种创作模式、作者文风卡、平台定位包、市场数据和项目管理脚本"
+note_en = "Based on PenglongHuang/chinese-novelist-skill (guides on plot structure, characterization, dialogue, expansion and more are kept from the original), adding four writing modes, author style cards, platform positioning packs, market data and project-management scripts"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "lvyu-cmd/chinese-novelist-skill"
 desc    = "中文长篇小说 skill：五项输入自动生成设定，逐章或子 Agent 并行写作，三层记忆、七维自动校验、章节评分和三级修订"
+desc_en = "Chinese long-form novel skill: five inputs auto-generate the setting, chapter-by-chapter or parallel sub-agent writing, three-layer memory, seven-dimension automatic checks, chapter scoring and three-level revision"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex"]
 note    = "基于 PenglongHuang/chinese-novelist-skill，另加 SQLite 持久化、三层记忆、修订模式和 8 个校验/评分脚本；README 里的 clone 地址写成 chinese-novelist-skill-master，要换成本仓库"
+note_en = "Based on PenglongHuang/chinese-novelist-skill, adding SQLite persistence, three-layer memory, a revision mode and 8 check/scoring scripts; the clone URL in the README says chinese-novelist-skill-master and must be replaced with this repo"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "lujih/webnovel-writer-opencode"
 desc    = "webnovel-writer 的 OpenCode 移植增强版：在初始化、规划、写章、审查之外加了批量写、重写、修复、导出和番茄/七猫发布"
+desc_en = "Enhanced OpenCode port of webnovel-writer: on top of setup, planning, chapter writing and review, adds batch writing, rewriting, repair, export and publishing to Fanqie Novel/Qimao"
 group   = "pipeline"
 stages  = ["world", "character", "structure", "drafting", "memory", "revision", "publish"]
 format  = "skill"
@@ -575,16 +667,19 @@ lang    = "zh"
 sites   = ["fanqie", "qimao"]
 agents  = ["opencode"]
 note    = "基于 lingfengQAQ/webnovel-writer，另加 8 个 skill：批量写章、重写、修复、删除、导出（EPUB/DOCX/PDF 等）、番茄风和七猫风写作约束、自动发布到番茄；v2.8 起借鉴 inkos 的事件溯源设计。用 npx @cszx/webnovel-writer-opencode init 安装，Claude Code 用户直接用原版"
+note_en = "Based on lingfengQAQ/webnovel-writer, adding 8 skills: batch chapter writing, rewrite, repair, delete, export (EPUB/DOCX/PDF and more), Fanqie-style and Qimao-style writing constraints, and auto-publishing to Fanqie Novel; since v2.8 it borrows inkos's event-sourcing design. Install with npx @cszx/webnovel-writer-opencode init; Claude Code users should use the original."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "zenstory-ai/oh-story-dsh"
 desc    = "把 Oh Story 小说技能装进 DeepSeek Harness：加了文件树、编辑器、Chat 三栏的小说工作台，另带短剧、小说改游戏、视频解说工作台"
+desc_en = "Packages the Oh Story novel skills for DeepSeek Harness, adding a three-pane novel workbench (file tree, editor, chat) plus short drama, novel-to-game and video commentary workbenches"
 group   = "pipeline"
 stages  = ["market", "world", "character", "structure", "drafting", "revision", "packaging", "adaptation"]
 format  = "skill"
 lang    = "zh"
 note    = "基于同团队的 zenstory-ai/oh-story-claudecode（打包的 Oh Story 0.8.5，小说技能文件与原版相同）和 novel-to-game，另加 DSH Web 工作台界面和短剧、视频解说技能。只能在 DeepSeek Harness 里用，需要 Node.js 24+；Claude Code 用户用原版"
+note_en = "Based on the same team's zenstory-ai/oh-story-claudecode (bundles Oh Story 0.8.5 with novel skill files identical to the original) and novel-to-game, adding the DSH web workbench UI and short-drama and video-commentary skills. Works only in DeepSeek Harness and needs Node.js 24+; Claude Code users should use the original."
 checked = 2026-10-14
 
 # ───────────────────────── 单项工具：拆书 · 设定 · 大纲 · 人物 ─────────────────────────
@@ -592,6 +687,7 @@ checked = 2026-10-14
 [[skills]]
 repo    = "Elowwwen/Fanfic-background-assistant"
 desc    = "同人文背景研究：梳理时代、地点、职业、制度等资料并附来源，检查草稿里的事实错误，维护背景手册，不碰剧情"
+desc_en = "Background research for fan fiction: compiles sourced material on era, places, professions, institutions and more, checks drafts for factual errors and maintains a background handbook, without touching the plot"
 group   = "tools"
 stages  = ["world"]
 format  = "skill"
@@ -602,27 +698,32 @@ checked = 2026-10-14
 [[skills]]
 repo    = "oscar-wang-xin/xin-skills"
 desc    = "122 个文风锁定 skill：从番茄热门书和金庸、古龙等指定小说萃取十维风格规范，只仿文笔不抄剧情"
+desc_en = "122 style-locking skills: ten-dimension style specs extracted from popular Fanqie Novel books and designated novels by Jin Yong, Gu Long and others, imitating only the prose, not the plots"
 group   = "tools"
 stages  = ["drafting"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex", "cursor"]
 note    = "每个技能附对应原作的段落摘录作风格样本"
+note_en = "Each skill bundles paragraph excerpts from the source work as style samples"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "XTmingyue/wenfeng-skill"
 desc    = "给一部小说文本，提炼叙事模型、语言指纹、母题、人物与情节技法，生成可直接调用的仿写 SKILL.md"
+desc_en = "Given a novel's text, extracts its narrative model, language fingerprint, motifs, and character and plot techniques, and generates a directly callable style-imitation SKILL.md"
 group   = "tools"
 stages  = ["market", "drafting"]
 format  = "skill"
 lang    = "zh"
 note    = "仓库不含原作文本，需自备有权处理的小说文本"
+note_en = "The repo contains no source texts; bring your own novel text that you have the right to process"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "ciel-oliver/analyze-hit-novel"
 desc    = "爆款小说拆文：六维拆书、双时间线、三维节奏、人物关系图 PNG，提炼爆款机制并附章节证据"
+desc_en = "Hit-novel teardown: six-dimension book teardown, dual timelines, three-dimension pacing, a character relationship graph as PNG, distilling the hit mechanics with chapter evidence"
 group   = "tools"
 stages  = ["market"]
 format  = "skill"
@@ -633,6 +734,7 @@ checked = 2026-10-14
 [[skills]]
 repo    = "WindXRan/fanqie-radar"
 desc    = "番茄榜单扫榜选书：内置榜单快照和采集器，算题材热度、多日趋势差分和六维仿写适合度评分，附 MCP 服务与看板"
+desc_en = "Fanqie Novel ranking-chart analysis for book selection: built-in ranking snapshots and scraper, genre heat, multi-day trend diffs and a six-dimension imitation-suitability score, with an MCP server and dashboard"
 group   = "tools"
 stages  = ["market"]
 format  = "skill"
@@ -640,11 +742,13 @@ lang    = "zh"
 sites   = ["fanqie"]
 agents  = ["claude-code", "codex", "cursor", "opencode", "gemini-cli"]
 note    = "只采集公开榜单元数据，不下载正文；需 Python 3.10+"
+note_en = "Collects only public ranking metadata and does not download book text; needs Python 3.10+"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "wgwtest/novel-project-strategy"
 desc    = "Codex 长篇项目管理 skill：定义加载顺序、章节状态与同步规则，新会话不读全文也能恢复项目，防止大纲、设定、正文互相漂移"
+desc_en = "Codex long-form project management skill: defines load order, chapter status and sync rules so a new session can resume the project without reading the full text, preventing outline, setting and draft from drifting apart"
 group   = "tools"
 stages  = ["memory"]
 format  = "skill"
@@ -655,6 +759,7 @@ checked = 2026-10-14
 [[skills]]
 repo    = "shigehaomingzi1/character-card-fiction-workflow-skill"
 desc    = "从草稿、聊天记录或小说提炼角色设定和原文证据，生成酒馆 AI（SillyTavern）角色卡，也能扩写、续写小说"
+desc_en = "Distills character profiles and source-text evidence from drafts, chat logs or novels to generate SillyTavern character cards, and can also expand or continue novels"
 group   = "tools"
 stages  = ["character", "drafting"]
 format  = "skill"
@@ -665,38 +770,45 @@ checked = 2026-10-14
 [[skills]]
 repo    = "xbraindance/Creative-writing-skill"
 desc    = "用 Verbalized Sampling 一次给出多版点子、开头、大纲和人物，草稿自动归档进项目 wiki，带卡文诊断和批评命令"
+desc_en = "Uses Verbalized Sampling to offer multiple versions of ideas, openings, outlines and characters at once, auto-files drafts into a project wiki, with writer's-block diagnosis and critique commands"
 group   = "tools"
 stages  = ["world", "character", "structure", "drafting", "revision"]
 format  = "skill"
 lang    = "en"
 note    = "通用创意写作（含诗歌），非长篇专用；仓库附 12MB 论文 PDF"
+note_en = "General creative writing (including poetry), not specific to long-form; the repo includes a 12 MB paper PDF"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "xWebt/chinese-erotic-fiction-writing"
 desc    = "中文成人向（H）小说写作 skill：动笔前勘察偏好，按写作规范写作、扩写、重写，可学习本地书库文风，会话记忆逐步收敛口味"
+desc_en = "Chinese adult (erotic) fiction writing skill: surveys preferences before writing, writes, expands and rewrites per writing guidelines, can learn style from a local book library, and session memory gradually converges on the user's taste"
 group   = "tools"
 stages  = ["structure", "drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "本地 CLI 需 Python ≥3.10（pip install -e .），可把本地 txt 书库建成 SQLite 索引，统计技法密度；用户偏好存在 sessions/，不进 git"
+note_en = "The local CLI needs Python ≥3.10 (pip install -e .) and can index a local txt library into SQLite and count technique density; user preferences are stored in sessions/ and kept out of git"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "rs-skills-lab/fictional-erotica"
 desc    = "中英双语成人情色场景写作与修订：可调明确度、语域、对白密度和场景重心，保持人物声口和身体动作连续，支持原创与同人"
+desc_en = "Bilingual Chinese/English adult erotica scene writing and revision: adjustable explicitness, register, dialogue density and scene focus, keeping character voice and physical action continuous, for original work or fan fiction"
 group   = "tools"
 stages  = ["drafting", "revision"]
 format  = "skill"
 lang    = "multi"
 agents  = ["codex"]
 note    = "仅限 18+；skill 在 fictional-erotica/ 子目录，tests/ 附测试提示词和评分表"
+note_en = "18+ only; the skill is in the fictional-erotica/ subfolder, and tests/ has test prompts and scoring rubrics"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "amm10090/fanqie-publisher-skill"
 desc    = "番茄小说作者后台章节发布：解析本地 Markdown 章节，用 Playwright 自动填写，立即或定时发布，带仅填写模式和发布后状态核验"
+desc_en = "Publishes chapters via the Fanqie Novel author dashboard: parses local Markdown chapters, auto-fills them with Playwright, publishes now or on a schedule, with a fill-only mode and post-publish status verification"
 group   = "tools"
 stages  = ["publish"]
 format  = "skill"
@@ -704,11 +816,13 @@ lang    = "en"
 sites   = ["fanqie"]
 agents  = ["openclaw", "claude-code", "codex"]
 note    = "需 Node.js、Python 3、可经 CDP 连接的 Chrome 和番茄作者账号；走网页自动化而非官方接口，后台改版可能失效。README 有中文版"
+note_en = "Needs Node.js, Python 3, Chrome reachable over CDP and a Fanqie Novel author account; it uses web automation rather than an official API, so dashboard redesigns may break it. The README has a Chinese version."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Kirby980/auto-fanqie"
 desc    = "番茄作家后台自动发章：先校验字数，再用 Playwright 打开本机 Chrome，按书名和分卷新建章节、填正文并处理发布弹窗"
+desc_en = "Auto-publishes chapters via the Fanqie Novel author dashboard: checks word count first, then opens local Chrome with Playwright, creates chapters by book title and volume, fills in the text and handles the publish dialogs"
 group   = "tools"
 stages  = ["publish"]
 format  = "skill"
@@ -716,6 +830,7 @@ lang    = "zh"
 sites   = ["fanqie"]
 agents  = ["claude-code", "openclaw"]
 note    = "需 Node.js 和 @playwright/cli，首次要手动扫码登录；Go 引擎用 go run 运行 fanqie-go/main.go 源码，仓库里的 fanqie-go/main 二进制不会被调用；发布设置默认勾选「不使用 AI」，书名和分卷默认值要改成自己的；README 的 clone 地址是占位符"
+note_en = "Needs Node.js and @playwright/cli, and the first login requires a manual QR-code scan; the Go engine runs the fanqie-go/main.go source via go run, so the fanqie-go/main binary in the repo is never called; publish settings tick \"no AI used\" by default, and the default book title and volume must be changed to your own; the README's clone URL is a placeholder"
 checked = 2026-10-14
 
 # ───────────────────────── 短篇 · 故事 ─────────────────────────
@@ -723,6 +838,7 @@ checked = 2026-10-14
 [[skills]]
 repo    = "LanyXiaosheng/bookflow-skill"
 desc    = "番茄短篇项目化生产：选题、对标、人物、大纲、beat、正文、QA、复盘"
+desc_en = "Project-style production of Fanqie Novel short stories: topic selection, benchmarking, characters, outline, beats, draft, QA and retrospective"
 group   = "short"
 stages  = ["market", "character", "structure", "drafting", "revision"]
 format  = "skill"
@@ -734,6 +850,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "leonluo2008-ops/jiamama-bedtime-story-skill"
 desc    = "中文儿童睡前故事，从 2101 篇语料蒸馏出的叙事人格"
+desc_en = "Chinese children's bedtime stories told by a narrative persona distilled from a corpus of 2,101 stories"
 group   = "short"
 stages  = ["drafting"]
 format  = "skill"
@@ -743,44 +860,52 @@ checked = 2026-10-12
 [[skills]]
 repo    = "asass-11/lengdu"
 desc    = "中文短篇创作与冷读：先写完正文，再由独立校准 Agent 和全新读者 Agent 首读，检验看懂、流畅、好看"
+desc_en = "Chinese short story writing and cold reading: writes the full text first, then an independent calibration agent and a fresh reader agent do a first read, checking that it is understandable, smooth and enjoyable"
 group   = "short"
 stages  = ["drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "PolyForm Noncommercial 许可，禁止任何商业使用"
+note_en = "PolyForm Noncommercial license, which forbids any commercial use"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "aby-aby111/fanqie-short-story.skill"
 desc    = "番茄短故事创作：8 条赛道逐级选题、标题生成打分、5 段式结构与章末三层钩子、字数校验与手机排版"
+desc_en = "Fanqie Novel short story writing: tiered topic selection across 8 genre niches, title generation and scoring, 5-part structure with three-layer chapter-end hooks, word-count checks and mobile formatting"
 group   = "short"
 stages  = ["market", "structure", "drafting", "packaging"]
 format  = "skill"
 lang    = "zh"
 sites   = ["fanqie"]
 note    = "README 未写安装步骤，目录示例为 CodeBuddy skills 路径；输出路径默认写死为 Windows D 盘"
+note_en = "README has no install steps and its example uses a CodeBuddy skills path; the output path is hard-coded to a Windows D: drive"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "EnderRomantice/horror-weird-fiction-skill"
 desc    = "怪异恐怖短篇写作 skill：从日常场景放入单一异常，按同一方向升级 2 到 4 次，不解释来源收尾，避开鬼怪、血腥和惊吓桥段"
+desc_en = "Weird-horror short story skill: drops a single anomaly into an everyday scene, escalates it 2 to 4 times in the same direction and ends without explaining its source, avoiding ghosts, gore and jump scares"
 group   = "short"
 stages  = ["drafting"]
 format  = "skill"
 lang    = "zh"
 note    = "附两篇示例；CC BY-SA 4.0"
+note_en = "Includes two sample stories; CC BY-SA 4.0"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "AAAAAAAJ/sun-yuchen-writing"
 desc    = "冷峻账单式第一人称短篇：先建数字、物件、劳动、空缺四本素材账和叙述者盲点表，按新题材重造双层故事，排六到八个场景、结尾回收物件；附十维审稿量表"
+desc_en = "Cold ledger-style first-person short stories: four material ledgers (numbers, objects, labor, absences), a narrator blind-spot table, a two-layer story rebuilt for a new topic in 6-8 scenes ending on an object; 10-dimension review rubric"
 group   = "short"
 stages  = ["structure", "drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex", "claude-code"]
 note    = "写法提炼自孙宇晨《我的女友景甜》，SKILL.md 要求不复用原文句子、人物关系和情节；仓库附带原文全文"
+note_en = "The method is distilled from Sun Yuchen's \"My Girlfriend Jing Tian\", and SKILL.md forbids reusing the original's sentences, character relationships and plot; the repo bundles the full original text"
 checked = 2026-10-15
 
 # ───────────────────────── 剧本 · 短剧：用写网文的功夫写剧情 ─────────────────────────
@@ -788,6 +913,7 @@ checked = 2026-10-15
 [[skills]]
 repo    = "eternityspring/shuohao-skills"
 desc    = "短剧制作 skill 集：拆角色、改编大纲、场景与道具美术设定、剧本、分镜"
+desc_en = "Short-drama production skill set: character breakdown, adaptation outline, scene and prop art design, script, storyboard"
 group   = "script"
 stages  = ["character", "structure", "drafting", "adaptation"]
 format  = "skill"
@@ -798,6 +924,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "zenstory-ai/drama-skills"
 desc    = "短剧/漫剧全链路：拆小说、开发、剧本、角色资产、分镜、图/视频提示词、审查"
+desc_en = "Full pipeline for short drama and manju (AI comic drama): novel breakdown, development, script, character assets, storyboard, image/video prompts, review"
 group   = "script"
 stages  = ["character", "drafting", "revision", "adaptation"]
 format  = "skill"
@@ -808,17 +935,20 @@ checked = 2026-10-13
 [[skills]]
 repo    = "lixiaoxiao9888-create/manju-laoli-skill"
 desc    = "漫剧老李：AIGC 漫剧导演全流程，门控剧本、资产锁定、分镜、投喂提示词、规则化质检"
+desc_en = "Manju Lao Li: full AIGC manju (AI comic drama) directing workflow with gated scripts, asset locking, storyboards, prompts to feed video models and rule-based QA"
 group   = "script"
 stages  = ["drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["openclaw", "workbuddy"]
 note    = "作者标注为测试版，整合了其他开源内容"
+note_en = "Marked as a beta by the author and incorporates other open-source content"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "A-cat-with-carrots/OnlyShot"
 desc    = "神仙鱼短剧流水线：一句话 → 剧本、分镜、分镜图、视频、剪辑五步，沉淀 17 种失败模式"
+desc_en = "Shenxianyu short-drama pipeline: one line → script, storyboard, storyboard images, video and editing in five steps, with 17 documented failure modes"
 group   = "script"
 stages  = ["drafting"]
 format  = "skill"
@@ -829,6 +959,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "Tencent/workrally"
 desc    = "腾讯开源：面向 AI Agent 的 AIGC 漫剧视频创作全流程工具集"
+desc_en = "Open-sourced by Tencent: full-workflow toolkit for AIGC manju (AI comic drama) video creation by AI agents"
 group   = "script"
 stages  = ["drafting"]
 format  = "skill"
@@ -838,16 +969,19 @@ checked = 2026-10-13
 [[skills]]
 repo    = "suihe1/short-drama-production"
 desc    = "短剧生产总控：小说大纲/人物/剧本、导演分镜、提示词、声音资产、粗剪与 QC（默认 16:9）"
+desc_en = "Short-drama production controller: novel outline, characters and script, director's storyboard, prompts, sound assets, rough cut and QC (16:9 by default)"
 group   = "script"
 stages  = ["structure", "drafting", "adaptation"]
 format  = "skill"
 lang    = "zh"
 note    = "有 5 个 skill 与 shuohao-skills 同名，可能同源"
+note_en = "5 of its skills share names with shuohao-skills and may come from the same source"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "zhaihao118/Micro-Drama-Skills"
 desc    = "短剧全流程自动化：剧本、角色设计、分镜、出图出视频与提交"
+desc_en = "Full-workflow short-drama automation: script, character design, storyboard, image and video generation, and submission"
 group   = "script"
 stages  = ["drafting"]
 format  = "skill"
@@ -858,27 +992,32 @@ checked = 2026-10-13
 [[skills]]
 repo    = "Hao0321/ai-short-drama"
 desc    = "把「重生、逆袭、隐藏大佬」等题材编译成有爽点和追更钩子的连载：题材调研、故事架构、镜头时间线、连续性校验"
+desc_en = "Compiles genres such as rebirth, underdog comeback and hidden big shot into serials with payoff beats and follow-up hooks: genre research, story architecture, shot timelines, continuity checks"
 group   = "script"
 stages  = ["market", "structure", "drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex", "claude-code"]
 note    = "README 为繁体中文"
+note_en = "The README is in Traditional Chinese"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "SwotAtmk/infinite-creation"
 desc    = "提交小说或剧本，用本地 ComfyUI + MiniMax H3 + Agent 自动连续生产视频，不限时长"
+desc_en = "Submit a novel or script and it produces video continuously and automatically with local ComfyUI + MiniMax H3 + agents, with no length limit"
 group   = "script"
 stages  = ["adaptation"]
 format  = "skill"
 lang    = "zh"
 note    = "28 个 skill 里也有广告、宣传片类"
+note_en = "Its 28 skills also include ad and promo-video ones"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "xixihhhh/ai-short-drama-skill"
 desc    = "Dramake：文字转 AI 短剧，串起剧本、分镜、配音、剪辑与质检，适配抖音/红果和横竖屏，自带 evals"
+desc_en = "Dramake: text-to-AI-short-drama skill chaining script, storyboard, voiceover, editing and QC, adapted for Douyin/Hongguo and horizontal/vertical formats, with built-in evals"
 group   = "script"
 stages  = ["drafting", "revision", "adaptation"]
 format  = "skill"
@@ -889,6 +1028,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "LuoJiangYong/muse-video-skill"
 desc    = "虚拟剧组：导演/编剧/摄影/美术/特效/声音六角色协作，创意 → 剧本、分镜、美术、提示词，38 个案例技法库"
+desc_en = "Virtual film crew: six roles (director, screenwriter, cinematographer, art, VFX, sound) collaborate to turn an idea into script, storyboard, art and prompts, with a technique library of 38 cases"
 group   = "script"
 stages  = ["drafting", "revision"]
 format  = "skill"
@@ -898,6 +1038,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "jxshow/jingju-skills"
 desc    = "鲸剧：AI 漫剧全流程，大纲、人设一致性、分集剧本、分镜、图/视频提示词、ComfyUI 批量出图"
+desc_en = "Jingju: full AI manju (AI comic drama) workflow covering outline, character consistency, episode scripts, storyboard, image/video prompts and batch image generation in ComfyUI"
 group   = "script"
 stages  = ["character", "structure", "drafting"]
 format  = "skill"
@@ -908,6 +1049,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "mengxiujie/ManjuForge"
 desc    = "漫剧/短剧连载引擎：一句话 → 剧本、分镜、配音、提示词，7 个记忆文件 + 22 项一致性检查防人设崩坏"
+desc_en = "Manju/short-drama serial engine: one line → script, storyboard, voiceover and prompts, with 7 memory files + 22 consistency checks to keep characters from breaking"
 group   = "script"
 stages  = ["structure", "drafting", "revision"]
 format  = "skill"
@@ -918,6 +1060,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "UncleWang2088/short-drama-director"
 desc    = "短剧导演专家包：剧本创作、平台标准审稿、镜头级分镜与表演指导，输出 Seedance 提示词"
+desc_en = "Short-drama director expert pack: script writing, review against platform standards, shot-level storyboards and performance direction, outputting Seedance prompts"
 group   = "script"
 stages  = ["drafting", "revision"]
 format  = "skill"
@@ -927,6 +1070,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "senmanx/novel-to-manju"
 desc    = "小说转漫剧全流程：爆款改文 → 剧本 → 人物/场景三视图 → 分镜 → 视频提示词"
+desc_en = "Full novel-to-manju (AI comic drama) workflow: hit-style adaptation → script → character/scene three-view sheets → storyboard → video prompts"
 group   = "script"
 stages  = ["character", "drafting", "adaptation"]
 format  = "skill"
@@ -936,6 +1080,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "muxia0396/novel-to-ai-short-drama-skill"
 desc    = "从导演视角把小说改编成 AI 短剧：分镜、运镜、表演调度与时长"
+desc_en = "Adapts novels into AI short drama from a director's perspective: storyboards, camera movement, blocking and timing"
 group   = "script"
 stages  = ["adaptation"]
 format  = "skill"
@@ -945,38 +1090,45 @@ checked = 2026-10-13
 [[skills]]
 repo    = "oiuv/ai-short-drama"
 desc    = "雪风爽剧：一句话补全创作需求，按爽点模型写分集剧本并同步角色/场景/道具档案，再拆镜写 Seedance 2.0 提示词"
+desc_en = "Xuefeng power-fantasy drama: expands one line into a full creative brief, writes episode scripts on a payoff-beat model while syncing character/scene/prop profiles, then breaks them into shots with Seedance 2.0 prompts"
 group   = "script"
 stages  = ["character", "structure", "drafting"]
 format  = "skill"
 lang    = "zh"
 note    = "随「雪风AI短剧工坊」应用发布，README 未写 agent 安装步骤；仓库无许可证"
+note_en = "Released alongside the Xuefeng AI Short Drama Workshop app, and the README has no agent install steps; the repo has no license"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "JohnKeating1997/spark-video"
 desc    = "一句梗概 → 剧本、分镜、角色/场景/道具一致性、渲染、逐镜 AI 质检到成片 mp4，每阶段设确认关卡"
+desc_en = "One-line premise → script, storyboard, character/scene/prop consistency, rendering and per-shot AI QC through to a final mp4, with a confirmation gate at each stage"
 group   = "script"
 stages  = ["character", "drafting", "revision"]
 format  = "skill"
 lang    = "en"
 agents  = ["claude-code", "cursor", "codex"]
 note    = "依赖阿里云百炼等付费视频 API；默认短剧模式，也有广告和科普示例"
+note_en = "Relies on paid video APIs such as Alibaba Cloud Bailian; short-drama mode is the default, with ad and science-explainer examples too"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "mini-yifan/open-source-video-gen-skill"
 desc    = "Vibe Video：在 AutoDL 上跑开源 MiniMax H3 出片，短剧模板串起 Brief、分集概要、剧本台词、美术和视频，含 H3 提示词写法"
+desc_en = "Vibe Video: runs open-source MiniMax H3 on AutoDL for video generation; a short-drama template chains brief, episode synopses, script and dialogue, art and video, with guidance on writing H3 prompts"
 group   = "script"
 stages  = ["character", "structure", "drafting"]
 format  = "skill"
 lang    = "multi"
 agents  = ["cursor"]
 note    = "依赖 AutoDL GPU 实例（按时计费）；短剧模板只管流程关卡，叙事部分较薄"
+note_en = "Requires AutoDL GPU instances (billed by the hour); the short-drama template only handles workflow gates and is thin on storytelling"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "liuxiao20051106-prog/ai-manga-drama"
 desc    = "AI 漫剧工坊：一句创意到成片的八步流程，任务卡剧本、角色参考图库、风格锚、分镜、图/视频提示词、配音字幕与合成终检"
+desc_en = "AI manju workshop: eight-step flow from one idea to final video with task-card scripts, a character reference image library, style anchors, storyboards, image/video prompts, voiceover, subtitles and final compositing check"
 group   = "script"
 stages  = ["character", "structure", "drafting", "revision"]
 format  = "skill"
@@ -987,28 +1139,33 @@ checked = 2026-10-13
 [[skills]]
 repo    = "jlam00-dev/hardcore-director"
 desc    = "硬核导演：影视与 AI 视频总控，按阶段路由编剧/短剧、角色场景、分镜、Seedance 2.5/Wan 3.0/H3 提示词、声音与剪辑模块"
+desc_en = "Hardcore Director: controller for film and AI video that routes by stage to screenwriting/short drama, characters and scenes, storyboards, Seedance 2.5/Wan 3.0/H3 prompts, and sound and editing modules"
 group   = "script"
 stages  = ["character", "structure", "drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "整合包：大部分模块是第三方 skill 快照（已注明来源），也覆盖广告和宣传片"
+note_en = "A bundle: most modules are snapshots of third-party skills (sources credited), and it also covers ads and promo videos"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "ilkaydemiralay/vision_art_creator"
 desc    = "影视部门式 skill 包：编剧、导演、角色、美术、摄影、分镜、镜头表、提示词、声音、剪辑，由总监 skill 调度和质检"
+desc_en = "Film-department-style skill pack: screenwriter, director, characters, art, cinematography, storyboard, shot list, prompts, sound and editing, dispatched and quality-checked by a supervisor skill"
 group   = "script"
 stages  = ["character", "drafting", "revision"]
 format  = "skill"
 lang    = "en"
 agents  = ["claude-code", "codex"]
 note    = "偏电影，不专做短剧"
+note_en = "Film-oriented, not specific to short drama"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "lixiaoxiao9888-create/short-drama-factory"
 desc    = "抖音/红果短剧工业化编剧：一句创意或一部网文 → 60–100 集带付费卡点的剧本，配钩子、断章、反转公式和机检规则"
+desc_en = "Industrial short-drama screenwriting for Douyin/Hongguo: from a one-line idea or a web novel to a 60–100 episode script with paywall points, plus hook, cliffhanger and twist formulas and machine-check rules"
 group   = "script"
 stages  = ["structure", "drafting", "revision", "adaptation"]
 format  = "skill"
@@ -1018,6 +1175,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "Vi7QY/screenwriter-skill"
 desc    = "短剧/漫剧剧本审稿：红果 Top100 操盘经验蒸馏的 37 条规则"
+desc_en = "Script review for short drama and manju: 37 rules distilled from experience running Hongguo Top 100 shows"
 group   = "script"
 stages  = ["revision"]
 format  = "skill"
@@ -1027,6 +1185,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "catyiqian/qianqianwriting"
 desc    = "短剧/漫剧编剧：救猫咪方法论 + 31 部爆款短剧分析"
+desc_en = "Short drama and manju screenwriting: Save the Cat methodology + analysis of 31 hit short dramas"
 group   = "script"
 stages  = ["structure", "drafting"]
 format  = "skill"
@@ -1036,6 +1195,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "pipivv/gushi-skill"
 desc    = "从麦基《故事》蒸馏的短剧编剧方法"
+desc_en = "Short-drama screenwriting method distilled from Robert McKee's Story"
 group   = "script"
 stages  = ["structure", "drafting"]
 format  = "skill"
@@ -1045,6 +1205,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "egguy886/write-screenplay-skill"
 desc    = "小说/设定转商业剧本，国内短剧与出海微短剧双模式"
+desc_en = "Turns novels or settings into commercial scripts, with two modes: domestic short drama and micro-drama for overseas audiences"
 group   = "script"
 stages  = ["drafting", "adaptation"]
 format  = "skill"
@@ -1054,6 +1215,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "adoria111/emma-screenwriting-skills"
 desc    = "艾玛短剧技能组：结构拆解、改编、选题迭代、期待设计、逐集钩子、集纲扩写、对白诊断、剧本删减"
+desc_en = "Emma short-drama skill set: structure teardown, adaptation, topic iteration, expectation design, per-episode hooks, episode-outline expansion, dialogue diagnosis and script cutting"
 group   = "script"
 stages  = ["market", "structure", "drafting", "revision", "adaptation"]
 format  = "skill"
@@ -1063,16 +1225,19 @@ checked = 2026-10-13
 [[skills]]
 repo    = "zhu5859243-free/hongguo-shortdrama-screenwriting"
 desc    = "红果/抖音爆款短剧编剧：短剧工厂引擎 + 《短剧编剧第一课》01–10 期方法论"
+desc_en = "Hit short-drama screenwriting for Hongguo/Douyin: a short-drama factory engine + the methodology from issues 01–10 of \"Short Drama Screenwriting Lesson One\""
 group   = "script"
 stages  = ["structure", "drafting"]
 format  = "skill"
 lang    = "zh"
 note    = "方法论来源为作者自述，未核实"
+note_en = "The methodology's source is the author's own claim and has not been verified"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "zhlmi/screenplay-review-checklist"
 desc    = "对抗式剧本踩雷诊断：拿 37 条判据只给你的故事找问题"
+desc_en = "Adversarial script pitfall diagnosis: uses 37 criteria only to find problems in your story"
 group   = "script"
 stages  = ["revision"]
 format  = "skill"
@@ -1082,17 +1247,20 @@ checked = 2026-10-13
 [[skills]]
 repo    = "SoloEnt-AI/5min-drama-contest"
 desc    = "五分钟短剧剧本：一步一问锁定赛道、立意、结构原型和前 30 秒开场，四幕卡点大纲 → 正式剧本 → 分镜脚本"
+desc_en = "Five-minute short drama scripts: asks one question at a time to lock genre niche, theme, structural archetype and the first 30 seconds, then a four-act outline with beat points → full script → storyboard script"
 group   = "script"
 stages  = ["character", "structure", "drafting"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "灵蟹创作（SoloEnt）出品，面向其五分钟短剧大赛"
+note_en = "Made by Lingxie Chuangzuo (SoloEnt) for its five-minute short drama contest"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "liangdabiao/Seedance2-Storyboard-Generator"
 desc    = "把小说或故事改成多集视频剧本和分镜，产出 Seedance 2.0 提示词"
+desc_en = "Turns novels or stories into multi-episode video scripts and storyboards, outputting Seedance 2.0 prompts"
 group   = "script"
 stages  = ["drafting", "adaptation"]
 format  = "skill"
@@ -1102,6 +1270,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "liangdabiao/smy-seedance-storyboard"
 desc    = "故事 → 上美影复古手绘风格的短剧制作文档：剧本、分镜、资产生图提示词，附完整示例项目"
+desc_en = "Story → short-drama production docs in the retro hand-drawn style of Shanghai Animation Film Studio: script, storyboard and asset image prompts, with a complete sample project"
 group   = "script"
 stages  = ["drafting", "adaptation"]
 format  = "skill"
@@ -1111,6 +1280,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "wddxh/ShortVideoDirector"
 desc    = "4 个子代理协作，把故事创意转成视频分镜提示词和资产图像提示词"
+desc_en = "4 collaborating sub-agents turn a story idea into video storyboard prompts and asset image prompts"
 group   = "script"
 stages  = ["character", "structure"]
 format  = "skill"
@@ -1121,26 +1291,31 @@ checked = 2026-10-13
 [[skills]]
 repo    = "zhurui0523/XiaoLuo-AI-Drama-Skill"
 desc    = "小逻系列：剧本分析、原创改编、分镜脚本、角色三视图/服装/表情、场景布局"
+desc_en = "XiaoLuo series: script analysis, original adaptation, storyboard scripts, character three-view sheets/costumes/expressions, scene layout"
 group   = "script"
 stages  = ["character", "drafting", "adaptation"]
 format  = "prompts"
 lang    = "zh"
 note    = "一组提示词 .md，不是标准 SKILL.md"
+note_en = "A set of prompt .md files, not standard SKILL.md"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "YvonneMovingon/short-drama-skills"
 desc    = "LuxReal 生产验证的短剧提示词：叙事拆解、情绪刻画、动态描述、剧情拆分、视频提示词润色"
+desc_en = "Short-drama prompts validated in LuxReal production: narrative breakdown, emotion portrayal, motion description, plot splitting, video prompt polishing"
 group   = "script"
 stages  = ["drafting", "revision", "adaptation"]
 format  = "prompts"
 lang    = "multi"
 note    = "prompt.md 形式，不是标准 SKILL.md"
+note_en = "Shipped as prompt.md files, not standard SKILL.md"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "liyue-aigc/seedance-2-5-video-director"
 desc    = "Seedance 2.5 视频导演：提示词、脚本、诊断、人物锁定、续写、编辑、转场"
+desc_en = "Seedance 2.5 video director: prompts, scripts, diagnosis, character locking, continuation, editing, transitions"
 group   = "script"
 stages  = ["drafting", "revision"]
 format  = "skill"
@@ -1150,6 +1325,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "machina-exm/film-studio-skills"
 desc    = "剧本 → 锁定、可直接生成的镜头：7 个 skill 复刻商业 AI 视频制作流程"
+desc_en = "Script to locked, generation-ready shots: 7 skills that replicate a commercial AI video production pipeline"
 group   = "script"
 stages  = ["drafting"]
 format  = "skill"
@@ -1159,6 +1335,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "qualsenWeb/fight-video-create-skill"
 desc    = "AI 打戏设计：从打斗构思到剧情、动作、分镜，带招式校验和参考库"
+desc_en = "AI fight-scene design: from fight concept to plot, choreography and storyboard, with move checks and a reference library"
 group   = "script"
 stages  = ["drafting"]
 format  = "skill"
@@ -1168,6 +1345,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "wyuzhi/qisi-video-remix"
 desc    = "视频创意改编：参考视频 → 剧本 → 分镜 → 分段生成提示词"
+desc_en = "Creative video adaptation: reference video → script → storyboard → segmented generation prompts"
 group   = "script"
 stages  = ["drafting", "adaptation"]
 format  = "skill"
@@ -1177,27 +1355,32 @@ checked = 2026-10-13
 [[skills]]
 repo    = "MIKA6941/Comfy-H3-Director"
 desc    = "MiniMax H3 漫剧导演：网文改分镜、核心/龙套资产分级、文戏长镜与武戏快切、动作连续性锁定、尾帧接力，一次出整集提示词"
+desc_en = "MiniMax H3 manju director: web novel to storyboard, core/extra asset tiers, long takes for dialogue scenes and fast cuts for action, motion continuity locking, last-frame relay, full-episode prompts in one pass"
 group   = "script"
 stages  = ["character", "adaptation"]
 format  = "skill"
 lang    = "multi"
 note    = "另附 9 个 MiniMax 官方 H3 skill 的搬运/中译版；README 开头有要求 agent 直接执行流程的指令"
+note_en = "Also bundles copies/Chinese translations of 9 official MiniMax H3 skills; the README opens with instructions telling the agent to run the workflow directly"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "AharaOoO/acheng-director-skill"
 desc    = "Acheng 导演引擎：剧本、分镜、文戏五轨表演、打戏因果链、特效与资产，编译成 MiniMax H3 / Seedance 提示词"
+desc_en = "Acheng director engine: script, storyboard, five-track performance for dialogue scenes, cause-and-effect chains for fight scenes, VFX and assets, compiled into MiniMax H3 / Seedance prompts"
 group   = "script"
 stages  = ["character", "drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "cursor", "codex"]
 note    = "CC BY-NC-ND 4.0（禁商用、禁演绎）；附 132 段运镜白模视频，仓库体积较大"
+note_en = "CC BY-NC-ND 4.0 (no commercial use, no derivatives); includes 132 camera-movement greybox videos, so the repo is large"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "djyy1031/ai-comic-drama-director-skills"
 desc    = "AI 漫剧导演：剧本 + 已有资产 → Seedance 2.0/2.5 分镜组提示词，含人物表演、导演摄影、场景资产、站位图、连续性与声音"
+desc_en = "AI manju director: script + existing assets → Seedance 2.0/2.5 storyboard-group prompts, covering character performance, direction and cinematography, scene assets, blocking diagrams, continuity and sound"
 group   = "script"
 stages  = ["character", "revision", "adaptation"]
 format  = "skill"
@@ -1208,27 +1391,32 @@ checked = 2026-10-13
 [[skills]]
 repo    = "zhouwei713/chinese-epic-scene-director"
 desc    = "中国式宏大场景：把一句设定扩写成仙侠/神话短片故事，建连续性台账，按镜头成对输出图片和视频提示词"
+desc_en = "Chinese-style epic scenes: expands a one-line premise into a xianxia/mythology short-film story, builds a continuity ledger, and outputs paired image and video prompts per shot"
 group   = "script"
 stages  = ["character", "drafting"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "分叙事运镜和视觉展览两种模式，后者偏氛围、景观展示"
+note_en = "Has two modes, narrative camera work and visual showcase; the latter leans toward atmosphere and landscape display"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "VanGong1999/screen-creative-skills"
 desc    = "影视策划与评估：小说/IP 评估、情节点拆解、人物小传与关系、大纲、小说改编短剧或长剧"
+desc_en = "Film and TV planning and evaluation: novel/IP evaluation, plot-point breakdown, character bios and relationships, outline, adapting novels into short drama or long series"
 group   = "script"
 stages  = ["market", "character", "structure", "adaptation"]
 format  = "skill"
 lang    = "zh"
 note    = "31 个 skill 在仓库里有两份副本"
+note_en = "The repo contains two copies of the 31 skills"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "zhlmi/narrative-to-screen-reader"
 desc    = "把手上的故事翻译成影视开发语言：快速诊断、编剧改编读本、导演视听读本、演员读本、制片摘要"
+desc_en = "Translates a story you have into film-development language: quick diagnosis, screenwriter's adaptation reader, director's audiovisual reader, actor's reader, producer's summary"
 group   = "script"
 stages  = ["market", "character", "adaptation"]
 format  = "skill"
@@ -1238,6 +1426,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "jtydhr88/screenwriting-skills"
 desc    = "编剧理论最系统的一套：结构、Truby、场景、对白、剧集圣经、编剧室，含日韩法美与中国戏曲案例"
+desc_en = "The most systematic set of screenwriting theory: structure, Truby, scenes, dialogue, series bible, writers' room, with cases from Japan, Korea, France, the US and Chinese opera"
 group   = "script"
 stages  = ["character", "structure", "drafting", "revision", "adaptation"]
 format  = "skill"
@@ -1245,11 +1434,13 @@ lang    = "zh"
 agents  = ["claude-code", "codex"]
 install = "/plugin marketplace add jtydhr88/screenwriting-skills"
 note    = "skill 正文为中文，README 有五种语言"
+note_en = "Skill text is in Chinese; the README is available in five languages"
 checked = 2026-10-13
 
 [[skills]]
 repo    = "e06084/claude-screenwriting"
 desc    = "编剧知识引擎：把 Vogler/McKee/救猫咪落成 Obsidian 故事 wiki，15-beat 节奏、三层角色卡、结构诊断"
+desc_en = "Screenwriting knowledge engine: turns Vogler/McKee/Save the Cat into an Obsidian story wiki with 15-beat pacing, three-layer character cards and structural diagnosis"
 group   = "script"
 stages  = ["character", "structure", "revision"]
 format  = "skill"
@@ -1260,6 +1451,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "geslie1/kunka-screenwriting-master"
 desc    = "昆卡编剧大师：中文优先的编剧 skill 组，覆盖构思、改稿、连续性检查与剧集开发"
+desc_en = "Kunka Screenwriting Master: Chinese-first screenwriting skill set covering ideation, revision, continuity checks and series development"
 group   = "script"
 stages  = ["structure", "drafting", "revision"]
 format  = "skill"
@@ -1270,6 +1462,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "mudden2380078550-creator/write-chinese-long-screenplay"
 desc    = "中文电影与长剧集剧本写作"
+desc_en = "Screenwriting for Chinese feature films and long-form series"
 group   = "script"
 stages  = ["structure", "drafting"]
 format  = "skill"
@@ -1279,12 +1472,14 @@ checked = 2026-10-13
 [[skills]]
 repo    = "Shanyin-ai/shanyin-screenwriting-master"
 desc    = "山音超级编剧大师：概念超短片、叙事短片、长片、多集剧集四种格式的人物、大纲、场景拆解和完整剧本"
+desc_en = "Shanyin Super Screenwriting Master: characters, outline, scene breakdown and full script for four formats: concept micro-film, narrative short, feature and multi-episode series"
 group   = "script"
 stages  = ["character", "structure", "drafting"]
 format  = "skill"
 lang    = "zh"
 install = "# 下载仓库里的 .skill 文件，在 Claude App 的 Skills 中导入（另有通用 .md 版）"
 note    = "以 .skill 文件分发，不能用 npx skills 安装"
+note_en = "Distributed as a .skill file; cannot be installed with npx skills"
 checked = 2026-10-13
 
 # ───────────────────────── 去 AI 味 · 润色 ─────────────────────────
@@ -1292,6 +1487,7 @@ checked = 2026-10-13
 [[skills]]
 repo    = "KKKKhazix/human-writing"
 desc    = "活人感写作：让 AI 写的中文像具体的人在说话，适用小说、公众号、口播等"
+desc_en = "Human-feel writing: makes AI-written Chinese sound like a specific person talking, for fiction, WeChat Official Account posts, voiceover scripts and more"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
@@ -1301,6 +1497,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "Nanako0129/sepia"
 desc    = "面向小说的去 AI 味：修复叙事结构，按场合匹配文风规则，方法来自 StoryScope 论文"
+desc_en = "De-AI for fiction: repairs narrative structure and applies style rules matched to the venue, with methods from the StoryScope paper"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
@@ -1311,6 +1508,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "blader/humanizer"
 desc    = "按维基百科「Signs of AI writing」清单去除 AI 写作痕迹"
+desc_en = "Removes signs of AI writing based on Wikipedia's \"Signs of AI writing\" list"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
@@ -1321,6 +1519,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "hardikpandya/stop-slop"
 desc    = "识别并删掉 AI 套话、模板句式和节奏问题"
+desc_en = "Finds and deletes AI clichés, template sentence patterns and rhythm problems"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
@@ -1330,6 +1529,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "op7418/Humanizer-zh"
 desc    = "blader/humanizer 的中文改编版：按 31 个检查点（含 6 项中文专项）清理空话和模板句，保留事实、确定程度与作者语气"
+desc_en = "Chinese adaptation of blader/humanizer: cleans out empty phrasing and template sentences using 31 checkpoints (6 specific to Chinese), keeping facts, degree of certainty and the author's tone"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
@@ -1337,22 +1537,26 @@ lang    = "zh"
 agents  = ["claude-code"]
 tier    = "featured"
 note    = "通用中文润色，不专门针对小说；规则源自 blader/humanizer，已按中文重写"
+note_en = "General Chinese polishing, not fiction-specific; rules come from blader/humanizer, rewritten for Chinese"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "larashero3-dotcom/lieflat-less-ai-tone"
 desc    = "用 283 万字人机对照语料检验 26 项「AI 味」特征，只按通过检验的 11 项改写，附可复算的检测脚本"
+desc_en = "Tests 26 AI-tone features against a 2.83-million-character human-vs-AI corpus and rewrites only by the 11 that passed, with a reproducible detection script"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 tier    = "featured"
 note    = "通用中文，非小说专用"
+note_en = "General Chinese, not fiction-specific"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "MrGeDiao/shuorenhua"
 desc    = "中文优先的去套话改写：保留数字、条件、承诺和作者口气，可选自由/句内/原位三档改动范围，附 123 条评测集"
+desc_en = "Chinese-first rewrite that strips stock phrasing while keeping numbers, conditions, commitments and the author's tone, with three edit scopes (free, within-sentence, in-place) and a 123-item eval set"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
@@ -1360,33 +1564,39 @@ lang    = "zh"
 agents  = ["codex", "claude-code", "cursor", "openclaw"]
 tier    = "featured"
 note    = "主要面向说明文、工作文本和个人文章，不专门针对小说"
+note_en = "Aimed mainly at expository writing, work documents and personal essays, not fiction-specific"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "LifelongLazyLearner/qu-ai-wei"
 desc    = "简体中文去 AI 味：清理套话、翻译腔和机械排比，保留事实、正式程度和原文声口，没有问题的真人文字不改"
+desc_en = "De-AI for Simplified Chinese: removes stock phrases, translationese and mechanical parallelism, keeps facts, formality and the original voice, and leaves human text that has no problems untouched"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex", "claude-code", "cursor", "opencode"]
 note    = "通用中文，不专门针对小说"
+note_en = "General Chinese, not fiction-specific"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "OUBIGFA/De-AI-Prompt-Enhancer-Writer-Booster-SKILL"
 desc    = "中文去 AI 味 + 作者文风复现两套 skill，小说文本会先过叙事层十项检查（主题被说破、情绪只靠身体反应等）"
+desc_en = "Two skills, Chinese de-AI and author-style replication; fiction first goes through ten narrative-level checks (theme stated outright, emotion conveyed only through physical reactions, etc.)"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "cursor"]
 note    = "README 自述在 op7418/Humanizer-zh 基础上升级，叙事层和文风模块是新增内容"
+note_en = "The README says it upgrades op7418/Humanizer-zh; the narrative-level and style modules are new additions"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "deedeekong07-alt/fiction-humanizer-zh"
 desc    = "中文小说去 AI 味：修复梗概感、情绪标签、对白汇报腔、冲突无代价，按铺垫-过程-余波重写，强化前 300 字和章末钩子"
+desc_en = "De-AI for Chinese fiction: fixes synopsis feel, emotion labels, report-style dialogue and costless conflict, rewrites as setup-process-aftermath, strengthens the first 300 characters and chapter-end hooks"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
@@ -1398,215 +1608,255 @@ checked = 2026-10-14
 [[skills]]
 repo    = "laoguo2025/huoren-write"
 desc    = "网文与短剧文本的去 AI 味打磨：清理模板腔、假精确、万能安抚腔和强行升华，保留剧情事实与人物声口，附检查脚本"
+desc_en = "De-AI polishing for web novel and short drama text: removes template tone, false precision, all-purpose soothing tone and forced uplift while keeping plot facts and character voice, with a check script"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 note    = "同时覆盖短剧剧本"
+note_en = "Also covers short-drama scripts"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Raymondhou0917/speak-human-tw"
 desc    = "繁体中文去 AI 味：抓 35+ 种 AI 写作痕迹，同时把大陆用语和半角标点改成台湾写法，附交稿前自评检核表"
+desc_en = "De-AI for Traditional Chinese: catches 35+ kinds of AI writing traces, converts mainland usage and half-width punctuation to Taiwanese conventions, with a pre-submission self-check checklist"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex", "cursor", "opencode"]
 note    = "面向文案、电子报和办公文字，会把大陆用语改成台湾用语，简体网文别用"
+note_en = "Aimed at copywriting, newsletters and office writing; it converts mainland terms to Taiwanese usage, so don't use it on Simplified Chinese web novels"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "baibanbao/qu-ai-wei"
 desc    = "中文去 AI 味：合并王佩写作系统、humanizer-zh、lieflat 三家规则并裁决七处冲突，分自家稿、白名单两种改稿模式"
+desc_en = "Chinese de-AI: merges the rules of Wang Pei's writing system, humanizer-zh and lieflat, resolves seven conflicts among them, with two revision modes (own drafts, whitelist)"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "面向一般中文稿件，不是专为小说写的"
+note_en = "For general Chinese drafts, not written specifically for fiction"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "allenloves/de-ai-tone"
 desc    = "繁体中文写作与翻译的去 AI 味规范：18 条禁用/限用规则、欧化句式还原、台湾用语对照、生成后逐条自检"
+desc_en = "De-AI style guide for Traditional Chinese writing and translation: 18 banned/restricted rules, reverting Europeanized sentence patterns, Taiwanese usage table, rule-by-rule self-check after generation"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "面向繁中（台湾）通用写作与翻译，不是专为小说写的；CC BY-SA 4.0"
+note_en = "For general Traditional Chinese (Taiwan) writing and translation, not written specifically for fiction; CC BY-SA 4.0"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "ismilewolf-eng/sloptrim-zh"
 desc    = "中文去 AI 味：85 条模式加本地检测脚本给 0-100 分，按分数分档改写，保留事实和限定词，另有歌词模式"
+desc_en = "Chinese de-AI: 85 patterns plus a local detection script that scores 0-100, rewrites in tiers by score, keeps facts and qualifiers, with an extra lyrics mode"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex"]
 note    = "通用中文去 AI 味，非小说专用；基于英文 sloptrim 汉化"
+note_en = "General Chinese de-AI, not fiction-specific; a Chinese localization of the English sloptrim"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "aeopress/writing-skills.TW"
 desc    = "繁体中文（台湾）去 AI 味与节奏打磨：humanizer-tw 清 AI 腔和大陆用语，good-writing-tw 调句子节奏，附英文 humanizer"
+desc_en = "De-AI and rhythm polishing for Traditional Chinese (Taiwan): humanizer-tw removes AI tone and mainland usage, good-writing-tw adjusts sentence rhythm, plus an English humanizer"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "通用写作，非小说专用；作者 yelban 已把原 humanizer.TW 并入此仓库"
+note_en = "General writing, not fiction-specific; the author yelban has merged the original humanizer.TW into this repo"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Hyacehila/humanizer-zh-next"
 desc    = "中文润色去 AI 味：35 类模式各配中文示例和适用边界，按需加载商务营销、学术写作、基金申请三个专用分支"
+desc_en = "Chinese de-AI polishing: 35 pattern types, each with Chinese examples and scope limits, and three specialized branches (business marketing, academic writing, grant applications) loaded on demand"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 note    = "基于 op7418/Humanizer-zh 与 blader/humanizer，另加商务/学术/基金三个分支、文件保护规则和结构检查脚本"
+note_en = "Based on op7418/Humanizer-zh and blader/humanizer, adding business/academic/grant branches, file-protection rules and a structure-check script"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "mengke-wang/zh-humanizer-literary"
 desc    = "中文去 AI 味与文采增强：删套话，把抽象判断换成具体的人、场景和动作，在准确前提下补命名、意象和节奏"
+desc_en = "Chinese de-AI and literary enhancement: cuts stock phrases, replaces abstract judgments with concrete people, scenes and actions, and adds naming, imagery and rhythm while staying accurate"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "风格提炼自作者王梦珂（好事发生 App）的公开写作，示例多为公众号、小红书和产品文案"
+note_en = "Style distilled from the public writing of author Wang Mengke (Haoshi Fasheng app); examples are mostly WeChat Official Account posts, Xiaohongshu posts and product copy"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "lynote-ai/humanize-text-skill"
 desc    = "中英双语去 AI 味：规则检测器识别 50 类问题并打分，改写时保护数字、命令和引文，再向口语/专业/技术语气靠拢"
+desc_en = "Bilingual Chinese-English de-AI: a rule-based detector flags and scores 50 issue types; rewrites protect numbers, commands and quotations, then shift toward a casual, professional or technical tone"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "multi"
 agents  = ["claude-code", "cursor", "openclaw"]
 note    = "文档以英文为主；检测器是零依赖的 Node.js 脚本；场景偏 README、发布说明、状态更新等技术文本"
+note_en = "Docs are mostly in English; the detector is a zero-dependency Node.js script; use cases lean toward technical text such as READMEs, release notes and status updates"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "qi531416/novel-humanize"
 desc    = "中文小说/网文去 AI 味：逐句细改打散骨架，对话改「」、清零破折号、调标点节奏，保剧情不 OOC，L1-L4 分层自检"
+desc_en = "De-AI for Chinese novels and web novels: sentence-by-sentence edits break up the skeleton, dialogue switched to 「」, em dashes removed entirely, punctuation rhythm adjusted, plot kept without OOC, L1-L4 layered self-checks"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 note    = "融合 anti-zhuque、ultra-remove-ai、wechat-ai-detox 的规则，另引用 laoguo2025/huoren-write 与 KKKKhazix/human-writing 的细则（需到原仓库查阅）；目标之一是通过腾讯朱雀检测"
+note_en = "Merges rules from anti-zhuque, ultra-remove-ai and wechat-ai-detox, and references detailed rules from laoguo2025/huoren-write and KKKKhazix/human-writing (which must be read in those repos); one goal is passing Tencent's Zhuque AI detector"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "yyx20202020/natural-writing-skill"
 desc    = "中英文去 AI 味：按修改力度与结构范围两组参数改写，按写作样本校准文风，附脚本核对数字、日期、代码等事实是否丢失"
+desc_en = "Chinese and English de-AI: rewrites by two parameters (edit intensity and structural scope), calibrates style against writing samples, with a script that checks whether facts like numbers, dates and code were lost"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "multi"
 agents  = ["codex", "claude-code", "cursor"]
 note    = "适用场景以公众号、口播稿、技术文档等非虚构为主，非小说专用"
+note_en = "Use cases are mainly nonfiction such as WeChat Official Account posts, voiceover scripts and technical docs; not fiction-specific"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "wwenj/zu-article-polisher-skill"
 desc    = "中文长文去 AI 味：识别模板开场、假问题、否定式排比、强行升华、宣传腔等，重写文章骨架，附 Markdown 风格检查脚本"
+desc_en = "De-AI for long Chinese articles: spots template openings, fake questions, negation-based parallelism, forced uplift, promotional tone and more, rewrites the article skeleton, with a Markdown style-check script"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex"]
 note    = "面向技术文章、公众号和讲稿，非小说专用"
+note_en = "For technical articles, WeChat Official Account posts and speeches; not fiction-specific"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "orange4664/chinese-grammar-proofreader"
 desc    = "中文病句检查：逐句查语序、搭配、成分残缺、指代不明、两面对一面等，只做最小修改，歧义句给两种改法"
+desc_en = "Chinese grammar checker: checks each sentence for word order, collocation, missing constituents, unclear reference, two-sided/one-sided mismatches and more, makes minimal edits, gives two fixes for ambiguous sentences"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "只查语病、不做去 AI 味；例句以说明文/技术文为主"
+note_en = "Checks grammar only and does no de-AI; example sentences are mostly expository/technical"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "YuliangXiu/de-ai-router"
 desc    = "去 AI 味路由：按文本类型和意图从 10 个去 AI 味 skill 中选首选与备选再执行，中文文本路由到 qu-ai-wei / humanizer-zh"
+desc_en = "De-AI router: picks a primary and a fallback from 10 de-AI skills by text type and intent, then runs them; Chinese text is routed to qu-ai-wei / humanizer-zh"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "multi"
 agents  = ["claude-code", "codex", "workbuddy"]
 note    = "仓库打包附带 10 个他人的去 AI 味 skill（其中 2 个上游无许可证），自身只新增路由层"
+note_en = "The repo bundles 10 de-AI skills by other authors (2 have no upstream license); its own addition is only the routing layer"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "evoworkAI/xiaoci-skill"
 desc    = "中文去 AI 味：23 条带密度门限的可改规则加 19 条禁改清单，按 9 种语体调门限，scan.py 计算 AI 味浓度并记改动台账"
+desc_en = "Chinese de-AI: 23 rewrite rules with density thresholds plus a 19-item do-not-edit list, thresholds tuned for 9 registers, and scan.py that measures AI-tone density and keeps an edit ledger"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex", "cursor", "opencode"]
 note    = "基于 larashero3-dotcom/lieflat-less-ai-tone 的 283 万字语料数据，另加禁改清单、语体路由和扫描脚本；小说/散文语体默认最高保护，改动最少；附可粘贴进网页 AI 的 PROMPT.md"
+note_en = "Builds on the 2.83-million-character corpus data from larashero3-dotcom/lieflat-less-ai-tone, adding the do-not-edit list, register routing and a scan script. Fiction/prose registers get the highest protection by default, with the fewest edits. Includes a PROMPT.md that can be pasted into web chat AIs."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "tangwenwen-md/chinese-de-ai-writing"
 desc    = "按证据分级的中文去 AI 味审稿与改稿：只执行语料验证过的规则，不新增事实、不改断言强度，附扫描脚本和验证结果"
+desc_en = "Evidence-graded Chinese de-AI review and revision: applies only corpus-validated rules, adds no new facts and keeps claim strength unchanged, with a scan script and validation results"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "规则改编自 lieflat-less-ai-tone、Humanizer-zh 等 7 个项目（见 THIRD_PARTY_NOTICES.md），另加证据分级和 HC3 语料验证；语体专项覆盖小红书、口播、科普、公文、学术，不含小说"
+note_en = "Rules adapted from 7 projects including lieflat-less-ai-tone and Humanizer-zh (see THIRD_PARTY_NOTICES.md), plus evidence grading and HC3 corpus validation; register-specific modules cover Xiaohongshu, voiceover, popular science, official documents and academic writing, not fiction"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "fy-agent/humanize-chinese-writing"
 desc    = "中文去 AI 味与人性化改写：清理黑话、套话、模板腔，可按作者样本匹配风格，并检查 HTML 页面和分析稿的信息密度"
+desc_en = "Chinese de-AI and humanizing rewrite: removes jargon, stock phrases and template tone, can match style to an author sample, and checks the information density of HTML pages and analysis drafts"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 note    = "面向文章、邮件、网页等非虚构文本；PolyForm Noncommercial 许可，不可商用"
+note_en = "For nonfiction such as articles, emails and web pages; PolyForm Noncommercial license, no commercial use"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "cxzxx783/mohen"
 desc    = "中文自媒体人味写作 skill：写前调研、标题、成稿、12 项去 AI 味硬门槛、AI 味评分和平台适配，附质检脚本与网页版单文件"
+desc_en = "Human-feel writing skill for Chinese self-media: pre-writing research, titles, drafting, 12 hard de-AI gates, AI-tone scoring and platform adaptation, with QA scripts and a single-file web version"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 note    = "面向小红书、头条、百家号、公众号文章，不针对小说；CC BY-NC-SA 4.0，不可商用；网页版单文件实际文件名是 mohen-v5.1-*.txt"
+note_en = "For Xiaohongshu, Toutiao, Baijiahao and WeChat Official Account articles, not fiction; CC BY-NC-SA 4.0, no commercial use; the single-file web version is actually named mohen-v5.1-*.txt"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "betterwu7889/human-tone-writing"
 desc    = "人味写作三层法：先按金字塔原则写对结构，再从立场、细节、节奏上去 AI 味，最后补说服力和个人风格"
+desc_en = "Three-layer human-feel writing: first get the structure right with the Pyramid Principle, then de-AI through stance, detail and rhythm, and finally add persuasiveness and personal style"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 note    = "示例偏汇报、方案、公众号等非虚构文本"
+note_en = "Examples lean toward nonfiction such as reports, proposals and WeChat Official Account posts"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "aimerfeng/novel-to-webnovel"
 desc    = "把日轻译稿、机翻稿的翻译腔改成中文网文口感：分三档程度，格式清理、风格定调、样例确认、分块并行改写、QA 脚本"
+desc_en = "Turns the translationese of Japanese light novel translations and machine translations into Chinese web novel prose: three intensity levels, format cleanup, style calibration, sample confirmation, chunked parallel rewriting, QA scripts"
 group   = "companion"
 stages  = ["revision"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "需要 perl。默认另存新文件；重度档会把人名和背景改成中国本土"
+note_en = "Requires perl. Saves to a new file by default; the heavy level localizes names and settings to China."
 checked = 2026-10-14
 
 # ───────────────────────── 写作基本功 ─────────────────────────
@@ -1614,16 +1864,19 @@ checked = 2026-10-14
 [[skills]]
 repo    = "jwynia/agent-skills"
 desc    = "叙事技能大全：故事教练、合写、大纲、人物弧光、对白、结局、反套路、闪小说，大量世界观构建体系"
+desc_en = "Large narrative skill collection: story coach, co-writing, outlining, character arcs, dialogue, endings, anti-cliché, flash fiction, and many worldbuilding systems"
 group   = "craft"
 stages  = ["world", "character", "structure", "drafting", "revision"]
 format  = "skill"
 lang    = "en"
 note    = "也含营销等非虚构 skill，按需挑选安装"
+note_en = "Also includes marketing and other nonfiction skills; pick and install as needed"
 checked = 2026-10-12
 
 [[skills]]
 repo    = "haowjy/creative-writing-skills"
 desc    = "通用创意写作插件：写作/批评/修改/探索分工，含故事规划、故事记忆、读者模拟"
+desc_en = "General creative writing plugin with separate roles for writing, critique, revision and exploration, including story planning, story memory and reader simulation"
 group   = "craft"
 stages  = ["structure", "drafting", "memory", "revision"]
 format  = "skill"
@@ -1634,55 +1887,65 @@ checked = 2026-10-12
 [[skills]]
 repo    = "wgwtest/novel-writing"
 desc    = "小说写作基本功 skill：场景/章/卷的因果规划、视角与知情边界、有后果的对话、保留作者声音的修订与审稿"
+desc_en = "Novel craft fundamentals skill: scene/chapter/volume causal planning, POV and knowledge boundaries, dialogue with consequences, revision and review that preserve the author's voice"
 group   = "craft"
 stages  = ["structure", "drafting", "revision"]
 format  = "skill"
 lang    = "en"
 agents  = ["codex"]
 note    = "skill 正文为英文，示例有中英两版"
+note_en = "Skill text is in English, with examples in both Chinese and English"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "hyi1233/wangwen-writing-skill-kit"
 desc    = "网文方法论技能包：一个调度 skill 按需加载开篇、金手指、简介、伏笔、爽感、人物、节奏、去AI化、拆书等 13 个模块"
+desc_en = "Web novel methodology skill pack: a dispatcher skill loads 13 modules on demand, including opening, golden finger, blurb, foreshadowing, payoff, characters, pacing, de-AI and book teardown"
 group   = "craft"
 stages  = ["market", "character", "structure", "drafting", "revision", "packaging"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "内容蒸馏自 B 站 UP 主「网文徐掌柜」的拆书视频，含其原话金句"
+note_en = "Content distilled from the book-teardown videos of Bilibili creator \"Wangwen Xu Zhanggui\", including verbatim quotes"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Fei2411/inkcraft-writing-skills"
 desc    = "13 种网文体裁的写作方法库，每个体裁分结构、前三章、场景写法、成文规范、自检清单五份，带体裁自动分流 skill"
+desc_en = "Writing method library for 13 web novel genres, each with five files (structure, first three chapters, scene craft, conventions, self-check), plus a skill that routes by genre automatically"
 group   = "craft"
 stages  = ["structure", "drafting", "revision"]
 format  = "skill"
 lang    = "zh"
 note    = "CC BY 4.0；由商业产品 InkCraft 的写作材料提炼，不含软件本身"
+note_en = "CC BY 4.0; distilled from writing materials of the commercial product InkCraft, without the software itself"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Calliope-Editor/writing-skills"
 desc    = "13 个只评不写的英文小说 skill：结构/行文/校对/连贯性编辑、角色卡、试读读者团、经纪人首页审读，以及对话、场景、叙述距离练习"
+desc_en = "13 critique-only English fiction skills that never write: structural, line, proofreading and continuity editing, character cards, beta-reader panel, agent first-page read, plus dialogue, scene and narrative-distance drills"
 group   = "craft"
 stages  = ["character", "revision"]
 format  = "skill"
 lang    = "en"
 agents  = ["claude-code", "codex", "cursor"]
 note    = "由写作应用 Calliope 发布，可选接其 MCP；skill 本身不需要账号"
+note_en = "Published by the writing app Calliope, with optional connection to its MCP; the skills themselves need no account"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "sinfiny/AutoWriter"
 desc    = "34 个英文写作 skill：Sanderson 方法论套件、网连载谋略与悬念公平性、潜台词、叙述密度、因果世界观，外加自主写作循环"
+desc_en = "34 English writing skills: a Sanderson methodology suite, web-serial scheming and suspense fairness, subtext, narrative density, causal worldbuilding, plus an autonomous writing loop"
 group   = "craft"
 stages  = ["world", "character", "structure", "drafting", "revision"]
 format  = "skill"
 lang    = "en"
 agents  = ["codex"]
 note    = "主 README 只介绍未完成的 Elixir 循环，skill 说明见 skills/README.md；另含若干非虚构和营销类 skill"
+note_en = "The main README only covers the unfinished Elixir loop, and skill docs are in skills/README.md; also includes some nonfiction and marketing skills"
 checked = 2026-10-14
 
 # ───────────────────────── 延伸：互动小说 · 改编 ─────────────────────────
@@ -1690,6 +1953,7 @@ checked = 2026-10-14
 [[skills]]
 repo    = "Treasure-hub-agent/interactive-fiction-skill"
 desc    = "选项驱动的互动小说：你选，它写，装进 AI 助手即可玩"
+desc_en = "Choice-driven interactive fiction: you choose, it writes; install it in an AI assistant and play"
 group   = "beyond"
 stages  = ["drafting"]
 format  = "skill"
@@ -1699,6 +1963,7 @@ checked = 2026-10-12
 [[skills]]
 repo    = "zenstory-ai/novel-to-game"
 desc    = "小说改编游戏：带原文出处的设计文档、网页游戏构建与基于证据的 QA，附三个可玩示例"
+desc_en = "Novel-to-game adaptation: design documents with source citations, web game build, and evidence-based QA, with three playable examples"
 group   = "beyond"
 stages  = ["adaptation", "world"]
 format  = "skill"
@@ -1709,75 +1974,89 @@ checked = 2026-10-12
 [[skills]]
 repo    = "aiskyhub/novel_to_comic"
 desc    = "小说忠实改编漫画的 Codex 插件：剧本先行、多角色子代理审校、整页提示词逐页生成、导出手机竖屏漫画"
+desc_en = "Codex plugin for faithful novel-to-comic adaptation: script first, multi-role sub-agent review, full-page prompts generated page by page, export as vertical mobile comics"
 group   = "beyond"
 stages  = ["adaptation"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "多子代理运行，token 消耗大；需要能出图的模型"
+note_en = "Runs multiple sub-agents and uses many tokens; needs an image-capable model"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "lhfer/codex-novel-to-comic-studio"
 desc    = "EPUB/TXT 小说改编漫画：版权声明关口、故事与视觉圣经、分页剧本和分镜、image2 整页生成、导出 PDF/CBZ"
+desc_en = "EPUB/TXT novel-to-comic adaptation: copyright-declaration gate, story and visual bibles, page-by-page script and storyboard, full-page generation with image2, PDF/CBZ export"
 group   = "beyond"
 stages  = ["adaptation"]
 format  = "skill"
 lang    = "en"
 agents  = ["codex"]
 note    = "依赖 Codex image2 出图；README 另有中文、日文版"
+note_en = "Relies on Codex image2 for images; the README also has Chinese and Japanese versions"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "FA-T-T/codex-noval-2-manga"
 desc    = "Codex 小说改漫画 skill 套件：把小说改成漫画页脚本、视觉设计和角色参考图，再写成 GPT Image 2 直出页面的提示词"
+desc_en = "Codex novel-to-manga skill suite: turns a novel into manga page scripts, visual design and character reference images, then writes prompts for GPT Image 2 to render pages directly"
 group   = "beyond"
 stages  = ["adaptation"]
 format  = "skill"
 lang    = "en"
 agents  = ["codex"]
 note    = "渲染需另装 gpt-image-2-skill"
+note_en = "Rendering requires installing gpt-image-2-skill separately"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "ruijayfeng/velvet-ascent-skill"
 desc    = "中文成人向后宫养成文字游戏 GM：角色分 6 阶段推进关系，NSFW 档位 0-4 可调，8 文件记忆世界、人物与伏笔，结束后可导出小说"
+desc_en = "Chinese adult harem-sim text game GM: characters progress through 6 relationship stages, NSFW levels 0-4 adjustable, 8 memory files for world, characters and foreshadowing, exportable as a novel afterward"
 group   = "beyond"
 stages  = ["character", "drafting", "memory"]
 format  = "skill"
 lang    = "zh"
 note    = "用 npx @ruizhefeng/velvet-ascent-skill 安装，默认装到 ~/.agents/skills/velvet-ascent，可用 --target 改路径；支持切换女性向剧情"
+note_en = "Install with npx @ruizhefeng/velvet-ascent-skill; installs to ~/.agents/skills/velvet-ascent by default, changeable with --target; supports switching to female-oriented storylines"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "din1919/interactive-novel"
 desc    = "把小说片段变成可游玩的互动故事：提取世界状态和人物，用户扮演其中角色，系统接管 NPC 与世界反应，带分层记忆和存读档"
+desc_en = "Turns a novel excerpt into a playable interactive story: extracts world state and characters, the user plays a character while the system takes over NPCs and world reactions, with layered memory and save/load"
 group   = "beyond"
 stages  = ["adaptation"]
 format  = "skill"
 lang    = "zh"
 note    = "skill 在 interactive-novel/ 子目录；附 state-helper.js（Node）做存读档和一致性检查；含 NSFW 协议"
+note_en = "The skill is in the interactive-novel/ subdirectory; includes state-helper.js (Node) for save/load and consistency checks; contains an NSFW protocol"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "unknowlei/fanfic-roleplay-design"
 desc    = "同人角色扮演设计：联网整理原作资料，生成或合并 SillyTavern 世界书，分还原模式与人物模式，可按主线阶段配置 MVU 变量"
+desc_en = "Fan fiction roleplay design: researches source material online, generates or merges SillyTavern lorebooks in faithful or character modes, MVU variables configurable by main-plot stage"
 group   = "beyond"
 stages  = ["world", "character", "adaptation"]
 format  = "skill"
 lang    = "en"
 note    = "产物是 SillyTavern 世界书 JSON；MVU/EJS 功能需预装 Tavern Helper 与 MVU"
+note_en = "Output is SillyTavern lorebook JSON; MVU/EJS features require Tavern Helper and MVU preinstalled"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Xeonice/soul-killer"
 desc    = "从任意人物的公开数字足迹提取身份、语言风格和行为模式，蒸馏成角色，再和世界观合成可游玩的 Galgame 剧本 skill"
+desc_en = "Extracts identity, language style and behavior patterns from anyone's public digital footprint, distills them into a character, and combines it with a worldview into a playable Galgame script skill"
 group   = "beyond"
 stages  = ["character", "adaptation"]
 format  = "app"
 lang    = "multi"
 agents  = ["claude-code", "openclaw"]
 note    = "CLI 工具（TypeScript 源码在仓库），导出的 .skill 档案在 Claude Code / OpenClaw 里游玩；官方安装脚本从作者的 Cloudflare 下载二进制，也可以从源码构建"
+note_en = "A CLI tool (TypeScript source in the repo); exported .skill archives are played in Claude Code / OpenClaw. The official install script downloads binaries from the author's Cloudflare, or you can build from source."
 checked = 2026-10-14
 
 # ───────────────────────── 翻译 · 出海 ─────────────────────────
@@ -1785,136 +2064,161 @@ checked = 2026-10-14
 [[skills]]
 repo    = "xuanji86/ainiee-translate-skill"
 desc    = "让 agent 当翻译引擎的整书翻译插件：锁定术语表、断点续翻、多 agent 并行、对抗式审校，读写 EPUB/TXT/RPY 等格式"
+desc_en = "Whole-book translation plugin that uses the agent as the translation engine: locked glossary, resumable translation, parallel multi-agent runs, adversarial review, reads and writes EPUB/TXT/RPY and other formats"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex"]
 note    = "不限语言对，README 与示例以外文译中文为主。解析/导出模块改写自 NEKOparapa/AiNiee（AGPL），能导入 AiNiee 工程和 profile。要自建 Python venv，并设 SKILL_DIR、AINIEE_PY 环境变量"
+note_en = "Works with any language pair, though the README and examples mostly translate into Chinese. Parsing/export modules are adapted from NEKOparapa/AiNiee (AGPL) and can import AiNiee projects and profiles. Requires your own Python venv and the SKILL_DIR and AINIEE_PY environment variables."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Anarcadia/chuanban-jp-novel-translator"
 desc    = "日译中长篇小说 skill 组：主调度串行派单章 subagent，维护术语表和章节摘要，断点续翻，审改分离润色，合并后做 EPUB"
+desc_en = "Japanese-to-Chinese long-form novel translation skill set: a main dispatcher assigns single chapters to subagents serially, keeps a glossary and chapter summaries, resumable, separate review and revision for polishing, EPUB after merging"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "作者推荐 Claude Opus，或走官方源的 DeepSeek-V4-Pro，其他来源容易被审核拒译。scripts/ 要留在包里，skill 中的 {SCRIPTS_DIR} 换成绝对路径。同作者另有 Proma 平台版"
+note_en = "The author recommends Claude Opus or DeepSeek-V4-Pro via the official provider; other sources tend to refuse translation due to moderation. Keep scripts/ in the package and replace {SCRIPTS_DIR} in the skills with an absolute path. The same author also has a Proma platform version."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "waw1w1/galgame-skill"
 desc    = "Galgame／视觉小说译成中文的 skill：统一术语与称呼，保持多路线连续，分批自审、整线纠错，脚本检查 ID/变量/标签"
+desc_en = "Skill for translating Galgames/visual novels into Chinese: consistent terms and forms of address, continuity across multiple routes, batch self-review, whole-route correction, scripts that check IDs/variables/tags"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "仓库没有开源许可证。只有用户明确授权时才启用子代理"
+note_en = "The repo has no open-source license. Subagents are used only when the user explicitly authorizes them."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "yqrsmion/translate-novel"
 desc    = "整本小说 txt 翻译 skill：边界感知切块、串行逐块翻译、段落 1:1 对齐加 V1–V12 校验、崩溃可续、确定性合并"
+desc_en = "Whole-novel TXT translation skill: boundary-aware chunking, serial chunk-by-chunk translation, 1:1 paragraph alignment with V1–V12 checks, crash recovery, deterministic merge"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "zh"
 note    = "语言对用环境变量设定，内置日译简中的标点规范。只输出纯文本 txt。配了 NOVEL_LLM_* 时脚本会直接调 API"
+note_en = "The language pair is set with environment variables, with built-in punctuation rules for Japanese to Simplified Chinese. Outputs plain-text TXT only. When NOVEL_LLM_* is configured, the scripts call the API directly."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "9029kazuki/codex-visual-novel-translation"
 desc    = "Galgame 日译简中 skill：调研引擎与解包，建术语和人设 Bible，按整场景翻译、独立审校，回封、诊断字体、实机 QA"
+desc_en = "Japanese-to-Simplified-Chinese Galgame translation skill: researches the engine and unpacking, builds a terminology and character bible, translates whole scenes, independent review, repacking, font diagnosis, in-game QA"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "zh"
 agents  = ["codex"]
 note    = "另附可配置语言对的英文版 skill。解包工具（如 GARbro）要自备，具体引擎得按游戏版本调研"
+note_en = "Also includes an English skill with a configurable language pair. Bring your own unpacking tools (e.g. GARbro); the specific engine must be researched per game version."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "oodadoudou/glossary-review-skill"
 desc    = "韩中/日中小说术语表 xlsx 审查：逐词联网搜索并对照上下文，统一人名和组织译名，确认提案后写回"
+desc_en = "Reviews Korean-Chinese/Japanese-Chinese novel glossary xlsx files: searches the web term by term against context, unifies translated names of people and organizations, writes back after proposals are confirmed"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "要准备参考原文 output_detail.txt 和 background.txt。确认后直接覆盖原 xlsx。最后一次提交在 2026-04，接近 6 个月线"
+note_en = "Requires reference source files output_detail.txt and background.txt. Overwrites the original xlsx after confirmation. Last commit was in 2026-04, close to the 6-month mark."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Cheng-cheng9669/web-novel-library"
 desc    = "连载网文增量翻译资料库：章节 SHA-256 清单，检测缺章和源文变更，标记过期译文，生成翻译计划并记录状态"
+desc_en = "Library for incremental translation of serial web novels: chapter SHA-256 manifest, detects missing chapters and source changes, flags outdated translations, generates translation plans and tracks status"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "en"
 agents  = ["codex", "claude-code"]
 note    = "只导入本地章节文件，不带抓取器。翻译规范里有日轻译简中的要点"
+note_en = "Imports local chapter files only, with no scraper. The translation guidelines include notes for Japanese light novels into Simplified Chinese."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "loggg4823-create/renpy-translate"
 desc    = "Ren'Py 视觉小说汉化 skill 加脚本：分析项目、提取对白，调 DeepSeek/OpenAI/Claude 翻译，生成 tl 文件，断点续传"
+desc_en = "Skill plus script for Chinese localization of Ren'Py visual novels: analyzes the project, extracts dialogue, translates via DeepSeek/OpenAI/Claude, generates tl files, resumable"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code"]
 note    = "翻译由脚本直接调 API，要自备 Key。仓库只有一次提交"
+note_en = "The script calls the API directly for translation, so you need your own API key. The repo has only one commit."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "tinrin-kiri/novel-localization"
 desc    = "长篇小说本地化 skill 加项目模板：分类术语表、未决专名记录、逐章原文对照草稿，导出 TXT/HTML/EPUB"
+desc_en = "Long-form novel localization skill plus project template: categorized glossary, log of unresolved proper names, chapter-by-chapter drafts aligned with the source, TXT/HTML/EPUB export"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "en"
 agents  = ["codex"]
 note    = "模板默认译成简体中文。附带的成为小说家吧（なろう）脚本只抓目录。仓库只有一次提交"
+note_en = "The template translates into Simplified Chinese by default. The bundled Syosetu (Shōsetsuka ni Narō) script only fetches the table of contents. The repo has only one commit."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "duongmkqn005-ai/zh-vi-novel-translation"
 desc    = "中文小说译越南语 skill：人名用汉越音，按说话方向定称呼，术语表与作品记忆，查证网络梗，校改 convert 稿"
+desc_en = "Skill for translating Chinese novels into Vietnamese: Sino-Vietnamese readings for names, forms of address set by who speaks to whom, glossary and per-work memory, internet-slang verification, revision of \"convert\" drafts"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "multi"
 agents  = ["codex", "claude-code", "gemini-cli"]
 note    = "skill 正文和 README 是越南语，面向越南译者。另写了 Antigravity、Hermes 的装法。账号和仓库同一天创建"
+note_en = "Skill text and README are in Vietnamese, for Vietnamese translators. Also documents installation for Antigravity and Hermes. The account and repo were created on the same day."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "NguyenVi07/novel-convert-agent"
 desc    = "中文网文批量译成越南语 convert 体的项目模板：每批 10 章，自动维护人物、设定、剧情摘要和断点"
+desc_en = "Project template for batch-translating Chinese web novels into Vietnamese \"convert\" style: 10 chapters per batch, automatically maintaining characters, settings, plot summaries and resume points"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "en"
 note    = "作者只在 Antigravity 上测过。skill 在 .agents/skills/ 下，须按模板目录（i/、o/、data/）使用。面向越南读者"
+note_en = "The author has only tested it on Antigravity. The skill is under .agents/skills/ and must be used with the template directories (i/, o/, data/). For Vietnamese readers."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Katiros/jp-ln-ocr-epub-skill"
 desc    = "日轻竖排扫图用 PaddleOCR 识别，再用 DeepSeek 日译中、出 Word 审阅稿：术语表、ruby 处理、低置信重试、质量闸门"
+desc_en = "OCRs vertical Japanese light novel scans with PaddleOCR, then translates Japanese to Chinese with DeepSeek into a Word review draft: glossary, ruby handling, low-confidence retries, quality gates"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
 lang    = "en"
 agents  = ["codex", "openclaw"]
 note    = "安装脚本只有 Windows PowerShell 版。EPUB 自动制作还没实现。wiki 术语导入默认指向《魔法禁书目录》的灰机 wiki，可以改"
+note_en = "The install script is Windows PowerShell only. Automatic EPUB creation is not implemented yet. Wiki term import points by default to the Huiji wiki for A Certain Magical Index, which can be changed."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "MarkfuGod/novel-translate"
 desc    = "Cursor skill：抓取 AO3、FanFiction.net、Royal Road、Wattpad 等站章节，经 OpenAI 兼容接口译成中文，可续跑"
+desc_en = "Cursor skill that scrapes chapters from AO3, FanFiction.net, Royal Road, Wattpad and other sites and translates them into Chinese via an OpenAI-compatible API, resumable"
 group   = "translate"
 stages  = ["translate"]
 format  = "skill"
@@ -1922,26 +2226,31 @@ lang    = "en"
 sites   = ["royalroad"]
 agents  = ["cursor"]
 note    = "默认译成简中，可改。FanFiction.net 用 cloudscraper 绕过 Cloudflare；需要登录或付费的章节不处理。仓库只有一次提交"
+note_en = "Translates into Simplified Chinese by default, configurable. Uses cloudscraper to bypass Cloudflare on FanFiction.net; chapters behind a login or paywall are not handled. The repo has only one commit."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "GalTransl/GalTransl"
 desc    = "Galgame 自动翻译工具：桌面 GUI 加 Agent 模式，GPT 字典、译前译后字典、断点续翻，也能翻 EPUB 和字幕"
+desc_en = "Automatic Galgame translation tool: desktop GUI plus Agent mode, GPT dictionary, pre- and post-translation dictionaries, resumable translation; also translates EPUB and subtitles"
 group   = "translate"
 stages  = ["translate"]
 format  = "app"
 lang    = "zh"
 note    = "GPL-3.0。Release 有各平台打包版，源码在仓库里。解包和注入要配合 GARbro 等外部工具。作者要求：没经过全文校对就发布的，标明是 AI 翻译补丁"
+note_en = "GPL-3.0. Releases have packaged builds for each platform; source is in the repo. Unpacking and injection need external tools such as GARbro. The author asks that releases without full proofreading be labeled as AI translation patches."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "NEKOparapa/AiNiee"
 desc    = "AI 翻译桌面工具：EPUB/TXT 小说、RPG 与 Ren'Py 游戏文本、字幕、文档，支持术语表、禁翻表、AI 润色"
+desc_en = "AI translation desktop tool for EPUB/TXT novels, RPG and Ren'Py game text, subtitles and documents, with glossary, do-not-translate list and AI polishing"
 group   = "translate"
 stages  = ["translate"]
 format  = "app"
 lang    = "zh"
 note    = "AGPL-3.0。Release 是打包版，源码在仓库里。游戏文本要先用 MTool、Translator++ 等工具提取"
+note_en = "AGPL-3.0. Releases are packaged builds; source is in the repo. Game text must first be extracted with tools such as MTool or Translator++."
 checked = 2026-10-14
 
 # ───────────────────────── 素材：小说下载 · 书源 ─────────────────────────
@@ -1949,17 +2258,20 @@ checked = 2026-10-14
 [[skills]]
 repo    = "Narylr350/book-source-creator-skill"
 desc    = "输入小说网站地址，分析站点结构生成「阅读/Legado」书源 JSON 或 JS，并验证搜索、详情、目录、正文四条链路"
+desc_en = "Takes a novel site URL, analyzes the site structure to generate Legado reader book source JSON or JS, and verifies four chains: search, details, table of contents and chapter text"
 group   = "sources"
 stages  = ["market"]
 format  = "skill"
 lang    = "zh"
 agents  = ["claude-code", "codex"]
 note    = "推荐从 Releases 下载 zip，解压后把 legado-book-source-generator 放进 ~/.claude/skills 或 $CODEX_HOME/skills；验证环节可能用到 Java、adb 或安卓设备"
+note_en = "Downloading the zip from Releases is recommended; unzip it and put legado-book-source-generator into ~/.claude/skills or $CODEX_HOME/skills; verification may need Java, adb or an Android device"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "yunmegnze/fanqie-novel-downloader-skill"
 desc    = "番茄小说下载 skill：给阅读链接，经 Chrome CDP 逐章抓取，解码字体加密，按章存 TXT 并汇总成 JSON"
+desc_en = "Fanqie Novel download skill: given a reading link, scrapes chapter by chapter via Chrome CDP, decodes the font encryption, saves each chapter as TXT and compiles them into JSON"
 group   = "sources"
 stages  = ["market"]
 format  = "skill"
@@ -1967,85 +2279,101 @@ lang    = "zh"
 sites   = ["fanqie"]
 agents  = ["claude-code"]
 note    = "需 Node.js 22+ 和 web-access skill 提供的 CDP 代理；字体映射表来自 ying-ck/fanqienovel-downloader；锁定章节需登录有权限的账号；README 安装地址少了 -skill 后缀"
+note_en = "Needs Node.js 22+ and the CDP proxy from the web-access skill; the font mapping table comes from ying-ck/fanqienovel-downloader; locked chapters require logging in with an account that has access; the install URL in the README is missing the -skill suffix"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "zhongbai2333/Tomato-Novel-Downloader"
 desc    = "番茄小说下载器（Rust）：TUI 与 Web UI 搜索下载，导出 TXT/EPUB/PDF，可附段评、生成 Edge TTS 有声书"
+desc_en = "Fanqie Novel downloader (Rust): search and download via TUI and Web UI, export to TXT/EPUB/PDF, optionally with paragraph comments, and generate Edge TTS audiobooks"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["fanqie"]
 note    = "由 Dlmily/Tomato-Novel-Downloader-Lite 的 Python 版改写成 Rust，另加 EPUB、断点续传、搜索、Web UI。默认构建依赖不公开的 Official-API crate，第三方正文接口地址和 token 也不开源；公开源码用 Cargo_no_official.toml 构建，此模式没有搜索和段评。命令行只能更新已下载的书，新书要用 TUI 或 Web UI"
+note_en = "Rewritten in Rust from the Python Dlmily/Tomato-Novel-Downloader-Lite, adding EPUB, resumable downloads, search and a Web UI. The default build depends on a private Official-API crate, and the third-party chapter-text API address and token are not open source; the public source builds with Cargo_no_official.toml, which has no search or paragraph comments. The CLI can only update already-downloaded books; new books need the TUI or Web UI."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "404-novel-project/novel-downloader"
 desc    = "通用小说下载油猴脚本：在目录页一键下载，覆盖起点、晋江、番茄、七猫、SF、ESJ、轻小说文库等百余站，输出 TXT+EPUB"
+desc_en = "General-purpose novel download userscript: one-click download from the table-of-contents page, covering 100+ sites including Qidian, Jinjiang (JJWXC), Fanqie Novel, Qimao, SF, ESJ and Wenku8, outputs TXT+EPUB"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["qidian", "jjwxc", "fanqie", "qimao"]
 note    = "对无登录墙的站点，经你同意后会把详情页/目录页存档到 archive.org，并上报 IP、UA 等信息。晋江、番茄可能要手动做字体匹配，晋江章节可填 App token。仓库里的 .claude/skills 是维护者开发用的，不是写作 skill"
+note_en = "For sites without a login wall, with your consent it archives detail/TOC pages to archive.org and reports info such as IP and UA. Jinjiang and Fanqie may need manual font matching; Jinjiang chapters can use an App token. The .claude/skills in the repo are for maintainer development, not writing skills."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "ying-ck/fanqienovel-downloader"
 desc    = "番茄小说 Python 下载器：命令行按 ID/链接下载、搜索、批量和更新已下书目，另有 Web 版队列与在线阅读，导出 TXT/EPUB"
+desc_en = "Python downloader for Fanqie Novel: CLI download by ID/link, search, batch downloads and updates of downloaded books, plus a web version with a queue and online reading, exports TXT/EPUB"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["fanqie"]
 note    = "Web 版可以用 Docker 跑；Release 里的 exe 是打包版，源码在 src/。2026-07 社区 PR 改用 curl_cffi 应对反爬"
+note_en = "The web version can run in Docker; the exe in Releases is a packaged build and source is in src/. A 2026-07 community PR switched to curl_cffi to handle anti-scraping."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "guohuiyuan/go-novel-dl"
 desc    = "Go 多站小说下载器：CLI、Web UI 和桌面壳，跨站聚合搜索，覆盖 ESJ、SF、刺猬猫、起点、番茄等，导出 TXT/EPUB/HTML"
+desc_en = "Multi-site novel downloader in Go: CLI, Web UI and desktop shell, cross-site aggregated search, covering ESJ, SF, Ciweimao, Qidian, Fanqie Novel and more, exports TXT/EPUB/HTML"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["qidian", "fanqie"]
 note    = "docs/architecture.md 写明沿用 Python 版 novel-downloader 的结构（应为 saudadez21/novel-downloader），这里用 Go 重写，另加了 Web UI、聚合搜索、书架和阅读器"
+note_en = "docs/architecture.md says it follows the structure of the Python novel-downloader (likely saudadez21/novel-downloader), rewritten here in Go with an added Web UI, aggregated search, bookshelf and reader"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "ShqWW/bilinovel-download"
 desc    = "哔哩轻小说（linovelib）与哔哩漫画下载器：Fluent 风格 GUI 加命令行，按卷打包 EPUB，插图自动排版"
+desc_en = "Downloader for Bili Light Novel (linovelib) and Bili Manga: Fluent-style GUI plus CLI, packages EPUB per volume, lays out illustrations automatically"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 note    = "只支持 Windows 10 及以上，要装 Edge 浏览器；从源码运行先 pip install -r requirements.txt"
+note_en = "Windows 10 and later only, requires the Edge browser; to run from source, first pip install -r requirements.txt"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "Messiahhh/wenku8-downloader"
 desc    = "轻小说文库命令行下载器（Node.js）：搜索、榜单、按 ID 下载，章节与插图断点续传，输出经 EPUBCheck 校验的 EPUB 3"
+desc_en = "CLI downloader for Wenku8 (Node.js): search, rankings, download by ID, resumable chapters and illustrations, outputs EPUB 3 validated with EPUBCheck"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 note    = "npm install -g wenku8 安装；首次要 wenku8 login 粘贴 Cookie。只出 EPUB。2026-06 整体用 AI 重写过"
+note_en = "Install with npm install -g wenku8; on first use, run wenku8 login and paste your cookie. EPUB output only. Fully rewritten with AI in 2026-06."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "fateking27/wenku8-downloader"
 desc    = "轻小说文库命令行下载器（Bun）：按 ID/书名/作者搜索或看榜单，整本或分卷导出 EPUB/TXT，可只下插图、配代理池"
+desc_en = "CLI downloader for Wenku8 (Bun): search by ID/title/author or browse rankings, export whole books or individual volumes as EPUB/TXT, illustration-only downloads, proxy pool support"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 note    = "和 Messiahhh/wenku8-downloader 同名但代码独立；这个多了 TXT 输出和已下架小说下载。Release 是打包好的 exe，也可 bun install 后从源码跑"
+note_en = "Same name as Messiahhh/wenku8-downloader but independent code; this one adds TXT output and downloads of delisted novels. Releases are packaged exes, or run from source after bun install."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "RRRRUDDDD/Yamibo_Downloader"
 desc    = "百合会论坛油猴脚本：按一楼目录或楼主楼层抓取连载帖、标签合集，按章节筛选后导出 EPUB3/TXT，含插图"
+desc_en = "Userscript for the Yamibo forum: scrapes serial threads and tag collections by the first-post index or the original poster's posts, filters by chapter, exports EPUB3/TXT with illustrations"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
@@ -2055,128 +2383,152 @@ checked = 2026-10-14
 [[skills]]
 repo    = "mikoto710/esj-novel-downloader"
 desc    = "ESJZone 油猴脚本：详情页和论坛页全本或按章节范围下载，导出 TXT/EPUB/HTML，含插图、断点续传和密码章节处理"
+desc_en = "ESJZone userscript: downloads whole books or chapter ranges from detail and forum pages, exports TXT/EPUB/HTML, with illustrations, resumable downloads and password-protected chapter handling"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 note    = "README 注明抓取逻辑参考 ZALin/ESJ-novel-backup。仓库里的 .codex/skills 是开发维护用的"
+note_en = "The README notes the scraping logic references ZALin/ESJ-novel-backup. The .codex/skills in the repo are for development and maintenance."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "ilusrdbb/lightnovel-pydownloader"
 desc    = "日轻翻译站爬虫：支持 ESJ、轻之国度、真白萌、百合会，按白名单或收藏批量导出 EPUB/TXT，有 CLI 和 GUI"
+desc_en = "Scraper for Japanese light novel translation sites: supports ESJ, Light Novel Kingdom (LK), Masiro and Yamibo, batch exports EPUB/TXT by whitelist or favorites, with CLI and GUI"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 note    = "真白萌、百合会要用本机 Chrome 过 Cloudflare/WAF；作者提示 3.5.x 版本可能回退"
+note_en = "Masiro and Yamibo need local Chrome to get past Cloudflare/WAF; the author warns the 3.5.x versions may be rolled back"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "tracywong117/jjwxc-downloader"
 desc    = "晋江文学城免费章节下载脚本：用 Selenium 抓成 TXT，附 TXT 转 EPUB（带封面和目录）"
+desc_en = "Script for downloading free chapters from Jinjiang (JJWXC): scrapes them to TXT with Selenium, plus TXT-to-EPUB conversion with cover and table of contents"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["jjwxc"]
 note    = "只能下免费章节，需自备与 Chrome 同版本的 ChromeDriver。2024 年以后只有 2026-06 一次修复提交"
+note_en = "Free chapters only; requires a ChromeDriver matching your Chrome version. Since 2024 the only commit is a fix in 2026-06."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "kanasimi/work_crawler"
 desc    = "Node.js 小说漫画批量下载器：小说部分覆盖起点、笔趣阁系、成为小说家吧、カクヨム等站，输出 EPUB，有 Electron 界面"
+desc_en = "Node.js batch downloader for novels and comics: novel support covers Qidian, Biquge-family sites, Syosetu (Shōsetsuka ni Narō), Kakuyomu and more, outputs EPUB, with an Electron UI"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "multi"
 sites   = ["qidian"]
 note    = "约六成站点模块是漫画。Release 安装包还停在 2022 年的 v2.14，近两年的修复要从源码运行才能用上"
+note_en = "About 60% of site modules are for comics. Release installers are still at v2.14 from 2022; fixes from the last two years require running from source."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "nanachi1212/novelDownloader"
 desc    = "通用小说下载器（Python）：GUI 下载队列加 CLI，适配 69书吧、多个台湾小说站和番茄，过滤广告后导出 TXT/EPUB"
+desc_en = "General-purpose novel downloader (Python): GUI download queue plus CLI, supports 69shuba, several Taiwanese novel sites and Fanqie Novel, filters out ads and exports TXT/EPUB"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["fanqie"]
 note    = "界面和文档是繁体中文。番茄只有预览的章节，交给内附的 zhongbai2333/Tomato-Novel-Downloader v2.4.15 exe 取全文（仓库里也提交了这个 12MB exe，大小和 NOTICE 里的 SHA256 与上游 Release 一致）。2026-07 新建"
+note_en = "UI and docs are in Traditional Chinese. Fanqie only exposes preview chapters, so full text is fetched by the bundled zhongbai2333/Tomato-Novel-Downloader v2.4.15 exe (the 12MB exe is committed to the repo; its size and the SHA256 in NOTICE match the upstream Release). Created in 2026-07."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "rainyautumn1/FanqieNovelDownloader"
 desc    = "番茄小说桌面下载器（PySide6）：内置浏览器登录，单本按章节范围或按榜单批量下载，导出 TXT/EPUB/Markdown"
+desc_en = "Fanqie Novel desktop downloader (PySide6): log in through a built-in browser, download a single book by chapter range or batch-download by ranking chart, export TXT/EPUB/Markdown"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["fanqie"]
 note    = "最近一次提交是 2026-05 的 macOS 适配；完整内容要在内置浏览器里登录账号才能拿到"
+note_en = "The latest commit is a 2026-05 macOS port; full content requires logging in to an account in the built-in browser"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "lncrawl/lightnovel-crawler"
 desc    = "英文网文/轻小说爬虫：361 个站点（含 Royal Road、Webnovel），一条命令生成 EPUB/TXT 等，另有自建 Web 书库与翻译"
+desc_en = "Crawler for English web novels/light novels: 361 sites (including Royal Road and Webnovel), generates EPUB/TXT and more with one command, plus a self-hosted web library and translation"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "en"
 sites   = ["royalroad"]
 note    = "pip install lightnovel-crawler 安装。原仓库 dipu-bd/lightnovel-crawler，现在转到 lncrawl 组织，旧地址会自动跳转"
+note_en = "Install with pip install lightnovel-crawler. Originally dipu-bd/lightnovel-crawler, now moved to the lncrawl organization; the old URL redirects automatically."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "XIU2/Yuedu"
 desc    = "「阅读」APP 书源合集：作者自用的 22 个精选小说书源（起点、番茄、69书吧等），提供网络导入和二维码导入"
+desc_en = "Book source collection for the Legado reader app: 22 curated novel book sources the author uses personally (Qidian, Fanqie Novel, 69shuba, etc.), with network import and QR-code import"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["qidian", "fanqie"]
 note    = "需要配合 gedoor/legado（阅读 APP）使用；书源少，作者自己说维护不积极。在 APP 里缓存全本后可以导出 TXT"
+note_en = "Must be used with gedoor/legado (the Legado reader app); few sources, and the author says maintenance is not active. Whole books cached in the app can be exported as TXT."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "tickmao/Novel"
 desc    = "书源合集：阅读（Legado）约 1000 个、香色闺阁 1274 个书源，附净化规则、TTS 配置、字体和主题，Actions 每天校验"
+desc_en = "Book source collection: about 1,000 for Legado reader and 1,274 for Xiangse Guige, plus content-cleanup rules, TTS configs, fonts and themes, validated daily by Actions"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 note    = "书源要先过自动运行校验才会发布；爱阅书香的书源链接到第三方仓库"
+note_en = "Book sources are published only after passing automated run checks; the Aiyue Shuxiang sources link to a third-party repo"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "z1131392774/legado-source-generator"
 desc    = "Chrome/Firefox 扩展：在小说网页上点选元素，生成「阅读」书源的搜索、发现、详情、目录、正文规则并导出 JSON"
+desc_en = "Chrome/Firefox extension: click elements on a novel web page to generate Legado reader book source rules for search, discovery, details, table of contents and chapter text, and export them as JSON"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 note    = "README 写明整个项目由 AI 辅助生成（vibe coding），建议用前自己看一遍代码。同作者另有让 AI 编写调试书源的 legado-book-source-skill"
+note_en = "The README states the whole project was AI-assisted (vibe coding) and recommends reviewing the code before use. The same author also has legado-book-source-skill, which has AI write and debug book sources."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "halei0v0/FXdownloader"
 desc    = "多源小说下载：八个站点（含番茄）聚合搜索、跨源分工下载与三层重试、番茄字体解密、断点续传，自带排行榜和阅读器"
+desc_en = "Multi-source novel downloader: aggregated search across eight sites (including Fanqie Novel), cross-source split downloading with three-tier retries, Fanqie font decryption, resumable downloads, built-in rankings and reader"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 sites   = ["fanqie"]
 note    = "Python 源码在仓库，Web 界面，也可用 Docker 运行；仓库里附带了下载好的示例小说和书库数据"
+note_en = "Python source is in the repo, with a web UI, and it can also run in Docker; the repo includes already-downloaded sample novels and library data"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "aoaostar/legado"
 desc    = "「阅读」App 书源合集：全量约 3900 条书源，另有订阅源、净化规则、排版和朗读引擎配置，一键导入"
+desc_en = "Book source collection for the Legado reader app: about 3,900 book sources in total, plus subscription sources, content-cleanup rules, layout and read-aloud engine configs, one-click import"
 group   = "sources"
 stages  = ["market"]
 format  = "app"
 lang    = "zh"
 note    = "书源由机器人定时同步更新；Git 仓库不支持一键导入，从 legado.aoaostar.com 导入"
+note_en = "Book sources are synced on a schedule by a bot; the Git repo doesn't support one-click import, so import from legado.aoaostar.com"
 checked = 2026-10-14
 
 # ───────────────────────── 相关开源应用（完整应用，非 skill） ─────────────────────────
@@ -2184,46 +2536,55 @@ checked = 2026-10-14
 [[skills]]
 repo    = "YILING0013/AI_NovelGenerator"
 desc    = "本地部署的长篇小说生成应用：用雪花法从核心创意逐级展开卷、弧、场景、章纲到正文，管理角色/势力/物品/伏笔状态，AI 流程可在画布上改"
+desc_en = "Locally deployed long-form novel generation app: the snowflake method expands a core idea step by step into volumes, arcs, scenes, chapter outlines and prose, tracks character/faction/item/foreshadowing state, AI flow editable on a canvas"
 group   = "apps"
 stages  = ["world", "character", "structure", "drafting", "memory"]
 format  = "app"
 lang    = "multi"
 note    = "main 分支已经重写（Next.js + FastAPI + MongoDB），旧版留在 old 分支，两版数据不兼容"
+note_en = "The main branch has been rewritten (Next.js + FastAPI + MongoDB); the old version remains on the old branch, and data is not compatible between the two"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "ExplosiveCoderflome/AI-Novel-Writing-Assistant"
 desc    = "长篇小说创作工作台：自动导演从灵感推进到开书、世界观、角色、章节规划、正文与检查，含拆书、写法引擎、反 AI 规则、RAG 知识库和短篇流程"
+desc_en = "Long-form novel workbench: an auto-director moves from inspiration to book setup, worldbuilding, characters, chapter planning, prose and checks, with book teardown, style engine, anti-AI rules, RAG knowledge base, short-story flow"
 group   = "apps"
 stages  = ["market", "world", "character", "structure", "drafting", "memory", "revision", "adaptation"]
 format  = "app"
 lang    = "zh"
 note    = "有 Windows 桌面版，也能从源码部署；能把已写章节延展成漫画分镜和短剧素材。作者另有 ani-book-skill（已收）"
+note_en = "Has a Windows desktop version and can also be deployed from source; can extend written chapters into comic storyboards and short-drama material. The author also has ani-book-skill (already listed)."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "voocel/ainovel-cli"
 desc    = "全自动长篇小说生成 CLI：确定性引擎调度 Architect/Writer/Editor 三个代理，卷弧滚动规划、七维评审、步骤级断点恢复，可随时插入修改意见"
+desc_en = "Fully automatic long-form novel generation CLI: a deterministic engine dispatches Architect/Writer/Editor agents, with rolling volume-arc planning, seven-dimension review, step-level resume, revision notes insertable anytime"
 group   = "apps"
 stages  = ["structure", "drafting", "memory", "revision"]
 format  = "app"
 lang    = "zh"
 note    = "主打一句话全自动成书；想逐章把关可开 /review on。可在 TUI 里看着写，也可 headless 跑在服务器上"
+note_en = "Built for fully automatic book generation from a single line; turn on /review on to approve chapter by chapter. You can watch it write in the TUI or run it headless on a server."
 checked = 2026-10-14
 
 [[skills]]
 repo    = "EthanYoQ/AI-Novel-Writer"
 desc    = "桌面长篇写作软件：前提、角色、世界观、章节蓝图、草稿、审稿、修稿、定稿逐段推进，可按阶段绑定写作 Skill，支持本地与在线模型"
+desc_en = "Desktop long-form writing app advancing stage by stage through premise, characters, worldbuilding, chapter blueprint, draft, review, revision and finalization, with writing Skills bindable per stage, local and online models"
 group   = "apps"
 stages  = ["world", "character", "structure", "drafting", "revision"]
 format  = "app"
 lang    = "multi"
 note    = "提供 Windows/macOS 桌面版；仓库里另有 DeepSeek Harness 插件预览版，已冻结，作者说它的能力不到桌面版一成"
+note_en = "Windows/macOS desktop versions available; the repo also has a frozen preview of a DeepSeek Harness plugin, which the author says has less than a tenth of the desktop version's capability"
 checked = 2026-10-14
 
 [[skills]]
 repo    = "RhythmicWave/NovelForge"
 desc    = "卡片式长篇创作工具：按 JSON Schema 结构化生成设定、角色、大纲卡片，用 @DSL 注入上下文、知识图谱保一致，可编排代码式工作流（含拆书）"
+desc_en = "Card-based long-form tool: generates setting, character and outline cards structured by JSON Schema, injects context with an @DSL, keeps consistency with a knowledge graph, and orchestrates code-style workflows (including book teardown)"
 group   = "apps"
 stages  = ["market", "world", "character", "structure", "drafting", "memory"]
 format  = "app"
@@ -2233,9 +2594,11 @@ checked = 2026-10-14
 [[skills]]
 repo    = "syrizelink/OpenFic"
 desc    = "人机协同的小说写作工具：写作编辑器加可自定义的 Prompt/Agent/工作流，维护设定、角色与伏笔，向量检索百万字项目，支持 Docker/pip/桌面版"
+desc_en = "Human-AI collaborative novel tool: writing editor plus customizable Prompts/Agents/workflows, maintains settings, characters and foreshadowing, vector retrieval over million-character projects; supports Docker, pip and a desktop version"
 group   = "apps"
 stages  = ["world", "character", "drafting", "memory"]
 format  = "app"
 lang    = "multi"
 note    = "定位是协同写作，不做一键成书。README 里有 API 中转商的推广链接"
+note_en = "Positioned as collaborative writing, not one-click book generation. The README contains promotional links for an API reseller."
 checked = 2026-10-14

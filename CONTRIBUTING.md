@@ -26,7 +26,7 @@ fork 和改名换皮的不收。在原版基础上加了新的 skill、模块或
 
    ```bash
    python3 scripts/refresh.py --only owner/repo   # 抓取星数、许可证等元数据
-   python3 scripts/build.py                       # 重新生成 README.md
+   python3 scripts/build.py                       # 重新生成 README.md 和英文版 README.en.md
    ```
 
    跳过这一步也可以，合并后 GitHub Actions 会自动刷新并生成。
@@ -38,6 +38,7 @@ fork 和改名换皮的不收。在原版基础上加了新的 skill、模块或
 [[skills]]
 repo    = "owner/repo"            # 必填，GitHub 仓库
 desc    = "一句话说清做什么"         # 必填，≤ 80 字，写具体能力，少用形容词
+desc_en = "One-line English desc"  # 可选，英文版用，≤ 260 个字符；不填时英文版显示中文
 group   = "pipeline"              # 必填，类型，取值见 data/taxonomy.toml [groups]
 stages  = ["drafting", "memory"]  # 必填，覆盖的创作阶段，见 [stages]
 format  = "skill"                 # 必填，skill / prompts / app
@@ -48,10 +49,13 @@ install = "npx skills add ..."    # 可选，默认生成 npx skills add owner/r
 name    = "显示名"                 # 可选，默认取仓库名
 tier    = "featured"              # 可选，精选；默认 listed
 note    = "需要注意的地方"           # 可选，显示在简介下方
+note_en = "English note"          # 可选，note 的英文版
 checked = 2026-10-13              # 可选，人工核对日期（TOML 日期，不加引号）
 ```
 
 `agents` 和 `sites` 只填仓库里明确写了的，不要推测。星数、许可证、最近更新时间、skill 数量由 `scripts/refresh.py` 自动抓取，不用手填。
+
+英文版 README.en.md 的分类名和简介在 `data/taxonomy.toml` 的 `*_en` 字段，界面文字在 `scripts/build.py` 的 `UI`。PR 里不会写英文简介也没关系，维护者合并时补上。
 
 ## 收录徽章
 
@@ -66,7 +70,7 @@ checked = 2026-10-13              # 可选，人工核对日期（TOML 日期，
 | 脚本 | 作用 |
 |---|---|
 | `scripts/refresh.py` | 刷新元数据，报告改名、失效、归档、久未更新的仓库 |
-| `scripts/build.py` | 生成 README.md；`--check` 检查是否最新，`--validate` 只校验数据 |
+| `scripts/build.py` | 生成 README.md 和 README.en.md；`--check` 检查是否最新，`--validate` 只校验数据 |
 | `scripts/discover.py` | 按 taxonomy.toml 里的关键词搜候选项目，输出待审清单 |
 
 GitHub Actions 每周一自动刷新元数据、重新生成 README，并把新候选开成 issue。

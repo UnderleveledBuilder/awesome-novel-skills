@@ -22,10 +22,11 @@ META_PATH = DATA / "meta.json"
 REPO_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 SKILL_FIELDS = {
     "required": {"repo", "desc", "group", "stages", "format", "lang"},
-    "optional": {"name", "agents", "install", "tier", "note", "checked"},
+    "optional": {"name", "agents", "install", "tier", "note", "checked", "desc_en", "note_en"},
 }
 TIERS = {"featured", "listed"}
 DESC_MAX = 80
+DESC_EN_MAX = 260
 
 
 def load_toml(name: str) -> dict:
@@ -79,6 +80,10 @@ def validate(taxonomy: dict, skills: list[dict], packs: list[dict], ignored: lis
 
         if len(s.get("desc", "")) > DESC_MAX:
             errors.append(f"{where}: desc 超过 {DESC_MAX} 字（当前 {len(s['desc'])}）")
+        if len(s.get("desc_en", "")) > DESC_EN_MAX:
+            errors.append(f"{where}: desc_en 超过 {DESC_EN_MAX} 个字符（当前 {len(s['desc_en'])}）")
+        if s.get("note_en") and not s.get("note"):
+            errors.append(f"{where}: 有 note_en 但没有 note")
         if s.get("group") not in taxonomy["groups"]:
             errors.append(f"{where}: group '{s.get('group')}' 不在 taxonomy.groups 里")
         stages = s.get("stages", [])

@@ -1,92 +1,135 @@
 # 分类体系：skills.toml 里的 group / stages / format / lang / agents / sites 只能取这里定义的值。
+# 带 _en 后缀的字段是英文版 README.en.md 用的。
 # 表格的展示顺序 = 这里的书写顺序。
 
 # 类型：每个条目只属于一个类型。indexed = false 的类型不进入阶段索引和平台索引。
 [groups.pipeline]
 label = "全流程：开书 → 连载"
 intro = "从选题、设定、大纲一路写到正文和审稿的完整写作系统，主要面向长篇连载。"
+label_en = "All-in-one: book setup → serial"
+intro_en = "Complete writing systems that go from topic selection, setting and outline through drafting and review, mainly for long-form serials."
 
 [groups.tools]
 label = "单项工具：拆书 · 设定 · 大纲 · 人物"
 intro = "只做一两件事，可以单独用，也可以给全流程系统补短板。"
+label_en = "Single-purpose tools: teardowns · setting · outline · characters"
+intro_en = "Each does one or two things; use them on their own or to fill gaps in an all-in-one system."
 
 [groups.short]
 label = "短篇 · 故事"
 intro = "番茄短篇、知乎盐言、儿童故事等短篇体裁。"
+label_en = "Short fiction · stories"
+intro_en = "Short forms such as Fanqie Novel short stories, Zhihu Yanyan stories and children's stories."
 
 [groups.script]
 label = "剧本 · 短剧：用写网文的功夫写剧情"
 intro = "短剧、漫剧和网文是同一套剧情功夫，只是呈现方式不同。这里收写剧情的部分：改编、集纲、钩子、剧本、审稿。分镜和视频提示词见 [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills)。"
+label_en = "Scripts · short drama: plotting with web-novel craft"
+intro_en = "Short drama, manju and web novels share the same plotting craft and differ only in presentation. This section covers the plotting side: adaptation, episode outlines, hooks, scripts and review. For storyboards and video prompts, see [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills/blob/main/README.en.md)."
 
 [groups.companion]
 label = "去 AI 味 · 润色"
 intro = "让文字读起来不像 AI 写的。不限于小说，网文作者用得最多。"
+label_en = "De-AI · polishing"
+intro_en = "Makes text read less like AI wrote it. Not limited to fiction, but web-novel authors use these the most."
 
 [groups.craft]
 label = "写作基本功"
 intro = "不限于网文的叙事理论和练习：结构、人物、对白、视角。"
+label_en = "Writing fundamentals"
+intro_en = "Narrative theory and exercises beyond web novels: structure, character, dialogue, point of view."
 
 [groups.beyond]
 label = "延伸：互动小说 · 改编"
 intro = "把小说变成互动故事、游戏或漫画。改编成短剧剧本的见上面「剧本 · 短剧」。"
+label_en = "Beyond the novel: interactive fiction · adaptation"
+intro_en = "Turn a novel into an interactive story, game or comic. For adapting it into short-drama scripts, see \"Scripts · short drama\" above."
 
 [groups.translate]
 label = "翻译 · 出海"
 intro = "外文小说译成中文、网文译成外文出海，以及轻小说、视觉小说的翻译。"
+label_en = "Translation · going overseas"
+intro_en = "Translating foreign novels into Chinese and web novels into other languages for overseas readers, plus light-novel and visual-novel translation."
 
 [groups.sources]
 label = "素材：小说下载 · 书源"
 intro = "拆书要先有原文。这里收下载小说、生成书源、抓取正文的工具，CLI 工具 agent 可以直接调用。"
+label_en = "Source material: novel downloaders · book sources"
+intro_en = "A book teardown starts with the original text. These tools download novels, generate book sources and scrape chapters; agents can call the CLI tools directly."
 
 [groups.apps]
 label = "相关开源应用（完整应用，非 skill）"
 intro = "可自行部署的 AI 写小说应用，不是 skill，供对照参考。"
+label_en = "Related open-source apps (full apps, not skills)"
+intro_en = "Self-hostable AI novel-writing apps; not skills, listed for comparison."
 indexed = false
 
 # 创作流程阶段，按流程先后排列。label 用于索引，short 用于表格里的阶段列。
 [stages.market]
 label = "选题 · 扫榜 · 拆书"
 short = "选题"
+label_en = "Topic selection · ranking charts · book teardowns"
+short_en = "Market"
 
 [stages.world]
 label = "设定 · 世界观"
 short = "设定"
+label_en = "Setting · worldbuilding"
+short_en = "Setting"
 
 [stages.character]
 label = "人物 · 关系"
 short = "人物"
+label_en = "Characters · relationships"
+short_en = "Characters"
 
 [stages.structure]
 label = "大纲 · 章纲 · 伏笔"
 short = "大纲"
+label_en = "Outline · chapter outlines · foreshadowing"
+short_en = "Outline"
 
 [stages.drafting]
 label = "正文 · 续写"
 short = "正文"
+label_en = "Drafting · continuation"
+short_en = "Drafting"
 
 [stages.memory]
 label = "长篇记忆 · 一致性（防吃书、防 OOC）"
 short = "记忆"
+label_en = "Long-form memory · continuity (no contradictions, no OOC)"
+short_en = "Memory"
 
 [stages.revision]
 label = "审稿 · 润色 · 去 AI 味"
 short = "审稿"
+label_en = "Review · polishing · de-AI"
+short_en = "Review"
 
 [stages.packaging]
 label = "书名 · 简介 · 封面"
 short = "包装"
+label_en = "Title · blurb · cover"
+short_en = "Packaging"
 
 [stages.publish]
 label = "发布 · 多平台分发"
 short = "发布"
+label_en = "Publishing · multi-platform distribution"
+short_en = "Publishing"
 
 [stages.translate]
 label = "翻译 · 本地化"
 short = "翻译"
+label_en = "Translation · localization"
+short_en = "Translation"
 
 [stages.adaptation]
 label = "改编（小说 → 剧本 / 漫画 / 游戏 / 互动）"
 short = "改编"
+label_en = "Adaptation (novel → script / comic / game / interactive)"
+short_en = "Adaptation"
 
 [formats]
 skill   = "标准 SKILL.md，可用 npx skills / 插件安装"
@@ -113,6 +156,8 @@ field = "sites"
 title = "按投稿平台查找"
 intro = "仓库说明里明确提到针对的平台（按星数排序）。"
 icon  = "📚"
+title_en = "By platform"
+intro_en = "Platforms the repo's README explicitly targets (sorted by stars)."
 
 [facet.values]
 qidian   = "起点"
@@ -120,6 +165,15 @@ fanqie   = "番茄"
 jjwxc    = "晋江"
 zhihu    = "知乎盐言"
 qimao    = "七猫"
+royalroad = "Royal Road"
+kdp      = "Kindle / KDP"
+
+[facet.values_en]
+qidian   = "Qidian"
+fanqie   = "Fanqie Novel"
+jjwxc    = "Jinjiang (JJWXC)"
+zhihu    = "Zhihu Yanyan stories"
+qimao    = "Qimao"
 royalroad = "Royal Road"
 kdp      = "Kindle / KDP"
 

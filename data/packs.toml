@@ -1,5 +1,5 @@
 # 推荐组合：按目标给出几个可以搭配使用的项目。
-# repos 里的仓库必须已在 skills.toml 收录。
+# repos 里的仓库必须已在 skills.toml 收录。name_en / goal_en / why_en 是英文版用的。
 # 初版组合来自仓库说明的对照，尚未实测；完成 evals/ 实测后再更新。
 
 [[packs]]
@@ -7,15 +7,24 @@ name  = "中文网文长篇"
 goal  = "从扫榜开书到百万字连载"
 repos = ["zenstory-ai/oh-story-claudecode", "lingfengQAQ/webnovel-writer", "op7418/Humanizer-zh"]
 why   = "oh-story 负责扫榜、拆文和开书，webnovel-writer 负责长篇连载时的记忆和防遗忘（两者写作环节有重叠，择一为主），Humanizer-zh 最后去 AI 味"
+name_en = "Chinese long-form web novel"
+goal_en = "From ranking-chart research and book setup to a million-character serial"
+why_en  = "oh-story handles ranking-chart analysis, teardowns and book setup; webnovel-writer keeps memory and continuity during a long serial (their drafting features overlap, so pick one as the main tool); Humanizer-zh removes AI-sounding prose at the end"
 
 [[packs]]
 name  = "番茄短篇"
 goal  = "选赛道、写一篇番茄短故事"
 repos = ["WindXRan/fanqie-radar", "aby-aby111/fanqie-short-story.skill", "deedeekong07-alt/fiction-humanizer-zh"]
 why   = "fanqie-radar 看榜单热度选题材，fanqie-short-story 按赛道选题、出标题和分段结构，fiction-humanizer-zh 专修小说的梗概感和汇报腔"
+name_en = "Fanqie Novel short story"
+goal_en = "Pick a genre niche and write one Fanqie Novel short story"
+why_en  = "fanqie-radar reads chart popularity to choose a theme; fanqie-short-story picks a topic by niche and produces titles and a segmented structure; fiction-humanizer-zh fixes the summary-like, report-like tone of AI fiction"
 
 [[packs]]
 name  = "故事基本功（英文）"
 goal  = "体系化地学习和练习叙事技艺"
 repos = ["jwynia/agent-skills", "danjdewhurst/story-skills"]
 why   = "jwynia 拆得最细，单项技能多；story-skills 把故事圣经、章节、修订串成一个项目流程"
+name_en = "Storytelling fundamentals (English)"
+goal_en = "Learn and practice narrative craft systematically"
+why_en  = "jwynia breaks the craft down most finely, with many single-purpose skills; story-skills chains the story bible, chapters and revision into one project workflow"

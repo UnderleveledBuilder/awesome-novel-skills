@@ -1,5 +1,7 @@
 # Awesome Novel Skills
 
+**中文** · [English](README.en.md)
+
 > AI 写小说 · 网文 Skill 精选：扫榜拆书、设定大纲、正文连载、长篇记忆、去 AI 味、短剧剧本、翻译、发布，装进 Claude Code / Codex 就能用。
 >
 > A curated list of agent skills for writing novels and web fiction with AI: market research, outlining, drafting, long-form continuity, de-AI revision, short-drama scripts, translation and publishing.
