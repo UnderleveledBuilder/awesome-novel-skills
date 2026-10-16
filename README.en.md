@@ -8,7 +8,7 @@
 
 This list collects novel and web-fiction skills for agents such as Claude Code, Codex and OpenClaw. They cover ranking-chart analysis and book teardowns, setting and characters, outlines and chapter outlines, drafting and continuation, keeping a long serial consistent and in character, review and de-AI revision, titles, blurbs and covers, translation for overseas readers, and publishing. The list also includes skills for plotting short-drama scripts, and the downloaders and book-source tools that book teardowns depend on. Every project has been checked by hand and sorted by type, writing stage and target platform.
 
-Most projects come from the Chinese web-novel scene (Qidian, Fanqie Novel, Jinjiang and others), and many are documented in Chinese; the descriptions below are translated. For story-writing methods beyond web novels, with an English method guide, see [Awesome LLM Storytelling](https://github.com/UnderleveledBuilder/awesome-llm-storytelling/blob/main/README.en.md).
+Most projects come from the Chinese web-novel scene (Qidian, Fanqie Novel, Jinjiang and others), and many are documented in Chinese; the descriptions below are translated. For story-writing methods beyond web novels, with an English method guide, see [Awesome Story Skills](https://github.com/UnderleveledBuilder/awesome-story-skills/blob/main/README.en.md).
 
 205 skills and tools + 6 related open-source apps · metadata updated 2026-10-15
 
@@ -1048,7 +1048,7 @@ Platforms the repo's README explicitly targets (sorted by stars).
 <a id="resources"></a>
 ## Resources
 
-- [awesome-llm-storytelling](https://github.com/UnderleveledBuilder/awesome-llm-storytelling/blob/main/README.en.md): open-source methods for getting LLMs to tell stories, indexed by 12 methods such as planning, long-form memory, multi-agent review and de-AI, with a method guide; goes beyond web novels to scripts, tabletop RPG and narrative nonfiction
+- [awesome-story-skills](https://github.com/UnderleveledBuilder/awesome-story-skills/blob/main/README.en.md): open-source methods for getting LLMs to tell stories, indexed by 12 methods such as planning, long-form memory, multi-agent review and de-AI, with a method guide; goes beyond web novels to scripts, tabletop RPG and narrative nonfiction
 - [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills/blob/main/README.en.md): AI short-drama and manju skills; continue there to adapt a novel into a short drama
 - [anthropics/skills](https://github.com/anthropics/skills): the official Agent Skills repo with the spec and examples, a good starting point for writing your own skill
 - [vercel-labs/skills](https://github.com/vercel-labs/skills): the `npx skills` installer, with the [skills.sh](https://skills.sh) directory
