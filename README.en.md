@@ -1072,3 +1072,7 @@ If your project is listed, you can add this badge to its README:
 ## License
 
 [CC0 1.0](LICENSE)
+
+---
+
+Maintained by [@UnderleveledDev](https://x.com/UnderleveledDev) on X
