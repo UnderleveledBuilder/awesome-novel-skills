@@ -3,6 +3,7 @@
 
 - [awesome-story-skills](https://github.com/UnderleveledBuilder/awesome-story-skills/blob/main/README.en.md): open-source methods for getting LLMs to tell stories, indexed by 12 methods such as planning, long-form memory, multi-agent review and de-AI, with a method guide; goes beyond web novels to scripts, tabletop RPG and narrative nonfiction
 - [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills/blob/main/README.en.md): AI short-drama and manju skills; continue there to adapt a novel into a short drama
+- [awesome-social-media-skills](https://github.com/UnderleveledBuilder/awesome-social-media-skills/blob/main/README.en.md): social media skills for promoting your books and author accounts on Xiaohongshu, WeChat, Douyin, X and more
 - [anthropics/skills](https://github.com/anthropics/skills): the official Agent Skills repo with the spec and examples, a good starting point for writing your own skill
 - [vercel-labs/skills](https://github.com/vercel-labs/skills): the `npx skills` installer, with the [skills.sh](https://skills.sh) directory
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills): a general list of agent skills
