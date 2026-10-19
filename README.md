@@ -93,7 +93,7 @@
 
 - **[webnovel-writer-opencode](https://github.com/lujih/webnovel-writer-opencode)** · ★ 221<br>webnovel-writer 的 OpenCode 移植增强版：在初始化、规划、写章、审查之外加了批量写、重写、修复、导出和番茄/七猫发布<br><sub>阶段：设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿 · 发布</sub><br><sub>更新于 2026-10-19 · 中文 · 16 个 skill · GPL-3.0</sub><br><sub>📚 番茄 · 七猫</sub><br><sub>💡 基于 lingfengQAQ/webnovel-writer，另加 8 个 skill：批量写章、重写、修复、删除、导出（EPUB/DOCX/PDF 等）、番茄风和七猫风写作约束、自动发布到番茄；v2.8 起借鉴 inkos 的事件溯源设计。用 npx @cszx/webnovel-writer-opencode init 安装，Claude Code 用户直接用原版</sub>
 
-- **[sumeru](https://github.com/xindoo/sumeru)** · ★ 208<br>网文全流程 7 个 skill：选题（含榜单分析）→世界观大纲→章节批量撰写→时间线/OOC 审查→润色→多平台导出，可断点续写<br><sub>阶段：选题 · 设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-08-23 · 中文 · 7 个 skill</sub><br><sub>📚 起点 · 番茄 · 晋江</sub>
+- **[sumeru](https://github.com/xindoo/sumeru)** · ★ 209<br>网文全流程 7 个 skill：选题（含榜单分析）→世界观大纲→章节批量撰写→时间线/OOC 审查→润色→多平台导出，可断点续写<br><sub>阶段：选题 · 设定 · 人物 · 大纲 · 正文 · 记忆 · 审稿</sub><br><sub>更新于 2026-08-23 · 中文 · 7 个 skill</sub><br><sub>📚 起点 · 番茄 · 晋江</sub>
 
 - **[Distilled-Novel-Toolbox](https://github.com/dama-cyber/Distilled-Novel-Toolbox)** · ★ 190<br>网文写作知识库 13 个 skill：题材、人设、世界观、节奏、爽点、情绪、文风、商业化、合规、润色去 AI 味与 AIGC 检测应对<br><sub>阶段：选题 · 设定 · 人物 · 大纲 · 正文 · 审稿</sub><br><sub>更新于 2026-06-09 · 中文 · 13 个 skill</sub><br><sub>📚 起点 · 番茄 · 晋江 · 知乎盐言</sub><br><sub>💡 README 未写安装方式：把各 novel-* 目录复制到 agent 的 skills 目录即可；每个模块附 test-prompts.json</sub>
 
@@ -403,11 +403,11 @@ npx skills add leonluo2008-ops/jiamama-bedtime-story-skill
 
 - **[XiaoLuo-AI-Drama-Skill](https://github.com/zhurui0523/XiaoLuo-AI-Drama-Skill)** · ★ 487<br>小逻系列：剧本分析、原创改编、分镜脚本、角色三视图/服装/表情、场景布局<br><sub>阶段：人物 · 正文 · 改编</sub><br><sub>更新于 2026-07-23 · 📝 提示词 · 中文</sub><br><sub>💡 一组提示词 .md，不是标准 SKILL.md</sub>
 
-- **[screen-creative-skills](https://github.com/VanGong1999/screen-creative-skills)** · ★ 465<br>影视策划与评估：小说/IP 评估、情节点拆解、人物小传与关系、大纲、小说改编短剧或长剧<br><sub>阶段：选题 · 人物 · 大纲 · 改编</sub><br><sub>更新于 2026-10-12 · 中文 · 31 个 skill · MIT</sub><br><sub>💡 31 个 skill 在仓库里有两份副本</sub>
+- **[screen-creative-skills](https://github.com/VanGong1999/screen-creative-skills)** · ★ 466<br>影视策划与评估：小说/IP 评估、情节点拆解、人物小传与关系、大纲、小说改编短剧或长剧<br><sub>阶段：选题 · 人物 · 大纲 · 改编</sub><br><sub>更新于 2026-10-12 · 中文 · 31 个 skill · MIT</sub><br><sub>💡 31 个 skill 在仓库里有两份副本</sub>
 
-- **[short-drama-factory](https://github.com/lixiaoxiao9888-create/short-drama-factory)** · ★ 408<br>抖音/红果短剧工业化编剧：一句创意或一部网文 → 60–100 集带付费卡点的剧本，配钩子、断章、反转公式和机检规则<br><sub>阶段：大纲 · 正文 · 审稿 · 改编</sub><br><sub>更新于 2026-10-16 · 中文 · MIT</sub>
+- **[short-drama-factory](https://github.com/lixiaoxiao9888-create/short-drama-factory)** · ★ 409<br>抖音/红果短剧工业化编剧：一句创意或一部网文 → 60–100 集带付费卡点的剧本，配钩子、断章、反转公式和机检规则<br><sub>阶段：大纲 · 正文 · 审稿 · 改编</sub><br><sub>更新于 2026-10-16 · 中文 · MIT</sub>
 
-- **[OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot)** · ★ 325<br>神仙鱼短剧流水线：一句话 → 剧本、分镜、分镜图、视频、剪辑五步，沉淀 17 种失败模式<br><sub>阶段：正文</sub><br><sub>更新于 2026-07-07 · 中文 · MIT</sub>
+- **[OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot)** · ★ 326<br>神仙鱼短剧流水线：一句话 → 剧本、分镜、分镜图、视频、剪辑五步，沉淀 17 种失败模式<br><sub>阶段：正文</sub><br><sub>更新于 2026-07-07 · 中文 · MIT</sub>
 
 - **[Micro-Drama-Skills](https://github.com/zhaihao118/Micro-Drama-Skills)** · ★ 322<br>短剧全流程自动化：剧本、角色设计、分镜、出图出视频与提交<br><sub>阶段：正文</sub><br><sub>更新于 2026-02-23 💤 · 中文 · 4 个 skill</sub>
 
@@ -447,7 +447,7 @@ npx skills add leonluo2008-ops/jiamama-bedtime-story-skill
 
 - **[jingju-skills](https://github.com/jxshow/jingju-skills)** · ★ 37<br>鲸剧：AI 漫剧全流程，大纲、人设一致性、分集剧本、分镜、图/视频提示词、ComfyUI 批量出图<br><sub>阶段：人物 · 大纲 · 正文</sub><br><sub>更新于 2026-06-09 · 中文</sub>
 
-- **[open-source-video-gen-skill](https://github.com/mini-yifan/open-source-video-gen-skill)** · ★ 35<br>Vibe Video：在 AutoDL 上跑开源 MiniMax H3 出片，短剧模板串起 Brief、分集概要、剧本台词、美术和视频，含 H3 提示词写法<br><sub>阶段：人物 · 大纲 · 正文</sub><br><sub>更新于 2026-09-11 · 多语言 · 9 个 skill</sub><br><sub>💡 依赖 AutoDL GPU 实例（按时计费）；短剧模板只管流程关卡，叙事部分较薄</sub>
+- **[open-source-video-gen-skill](https://github.com/mini-yifan/open-source-video-gen-skill)** · ★ 36<br>Vibe Video：在 AutoDL 上跑开源 MiniMax H3 出片，短剧模板串起 Brief、分集概要、剧本台词、美术和视频，含 H3 提示词写法<br><sub>阶段：人物 · 大纲 · 正文</sub><br><sub>更新于 2026-09-11 · 多语言 · 9 个 skill</sub><br><sub>💡 依赖 AutoDL GPU 实例（按时计费）；短剧模板只管流程关卡，叙事部分较薄</sub>
 
 - **[spark-video](https://github.com/JohnKeating1997/spark-video)** · ★ 34<br>一句梗概 → 剧本、分镜、角色/场景/道具一致性、渲染、逐镜 AI 质检到成片 mp4，每阶段设确认关卡<br><sub>阶段：人物 · 正文 · 审稿</sub><br><sub>更新于 2026-09-01 · 英文 · 7 个 skill</sub><br><sub>💡 依赖阿里云百炼等付费视频 API；默认短剧模式，也有广告和科普示例</sub>
 
@@ -607,7 +607,7 @@ npx skills add zhu5859243-free/hongguo-shortdrama-screenwriting
 
 - 🌟 **[shuorenhua](https://github.com/MrGeDiao/shuorenhua)** · ★ 2.2k<br>中文优先的去套话改写：保留数字、条件、承诺和作者口气，可选自由/句内/原位三档改动范围，附 123 条评测集<br><sub>阶段：审稿</sub><br><sub>更新于 2026-10-19 · 中文 · MIT</sub><br><sub>💡 主要面向说明文、工作文本和个人文章，不专门针对小说</sub>
 
-- **[humanizer](https://github.com/blader/humanizer)** · ★ 58.4k<br>按维基百科「Signs of AI writing」清单去除 AI 写作痕迹<br><sub>阶段：审稿</sub><br><sub>更新于 2026-10-16 · 英文 · MIT</sub>
+- **[humanizer](https://github.com/blader/humanizer)** · ★ 58.5k<br>按维基百科「Signs of AI writing」清单去除 AI 写作痕迹<br><sub>阶段：审稿</sub><br><sub>更新于 2026-10-16 · 英文 · MIT</sub>
 
 - **[stop-slop](https://github.com/hardikpandya/stop-slop)** · ★ 18.2k<br>识别并删掉 AI 套话、模板句式和节奏问题<br><sub>阶段：审稿</sub><br><sub>更新于 2026-03-17 💤 · 英文 · MIT</sub>
 
@@ -897,7 +897,7 @@ npx skills add duongmkqn005-ai/zh-vi-novel-translation
 
 - **[Yuedu](https://github.com/XIU2/Yuedu)** · ★ 12.5k<br>「阅读」APP 书源合集：作者自用的 22 个精选小说书源（起点、番茄、69书吧等），提供网络导入和二维码导入<br><sub>阶段：选题</sub><br><sub>更新于 2026-08-14 · 🧩 应用 · 中文 · GPL-3.0</sub><br><sub>📚 起点 · 番茄</sub><br><sub>💡 需要配合 gedoor/legado（阅读 APP）使用；书源少，作者自己说维护不积极。在 APP 里缓存全本后可以导出 TXT</sub>
 
-- **[legado](https://github.com/aoaostar/legado)** · ★ 6.9k<br>「阅读」App 书源合集：全量约 3900 条书源，另有订阅源、净化规则、排版和朗读引擎配置，一键导入<br><sub>阶段：选题</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 中文</sub><br><sub>💡 书源由机器人定时同步更新；Git 仓库不支持一键导入，从 legado.aoaostar.com 导入</sub>
+- **[legado](https://github.com/aoaostar/legado)** · ★ 7k<br>「阅读」App 书源合集：全量约 3900 条书源，另有订阅源、净化规则、排版和朗读引擎配置，一键导入<br><sub>阶段：选题</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 中文</sub><br><sub>💡 书源由机器人定时同步更新；Git 仓库不支持一键导入，从 legado.aoaostar.com 导入</sub>
 
 - **[work_crawler](https://github.com/kanasimi/work_crawler)** · ★ 4.3k<br>Node.js 小说漫画批量下载器：小说部分覆盖起点、笔趣阁系、成为小说家吧、カクヨム等站，输出 EPUB，有 Electron 界面<br><sub>阶段：选题</sub><br><sub>更新于 2026-10-12 · 🧩 应用 · 多语言</sub><br><sub>📚 起点</sub><br><sub>💡 约六成站点模块是漫画。Release 安装包还停在 2022 年的 v2.14，近两年的修复要从源码运行才能用上</sub>
 
@@ -907,7 +907,7 @@ npx skills add duongmkqn005-ai/zh-vi-novel-translation
 
 - **[fanqienovel-downloader](https://github.com/ying-ck/fanqienovel-downloader)** · ★ 2.4k<br>番茄小说 Python 下载器：命令行按 ID/链接下载、搜索、批量和更新已下书目，另有 Web 版队列与在线阅读，导出 TXT/EPUB<br><sub>阶段：选题</sub><br><sub>更新于 2026-08-16 · 🧩 应用 · 中文 · AGPL-3.0</sub><br><sub>📚 番茄</sub><br><sub>💡 Web 版可以用 Docker 跑；Release 里的 exe 是打包版，源码在 src/。2026-07 社区 PR 改用 curl_cffi 应对反爬</sub>
 
-- **[novel-downloader](https://github.com/404-novel-project/novel-downloader)** · ★ 2k<br>通用小说下载油猴脚本：在目录页一键下载，覆盖起点、晋江、番茄、七猫、SF、ESJ、轻小说文库等百余站，输出 TXT+EPUB<br><sub>阶段：选题</sub><br><sub>更新于 2026-10-16 · 🧩 应用 · 中文 · 2 个 skill · AGPL-3.0</sub><br><sub>📚 起点 · 晋江 · 番茄 · 七猫</sub><br><sub>💡 对无登录墙的站点，经你同意后会把详情页/目录页存档到 archive.org，并上报 IP、UA 等信息。晋江、番茄可能要手动做字体匹配，晋江章节可填 App token。仓库里的 .claude/skills 是维护者开发用的，不是写作 skill</sub>
+- **[novel-downloader](https://github.com/404-novel-project/novel-downloader)** · ★ 2k<br>通用小说下载油猴脚本：在目录页一键下载，覆盖起点、晋江、番茄、七猫、SF、ESJ、轻小说文库等百余站，输出 TXT+EPUB<br><sub>阶段：选题</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 中文 · 2 个 skill · AGPL-3.0</sub><br><sub>📚 起点 · 晋江 · 番茄 · 七猫</sub><br><sub>💡 对无登录墙的站点，经你同意后会把详情页/目录页存档到 archive.org，并上报 IP、UA 等信息。晋江、番茄可能要手动做字体匹配，晋江章节可填 App token。仓库里的 .claude/skills 是维护者开发用的，不是写作 skill</sub>
 
 - **[Novel](https://github.com/tickmao/Novel)** · ★ 2k<br>书源合集：阅读（Legado）约 1000 个、香色闺阁 1274 个书源，附净化规则、TTS 配置、字体和主题，Actions 每天校验<br><sub>阶段：选题</sub><br><sub>更新于 2026-10-19 · 🧩 应用 · 中文</sub><br><sub>💡 书源要先过自动运行校验才会发布；爱阅书香的书源链接到第三方仓库</sub>
 
