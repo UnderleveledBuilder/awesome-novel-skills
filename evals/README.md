@@ -1,40 +1,7 @@
 # 实测对比
 
-列表里的「人工核对」只说明项目信息准确。这里放实测：同一个题材交给不同的 skill，把产出并排摆出来，让读者自己判断。
+列表里的「人工核对」只说明项目信息准确。实测统一放在 [awesome-short-drama-skills 的 evals/](https://github.com/UnderleveledBuilder/awesome-short-drama-skills/tree/main/evals) 里：规范、运行器、评审代码和每一轮的原始数据都在那里，数字可以重算。
 
-## 实测规范
+## 测过本清单的轮次
 
-每轮实测：
-
-1. **同一份输入**：一个梗概（premise），放在 `premises/` 下，所有参赛 skill 共用。
-2. **同一个环境**：同一个 agent、同一个模型、同样的推理强度，记录版本号。
-3. **固定 skill 版本**：记录每个仓库的 commit hash。
-4. **按 skill 自己的流程走**：skill 要问答就如实回答，不额外加指令；回答内容统一记录在 `run.md` 里。
-5. **完整保留产出**：不挑最好的一次，跑几次就放几次。
-
-## 目录结构
-
-```
-evals/
-├── premises/
-│   └── 001-<题材>.md          # 梗概：题材、体裁、篇幅要求
-└── runs/
-    └── 001-<题材>/
-        ├── run.md             # 环境、版本、参赛 skill 的 commit、问答记录
-        ├── <owner>__<repo>/   # 每个 skill 的产出
-        └── review.md          # 对比点评
-```
-
-## 点评维度
-
-| 维度 | 看什么 |
-|---|---|
-| 钩子 | 开篇 / 每章结尾能不能让人想往下看 |
-| 人物 | 动机是否清楚，行为是否前后一致 |
-| 结构 | 节奏、冲突升级、爽点和反转是否成立 |
-| 一致性 | 连写多章后设定、人物、伏笔有没有前后矛盾（吃书、OOC） |
-| 文笔 | 叙述和对白像不像人写的，有没有角色区分度 |
-| AI 味 | 套话、排比、空洞形容词的多少 |
-| 可用性 | 产出离能直接用还差多少修改；流程是否顺手 |
-
-点评只写观察和例子，不打总分。
+- [第二轮：选题类 skill](https://shortdramaskills.com/evals/round-2/)（2026-10-20）：本清单里 10 个能从零出选题的 skill，加短剧清单里的 0xsline/short-drama 和一个不装 skill 的对照组，给一个以后能写网文、也能拍短剧的爽文故事定选题，每个跑 3 次，所有参赛者两两盲比、按积分排名。点评摘要见 [review.md](https://github.com/UnderleveledBuilder/awesome-short-drama-skills/blob/main/evals/runs/002-topic/review.md)。
