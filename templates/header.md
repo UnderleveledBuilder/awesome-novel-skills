@@ -10,25 +10,6 @@
 
 收录 {{count}} 个 skill 和工具 + {{apps}} 个相关开源应用 · 元数据更新于 {{updated}}
 
-## 定选题装哪个
-
-第二轮实测（2026-10-20）：本清单里 10 个能从零出选题的 skill、短剧清单里的 0xsline/short-drama 和一个不装 skill 的对照组，给同一个以后能写网文、也能拍短剧的爽文故事定选题，各定 3 次；所有参赛者两两盲比，按积分排名。两位 AI 评审（Opus 和 GPT）排出的前四名是同样四个 skill，只是顺序不同：
-
-| skill | 名次（Opus / GPT） | 适合 | 要注意 |
-|---|---|---|---|
-| [Tomsawyerhu/Chinese-WebNovel-Skill](https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill) | 1 / 4 | 少见的法律职业加身份翻转，一句话卖点就懂 | 爽点建在法律程序上，法条要逐条核实 |
-| [lingfengQAQ/webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | 2 / 3 | 金手指配有代价的规则，主角的缺点和能力绑在一起 | 三次都是「头顶看见数字」；超自然设定有审核风险 |
-| [LanyXiaosheng/bookflow-skill](https://github.com/LanyXiaosheng/bookflow-skill) | 3 / 1 | 场景少、人物少，最好落地 | 先写一两万字的短篇测题，有的设定撑不起长篇 |
-| [Hao0321/ai-short-drama](https://github.com/Hao0321/ai-short-drama) | 4 / 2 | 新意强，异能都有规矩 | 三次都靠异能，拍成短剧要特效或 AI 画面 |
-
-这一轮的局限：
-- 不装 skill 的对照组排第 7 / 第 10，两位评审都有 skill 排在它后面。
-- oh-story 和 chinese-longnovel-skill 定选题要先扫榜，沙箱不能联网，它们没拿到榜单，两位评审都排在最后两名；联网时选得怎样，这一轮测不出来。
-- 两位评审每对的结论，198 个里有 71 个不同。
-- 只测了 claude-opus-5-5 一个模型；只比选题，不比正文。
-
-全过程和逐个点评见[第二轮实测记录](https://shortdramaskills.com/evals/round-2/)。
-
 **图例**：🌟 精选 · 📝 提示词文件（非标准 skill）· 🧩 完整应用 · 📚 针对的投稿平台 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效
 
 > [!NOTE]

@@ -12,25 +12,6 @@ Most projects come from the Chinese web-novel scene (Qidian, Fanqie Novel, Jinji
 
 205 skills and tools + 6 related open-source apps · metadata updated 2026-10-20
 
-## Which skill to install for premises
-
-Round 2 (2026-10-20): 10 skills from this list that can come up with a premise from scratch, 0xsline/short-drama from the short drama list, and a control with no skill installed each chose a premise 3 times for the same kind of revenge-fantasy story, one that could become a web novel or a vertical short drama. Every entry was compared blind with every other and ranked by points. Both AI reviewers (Opus and GPT) put the same four skills on top, in a different order:
-
-| Skill | Place (Opus / GPT) | Good for | Watch out for |
-|---|---|---|---|
-| [Tomsawyerhu/Chinese-WebNovel-Skill](https://github.com/Tomsawyerhu/Chinese-WebNovel-Skill) | 1 / 4 | Rare legal jobs and reversals of status; pitches you get in one line | The payoffs rest on legal procedure, so check the law |
-| [lingfengQAQ/webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | 2 / 3 | Powers with rules that cost something; the hero's flaw tied to the power | All 3 runs let the hero see numbers over people's heads; supernatural premises risk platform review |
-| [LanyXiaosheng/bookflow-skill](https://github.com/LanyXiaosheng/bookflow-skill) | 3 / 1 | Few locations and a small cast; the easiest to produce | Starts with a short story of 10,000–20,000 characters to test the idea; some premises are too thin for a long serial |
-| [Hao0321/ai-short-drama](https://github.com/Hao0321/ai-short-drama) | 4 / 2 | Fresh premises; supernatural powers with rules | All 3 runs rely on powers that need effects or AI imagery on screen |
-
-Limits of this round:
-- The no-skill control placed 7th / 10th; with both reviewers, some skills did worse.
-- oh-story and chinese-longnovel-skill start by checking the charts, but there was no network, so they had no chart data, and both reviewers put them last; how they do with the network, this round cannot say.
-- The two reviewers disagreed on 71 of 198 pair results.
-- Only one model was tested, claude-opus-5-5, and only premises were compared, not the writing.
-
-The full record and per-skill reviews (in Chinese): [Round 2](https://shortdramaskills.com/evals/round-2/).
-
 **Legend**: 🌟 featured · 📝 prompt files (not a standard skill) · 🧩 full app · 📚 target platform · 💤 not updated for 180+ days · 📦 archived · ⚠️ repo unavailable
 
 > [!NOTE]
