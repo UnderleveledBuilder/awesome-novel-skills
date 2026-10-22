@@ -101,7 +101,7 @@ Complete writing systems that go from topic selection, setting and outline throu
 
 - **[awesome-novel-agent](https://github.com/modoojunko/awesome-novel-agent)** · ★ 835<br>Novel-writing partner that co-writes a whole novel step by step: worldbuilding → characters → chapter planning → draft<br><sub>Stages: Setting · Characters · Outline · Drafting</sub><br><sub>updated 2026-09-25 · Chinese · AGPL-3.0</sub><br><sub>💡 Despite "awesome" in the name, it is a writing agent, not a list</sub>
 
-- **[oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh)** · ★ 588<br>Packages the Oh Story novel skills for DeepSeek Harness, adding a three-pane novel workbench (file tree, editor, chat) plus short drama, novel-to-game and video commentary workbenches<br><sub>Stages: Market · Setting · Characters · Outline · Drafting · Review · Packaging · Adaptation</sub><br><sub>updated 2026-10-19 · Chinese · 38 skills · MIT</sub><br><sub>💡 Based on the same team's zenstory-ai/oh-story-claudecode (bundles Oh Story 0.8.5 with novel skill files identical to the original) and novel-to-game, adding the DSH web workbench UI and short-drama and video-commentary skills. Works only in DeepSeek Harness and needs Node.js 24+; Claude Code users should use the original.</sub>
+- **[oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh)** · ★ 590<br>Packages the Oh Story novel skills for DeepSeek Harness, adding a three-pane novel workbench (file tree, editor, chat) plus short drama, novel-to-game and video commentary workbenches<br><sub>Stages: Market · Setting · Characters · Outline · Drafting · Review · Packaging · Adaptation</sub><br><sub>updated 2026-10-19 · Chinese · 38 skills · MIT</sub><br><sub>💡 Based on the same team's zenstory-ai/oh-story-claudecode (bundles Oh Story 0.8.5 with novel skill files identical to the original) and novel-to-game, adding the DSH web workbench UI and short-drama and video-commentary skills. Works only in DeepSeek Harness and needs Node.js 24+; Claude Code users should use the original.</sub>
 
 - **[novel-writing-framework](https://github.com/LAY-lgtm/novel-writing-framework)** · ★ 259<br>Five web novel methodologies: general long-form process, Fanqie Novel fast pacing, Qidian slow burn, scheming and intrigue, finished-draft improvement diagnosis, with a self-check every three chapters and quantified AI-fingerprint metrics<br><sub>Stages: Outline · Drafting · Review</sub><br><sub>updated 2026-05-31 · 📝 prompts · Chinese · MIT</sub><br><sub>📚 Fanqie Novel · Qidian</sub><br><sub>💡 Each is a standalone .md that you must put in a skills directory or load manually</sub>
 
@@ -439,7 +439,7 @@ Short drama, manju and web novels share the same plotting craft and differ only 
 
 - **[narrative-to-screen-reader](https://github.com/zhlmi/narrative-to-screen-reader)** · ★ 123<br>Translates a story you have into film-development language: quick diagnosis, screenwriter's adaptation reader, director's audiovisual reader, actor's reader, producer's summary<br><sub>Stages: Market · Characters · Adaptation</sub><br><sub>updated 2026-10-01 · Chinese</sub>
 
-- **[infinite-creation](https://github.com/SwotAtmk/infinite-creation)** · ★ 109<br>Submit a novel or script and it produces video continuously and automatically with local ComfyUI + MiniMax H3 + agents, with no length limit<br><sub>Stages: Adaptation</sub><br><sub>updated 2026-10-22 · Chinese · 37 skills · MIT</sub><br><sub>💡 Its 28 skills also include ad and promo-video ones</sub>
+- **[infinite-creation](https://github.com/SwotAtmk/infinite-creation)** · ★ 110<br>Submit a novel or script and it produces video continuously and automatically with local ComfyUI + MiniMax H3 + agents, with no length limit<br><sub>Stages: Adaptation</sub><br><sub>updated 2026-10-22 · Chinese · 37 skills · MIT</sub><br><sub>💡 Its 28 skills also include ad and promo-video ones</sub>
 
 - **[fight-video-create-skill](https://github.com/qualsenWeb/fight-video-create-skill)** · ★ 96<br>AI fight-scene design: from fight concept to plot, choreography and storyboard, with move checks and a reference library<br><sub>Stages: Drafting</sub><br><sub>updated 2026-09-29 · Multilingual</sub>
 
@@ -625,7 +625,7 @@ Makes text read less like AI wrote it. Not limited to fiction, but web-novel aut
 
 - **[humanizer](https://github.com/blader/humanizer)** · ★ 59.6k<br>Removes signs of AI writing based on Wikipedia's "Signs of AI writing" list<br><sub>Stages: Review</sub><br><sub>updated 2026-10-16 · English · MIT</sub>
 
-- **[stop-slop](https://github.com/hardikpandya/stop-slop)** · ★ 18.2k<br>Finds and deletes AI clichés, template sentence patterns and rhythm problems<br><sub>Stages: Review</sub><br><sub>updated 2026-03-17 💤 · English · MIT</sub>
+- **[stop-slop](https://github.com/hardikpandya/stop-slop)** · ★ 18.3k<br>Finds and deletes AI clichés, template sentence patterns and rhythm problems<br><sub>Stages: Review</sub><br><sub>updated 2026-03-17 💤 · English · MIT</sub>
 
 - **[human-writing](https://github.com/KKKKhazix/human-writing)** · ★ 4.2k<br>Human-feel writing: makes AI-written Chinese sound like a specific person talking, for fiction, WeChat Official Account posts, voiceover scripts and more<br><sub>Stages: Review</sub><br><sub>updated 2026-08-11 · Chinese · MIT</sub>
 
@@ -751,7 +751,7 @@ npx skills add aimerfeng/novel-to-webnovel
 
 Narrative theory and exercises beyond web novels: structure, character, dialogue, point of view.
 
-- **[creative-writing-skills](https://github.com/haowjy/creative-writing-skills)** · ★ 528<br>General creative writing plugin with separate roles for writing, critique, revision and exploration, including story planning, story memory and reader simulation<br><sub>Stages: Outline · Drafting · Memory · Review</sub><br><sub>updated 2026-10-18 · English · 24 skills · Apache-2.0</sub>
+- **[creative-writing-skills](https://github.com/haowjy/creative-writing-skills)** · ★ 529<br>General creative writing plugin with separate roles for writing, critique, revision and exploration, including story planning, story memory and reader simulation<br><sub>Stages: Outline · Drafting · Memory · Review</sub><br><sub>updated 2026-10-18 · English · 24 skills · Apache-2.0</sub>
 
 - **[agent-skills](https://github.com/jwynia/agent-skills)** · ★ 174<br>Large narrative skill collection: story coach, co-writing, outlining, character arcs, dialogue, endings, anti-cliché, flash fiction, and many worldbuilding systems<br><sub>Stages: Setting · Characters · Outline · Drafting · Review</sub><br><sub>updated 2026-02-24 💤 · English · 119 skills</sub><br><sub>💡 Also includes marketing and other nonfiction skills; pick and install as needed</sub>
 
