@@ -29,7 +29,7 @@ fork 和改名换皮的不收。在原版基础上加了新的 skill、模块或
    python3 scripts/build.py                       # 重新生成 README.md 和英文版 README.en.md
    ```
 
-   跳过这一步也可以，合并后 GitHub Actions 会自动刷新并生成。
+   跳过这一步也可以，合并后维护者会刷新并生成。
 3. 提交 PR。CI 会校验数据格式。
 
 ## 字段说明
@@ -73,4 +73,4 @@ checked = 2026-10-13              # 可选，人工核对日期（TOML 日期，
 | `scripts/build.py` | 生成 README.md 和 README.en.md；`--check` 检查是否最新，`--validate` 只校验数据 |
 | `scripts/discover.py` | 按 taxonomy.toml 里的关键词搜候选项目，输出待审清单 |
 
-GitHub Actions 每周一自动刷新元数据、重新生成 README，并把新候选开成 issue。
+每周一自动刷新元数据、重新生成 README，并把新候选开成 issue。
