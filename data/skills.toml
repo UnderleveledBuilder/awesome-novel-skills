@@ -2570,7 +2570,7 @@ note_en = "Built for fully automatic book generation from a single line; turn on
 checked = 2026-10-14
 
 [[skills]]
-repo    = "EthanYoQ/AI-Novel-Writer"
+repo    = "EthanYoQ/Pagekin"
 desc    = "桌面长篇写作软件：前提、角色、世界观、章节蓝图、草稿、审稿、修稿、定稿逐段推进，可按阶段绑定写作 Skill，支持本地与在线模型"
 desc_en = "Desktop long-form writing app advancing stage by stage through premise, characters, worldbuilding, chapter blueprint, draft, review, revision and finalization, with writing Skills bindable per stage, local and online models"
 group   = "apps"
