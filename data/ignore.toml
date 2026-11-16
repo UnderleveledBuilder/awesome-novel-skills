@@ -1358,3 +1358,7 @@ reason = "帮观众按片段或截图找短剧全集的搜索 skill，不是写�
 [[ignored]]
 repo   = "aixlb/bcc"
 reason = "视频拆剧本、分镜表和风格指南的拉片工具，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "jjjjjinshan/aigc-drama-workflow"
+reason = "与已收录的 zenstory-ai/drama-skills 高度重合（10 个 skill 和校验脚本同名），主要多一个 Google Flow 出口"

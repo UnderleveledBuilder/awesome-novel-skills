@@ -1584,16 +1584,6 @@ note    = "同作者另有已收的 Seedance2-Storyboard-Generator、smy-seedanc
 note_en = "The same author's Seedance2-Storyboard-Generator and smy-seedance-storyboard are already listed; no license is declared. Created in 2026-11."
 checked = 2026-11-16
 
-[[skills]]
-repo    = "jjjjjinshan/aigc-drama-workflow"
-desc    = "漫剧/短剧多 agent 工作流：11 个分工明确的 skill，从拆小说、开发、写剧本、审稿到分镜、资产、图和视频提示词，用状态文件和机械门禁保一致"
-desc_en = "Multi-agent manju/short drama workflow: 11 single-responsibility skills from novel analysis, development, scriptwriting and review to storyboards, assets and image/video prompts, kept consistent by explicit state files and mechanical gates"
-group   = "script"
-stages  = ["structure", "drafting", "revision"]
-format  = "skill"
-lang    = "zh"
-checked = 2026-11-16
-
 # ───────────────────────── 去 AI 味 · 润色 ─────────────────────────
 
 [[skills]]
