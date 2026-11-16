@@ -379,6 +379,19 @@
       "stars": 210,
       "status": "ok"
     },
+    "LeonRoxie/dsh-humanizer-zh": {
+      "archived": false,
+      "description": "DSH plugin: Chinese text humanization skill (des-AI-tone / 中文去AI味)",
+      "first_seen": "2026-11-16",
+      "forks": 2,
+      "full_name": "LeonRoxie/dsh-humanizer-zh",
+      "license": "MIT",
+      "pushed_at": "2026-11-13",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 5,
+      "status": "ok"
+    },
     "LifelongLazyLearner/qu-ai-wei": {
       "archived": false,
       "description": "去 AI 味：去除简体中文 AI 写作痕迹 / Chinese humanizer skill",
@@ -401,6 +414,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 94,
+      "status": "ok"
+    },
+    "Luos3933/pixiv-novel-epub": {
+      "archived": false,
+      "description": "Pixiv novel downloader & EPUB builder. 下载 Pixiv 小说正文/插图/封面，三层流水线标准化校正，纯标准库打包中文 EPUB / txt",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "Luos3933/pixiv-novel-epub",
+      "license": null,
+      "pushed_at": "2026-11-16",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 7,
       "status": "ok"
     },
     "MIKA6941/Comfy-H3-Director": {
@@ -766,6 +792,19 @@
       "stars": 7,
       "status": "ok"
     },
+    "Wassuhjx420/bilinovel-studio": {
+      "archived": false,
+      "description": "哔哩轻小说下载器，一键下载哔哩轻小说（linovelib bilinovel）并打包为EPUB",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "Wassuhjx420/bilinovel-studio",
+      "license": "MIT",
+      "pushed_at": "2026-10-11",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 6,
+      "status": "ok"
+    },
     "WindXRan/fanqie-radar": {
       "archived": false,
       "description": "番茄小说榜单数据 · 扫榜选书工作台 · MCP Server · 开源 Agent Skill（Codex / Claude Code 一键安装）。内置真实榜单快照、内置扫榜采集、题材热度 / 趋势差分 / 仿写六维评分——AI 网文写作与数据驱动选书判断力。Fanqie novel rank data, webnovel scanning & book-selection workbench, agent skills for Claude Code & Codex, MCP server for AI novel writing, Chinese webnovel trend analysis.",
@@ -861,6 +900,19 @@
       "skill_count": 0,
       "skill_count_truncated": false,
       "stars": 6476,
+      "status": "ok"
+    },
+    "YUKI0104/novel-downloader": {
+      "archived": false,
+      "description": "番茄猫 · 番茄小说 / 七猫小说 桌面下载器（macOS 原生 SwiftUI，通用二进制 macOS 14+）",
+      "first_seen": "2026-11-16",
+      "forks": 2,
+      "full_name": "YUKI0104/novel-downloader",
+      "license": null,
+      "pushed_at": "2026-10-13",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 6,
       "status": "ok"
     },
     "YuliangXiu/de-ai-router": {
@@ -983,6 +1035,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 62,
+      "status": "ok"
+    },
+    "alchaincyf/tramstop-skill": {
+      "archived": false,
+      "description": "电车站.skill — 人味不是删出来的。Evidence-based de-slop skill: 四层AI味模型+真实素材注入，来自四版本盲测实验",
+      "first_seen": "2026-11-16",
+      "forks": 11,
+      "full_name": "alchaincyf/tramstop-skill",
+      "license": "MIT",
+      "pushed_at": "2026-10-13",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 59,
       "status": "ok"
     },
     "allen3206/BiliNovelDownloader": {
@@ -1555,6 +1620,19 @@
       "stars": 95,
       "status": "ok"
     },
+    "jjjjjinshan/aigc-drama-workflow": {
+      "archived": false,
+      "description": "面向 AIGC 漫剧 / 短剧创作的 Agent 工作流：11 个职责隔离的 Skill，用显式状态契约解决生成一致性，用机械门禁守住质量底线。",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "jjjjjinshan/aigc-drama-workflow",
+      "license": "MIT",
+      "pushed_at": "2026-11-02",
+      "skill_count": 11,
+      "skill_count_truncated": false,
+      "stars": 7,
+      "status": "ok"
+    },
     "jlam00-dev/hardcore-director": {
       "archived": false,
       "description": "影视与 AI 视频创作总控 Codex Skill：编剧、分镜、提示词、导演美学、声音、剪辑与发布",
@@ -1697,6 +1775,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 2872,
+      "status": "ok"
+    },
+    "liangdabiao/seedance-storyboard-generator-realman": {
+      "archived": false,
+      "description": "真人实拍质感AI短剧分镜生成器 - Seedance Realman Storyboard Skill 一个帮你把故事/剧本变成真人实拍质感 AI 视频的技能包。  简单说：你给它一个故事，它帮你走完从剧本到成片的全过程，而且生成的画面尽量像真人拍的电影，而不是卡通、动画或塑料感的游戏画面。",
+      "first_seen": "2026-11-16",
+      "forks": 12,
+      "full_name": "liangdabiao/seedance-storyboard-generator-realman",
+      "license": null,
+      "pushed_at": "2026-11-16",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 47,
       "status": "ok"
     },
     "liangdabiao/smy-seedance-storyboard": {

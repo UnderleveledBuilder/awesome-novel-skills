@@ -1330,3 +1330,31 @@ reason = "计算机视觉的新视角合成（novel view synthesis），与小�
 [[ignored]]
 repo   = "ADC1920/AI-short-play-video-creation"
 reason = "短剧/剧本类，见 awesome-short-drama-skills（Seedance/即梦出片流程）"
+
+[[ignored]]
+repo   = "newbiefly/novel-teardown-shelf"
+reason = "拆书成果展示站：6 本小说的创作蓝图静态页面，没有可安装的拆书工具，每本的 SKILL 写死在那部作品上"
+
+[[ignored]]
+repo   = "z2x7d54/ai-drama-director-skill"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（剧本转分镜提示词教学）"
+
+[[ignored]]
+repo   = "TD-JZ/E-Ink-Display-Reader-Adapter-Software"
+reason = "可疑：仓库只有 exe/apk 安装包和 README，没有源码"
+
+[[ignored]]
+repo   = "annalyseg805-blip/aisee-comic-to-drama"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（漫画转真人短剧视频，绑 bitahub、RunningHub 工作流节点）"
+
+[[ignored]]
+repo   = "Stunspot/ludis-continuum"
+reason = "英文桌面跑团（D&D、克苏鲁等）的 GM 辅助和战役台账，服务跑团而不是小说写作"
+
+[[ignored]]
+repo   = "Vallykrie/short-drama-finder-skill"
+reason = "帮观众按片段或截图找短剧全集的搜索 skill，不是写作"
+
+[[ignored]]
+repo   = "aixlb/bcc"
+reason = "视频拆剧本、分镜表和风格指南的拉片工具，见 awesome-short-drama-skills"

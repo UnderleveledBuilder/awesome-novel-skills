@@ -1571,6 +1571,29 @@ lang    = "zh"
 agents  = ["codex"]
 checked = 2026-11-16
 
+[[skills]]
+repo    = "liangdabiao/seedance-storyboard-generator-realman"
+desc    = "故事改真人质感 AI 短剧：先改成分集剧本和台词，再写角色场景参考图提示词，按真人感六根支柱写 Seedance 视频提示词"
+desc_en = "Turns a story into a live-action-looking AI short drama: first an episode script with dialogue, then reference-image prompts for characters and scenes, then Seedance video prompts built on six pillars of live-action realism"
+group   = "script"
+stages  = ["structure", "drafting"]
+format  = "skill"
+lang    = "zh"
+agents  = ["codex", "workbuddy"]
+note    = "同作者另有已收的 Seedance2-Storyboard-Generator、smy-seedance-storyboard；没有声明许可证。2026-11 新建"
+note_en = "The same author's Seedance2-Storyboard-Generator and smy-seedance-storyboard are already listed; no license is declared. Created in 2026-11."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "jjjjjinshan/aigc-drama-workflow"
+desc    = "漫剧/短剧多 agent 工作流：11 个分工明确的 skill，从拆小说、开发、写剧本、审稿到分镜、资产、图和视频提示词，用状态文件和机械门禁保一致"
+desc_en = "Multi-agent manju/short drama workflow: 11 single-responsibility skills from novel analysis, development, scriptwriting and review to storyboards, assets and image/video prompts, kept consistent by explicit state files and mechanical gates"
+group   = "script"
+stages  = ["structure", "drafting", "revision"]
+format  = "skill"
+lang    = "zh"
+checked = 2026-11-16
+
 # ───────────────────────── 去 AI 味 · 润色 ─────────────────────────
 
 [[skills]]
@@ -1998,6 +2021,31 @@ lang    = "zh"
 agents  = ["claude-code", "codex"]
 note    = "通用繁中润色，不专门针对小说"
 note_en = "General Traditional Chinese polishing, not specific to fiction."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "alchaincyf/tramstop-skill"
+desc    = "电车站：不靠禁词表的中文去 AI 味，按四层 AI 味模型诊断，再往文中注入作者自己的真实素材和细节，方法来自四版本盲测"
+desc_en = "Tramstop: Chinese de-AI editing without word blacklists; diagnoses text with a four-layer AI-tone model, then injects the author's own real material and details, a method drawn from a four-version blind test"
+group   = "companion"
+stages  = ["revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "codex", "cursor", "openclaw"]
+note    = "通用润色，不专门针对小说；盲测数据在 references/evidence.md"
+note_en = "General-purpose polishing, not specific to fiction; the blind-test data is in references/evidence.md."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "LeonRoxie/dsh-humanizer-zh"
+desc    = "中文去 AI 味 DSH 插件：5 维 AI 指纹检测（句长、段落波动、连接词密度等）、15 种改写手法，分学术、商务、通用文体"
+desc_en = "Chinese de-AI plugin for DeepSeek Harness: five-dimension AI fingerprint detection (sentence and paragraph variance, connective density and more), 15 rewrite moves, with separate rules for academic, business and general writing"
+group   = "companion"
+stages  = ["revision"]
+format  = "skill"
+lang    = "zh"
+note    = "面向论文和报告降 AIGC 检测率，不专门针对小说；数字、结论、专名、引用不改。2026-11 新建"
+note_en = "Aimed at lowering AIGC detection scores for papers and reports, not specific to fiction; numbers, conclusions, proper nouns and quotations are left unchanged. Created in 2026-11."
 checked = 2026-11-16
 
 # ───────────────────────── 写作基本功 ─────────────────────────
@@ -2876,6 +2924,43 @@ format  = "app"
 lang    = "zh"
 note    = "Tauri 2 + Rust 写的本地应用；也能看漫画和听有声章节"
 note_en = "A local app built with Tauri 2 and Rust; it can also show comics and play audio chapters."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "Luos3933/pixiv-novel-epub"
+desc    = "Pixiv 小说下载与成书工具包：下系列或单篇的正文、插图、封面，清洗、拆卷、标准化校正后打包 EPUB/TXT，一条 quick 命令成书"
+desc_en = "Pixiv novel download and book-building toolkit: fetches text, illustrations and covers for series or single works, then cleans, splits volumes, normalizes and packs EPUB/TXT; one quick command builds the book"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "Python 标准库打包 EPUB；清洗不改原始下载，另存 cleaned/ 并留人工复核目录；没有声明许可证"
+note_en = "Builds EPUB with the Python standard library; cleaning leaves the raw downloads untouched, writes to cleaned/ and sets up a manual review folder; no license is declared."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "Wassuhjx420/bilinovel-studio"
+desc    = "哔哩轻小说下载桌面工具：解析分卷、多 Tab 并发抓取，按日轻装帧规范打包精排 EPUB，适配多看阅读"
+desc_en = "Desktop downloader for Bilinovel (linovelib): parses volumes, fetches with concurrent tabs, and packs typeset EPUBs following Japanese light novel layout conventions, tuned for the Duokan reader"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "用 Playwright 驱动浏览器抓取；2026-10 新建"
+note_en = "Scrapes by driving a browser with Playwright; created in 2026-10."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "YUKI0104/novel-downloader"
+desc    = "番茄猫：番茄、七猫小说 macOS 下载器，看榜搜书、整本导出 TXT，还能标出书在番茄短剧后台的申请和上架情况"
+desc_en = "FanQieMao: macOS downloader for Fanqie Novel and Qimao: browse rankings, search, export whole books as TXT, and optionally flag each book's short-drama adaptation applications and listings on Fanqie's back end"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+sites   = ["fanqie", "qimao"]
+note    = "Swift 源码在仓库，需要 macOS 14+；短剧 IP 标注默认关闭；没有声明许可证"
+note_en = "Swift source is in the repo; needs macOS 14+. Short-drama IP flags are off by default; no license is declared."
 checked = 2026-11-16
 
 # ───────────────────────── 相关开源应用（完整应用，非 skill） ─────────────────────────
