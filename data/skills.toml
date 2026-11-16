@@ -682,6 +682,19 @@ note    = "基于同团队的 zenstory-ai/oh-story-claudecode（打包的 Oh Sto
 note_en = "Based on the same team's zenstory-ai/oh-story-claudecode (bundles Oh Story 0.8.5 with novel skill files identical to the original) and novel-to-game, adding the DSH web workbench UI and short-drama and video-commentary skills. Works only in DeepSeek Harness and needs Node.js 24+; Claude Code users should use the original."
 checked = 2026-10-14
 
+[[skills]]
+repo    = "asass-11/axu-novel"
+desc    = "长篇网文工作流：开书一步一停出三个方案，九问查细纲，每章写完按去 AI 味规则自查，项目档案记人物伏笔，换个对话接着写到完本"
+desc_en = "Long-form web novel workflow from book setup to the final volume: three story options to choose from, a nine-question outline check, a de-AI self-check after each chapter, and a project file of characters and foreshadowing that carries across conversations"
+group   = "pipeline"
+stages  = ["world", "character", "structure", "drafting", "memory", "revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "codex"]
+note    = "需要能读写本地文件的智能体，网页聊天框用不了；要把整个 axu-novel 文件夹拷进 skill 目录，只拷 SKILL.md 不行"
+note_en = "Needs an agent that can read and write local files; web chat boxes will not work. Copy the whole axu-novel folder into the skills directory, not just SKILL.md."
+checked = 2026-11-16
+
 # ───────────────────────── 单项工具：拆书 · 设定 · 大纲 · 人物 ─────────────────────────
 
 [[skills]]
@@ -833,6 +846,19 @@ note    = "需 Node.js 和 @playwright/cli，首次要手动扫码登录；Go �
 note_en = "Needs Node.js and @playwright/cli, and the first login requires a manual QR-code scan; the Go engine runs the fanqie-go/main.go source via go run, so the fanqie-go/main binary in the repo is never called; publish settings tick \"no AI used\" by default, and the default book title and volume must be changed to your own; the README's clone URL is a placeholder"
 checked = 2026-10-14
 
+[[skills]]
+repo    = "Anarcadia/chuanban-chaishu-skills"
+desc    = "网文拆书 skill 包：按卷章格式自动切分 TXT，分章概括、人物关系图谱、主线支线事件线、ABC 爽点密度分析"
+desc_en = "Web novel teardown skill pack: automatically splits a TXT by volume and chapter markers, then produces chapter summaries, a character relationship map, main and side event lines, and an ABC payoff-density analysis"
+group   = "tools"
+stages  = ["market", "character", "structure"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "opencode"]
+note    = "许可证是 CC BY-NC-SA 4.0，不能商用；同作者的日轻翻译 skill 收在「翻译 · 出海」"
+note_en = "Licensed CC BY-NC-SA 4.0, so no commercial use; the same author's Japanese light novel translation skill is listed under Translation · going overseas."
+checked = 2026-11-16
+
 # ───────────────────────── 短篇 · 故事 ─────────────────────────
 
 [[skills]]
@@ -907,6 +933,19 @@ agents  = ["codex", "claude-code"]
 note    = "写法提炼自孙宇晨《我的女友景甜》，SKILL.md 要求不复用原文句子、人物关系和情节；仓库附带原文全文"
 note_en = "The method is distilled from Sun Yuchen's \"My Girlfriend Jing Tian\", and SKILL.md forbids reusing the original's sentences, character relationships and plot; the repo bundles the full original text"
 checked = 2026-10-15
+
+[[skills]]
+repo    = "Wanludrame/AI-DaLiu"
+desc    = "电子大刘：按刘慈欣 26 部作品的精读笔记写科幻小说，另有三体同人、三体人物分析，和把故事做成 AI 短片的流程"
+desc_en = "\"Electronic Da Liu\": writes science fiction from close-reading notes on 26 works by Liu Cixin, plus Three-Body fan fiction, Three-Body character analysis, and a pipeline that turns a story into an AI short film"
+group   = "short"
+stages  = ["world", "drafting"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code"]
+note    = "仓库同时是作者的作品库，每天自动提交新小说和「大刘日记」；短片流程要另配图像、视频和语音服务；没有声明许可证"
+note_en = "The repo doubles as the author's story archive, with new stories and a \"Da Liu diary\" committed automatically every day; the short-film pipeline needs separate image, video and voice services; no license is declared."
+checked = 2026-11-16
 
 # ───────────────────────── 剧本 · 短剧：用写网文的功夫写剧情 ─────────────────────────
 
@@ -1482,6 +1521,56 @@ note    = "以 .skill 文件分发，不能用 npx skills 安装"
 note_en = "Distributed as a .skill file; cannot be installed with npx skills"
 checked = 2026-10-13
 
+[[skills]]
+repo    = "doublesq97-ui/su-ai-short-drama"
+desc    = "短剧编剧到分镜协作：女频、男频两版，按编剧、导演、选角、分镜岗位共读项目档案，产出剧本、角色卡、场景卡和分镜"
+desc_en = "Short-drama collaboration from writing to storyboard, in female-audience and male-audience versions: screenwriter, director, casting and storyboard roles share one project file and deliver scripts, character cards, scene cards and storyboards"
+group   = "script"
+stages  = ["character", "structure", "drafting"]
+format  = "skill"
+lang    = "zh"
+agents  = ["codex"]
+note    = "作者标明低维护（best effort），不承诺持续更新"
+note_en = "The author marks it as low maintenance (best effort), with no promise of ongoing updates."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "zhanghao123vip/ai-manju-skills"
+desc    = "21 个题材的漫剧模板：一句点子出企划案、分集剧本、资产图提示词、分镜和视频提示词，各题材单独调节奏"
+desc_en = "Manju (AI comic drama) templates for 21 genres: one story idea becomes a pitch, episode scripts, asset image prompts, storyboards and video prompts, with pacing tuned per genre"
+group   = "script"
+stages  = ["structure", "drafting"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "workbuddy"]
+note    = "每个题材是一个独立的 SKILL.md，也能整段贴进 DeepSeek 等聊天框用"
+note_en = "Each genre is a standalone SKILL.md that can also be pasted whole into chat tools such as DeepSeek."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "wwaa34682-lab/novel-to-short-drama-skill"
+desc    = "小说改 AI 短剧七步闸门：锁情节改编、独立验收 95 分过线、按短视频节奏压缩，再出分镜、资产、静帧和图生视频"
+desc_en = "Novel-to-AI-short-drama pipeline with seven hard gates: plot-locked adaptation, independent review that must score 95, short-video pacing, then storyboards, assets, key stills and image-to-video"
+group   = "script"
+stages  = ["structure", "drafting", "revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["cursor", "claude-code"]
+note    = "出图出视频不绑平台，文中以 LibTV 画布加 Seedance 2.0 为例；风格参数写进自己项目的 STYLE-LOCK.md"
+note_en = "Not tied to an image or video backend; the docs use the LibTV canvas plus Seedance 2.0 as the example. Style parameters go in your own project's STYLE-LOCK.md."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "sanxsnr/ai-short-drama-from-zero"
+desc    = "零基础 AI 短剧带做：按你手上的灵感、小说或半成品定起点，一次一关做到剧本、分镜、资产、Seedance 2.0 视频和成片"
+desc_en = "Hands-on AI short drama for complete beginners: starts from whatever you have (an idea, a novel or a half-finished project) and goes one gate at a time through script, storyboard, assets, Seedance 2.0 video and the final cut"
+group   = "script"
+stages  = ["structure", "drafting"]
+format  = "skill"
+lang    = "zh"
+agents  = ["codex"]
+checked = 2026-11-16
+
 # ───────────────────────── 去 AI 味 · 润色 ─────────────────────────
 
 [[skills]]
@@ -1859,6 +1948,58 @@ note    = "需要 perl。默认另存新文件；重度档会把人名和背景�
 note_en = "Requires perl. Saves to a new file by default; the heavy level localizes names and settings to China."
 checked = 2026-10-14
 
+[[skills]]
+repo    = "weijt606/anti-vibe-writing"
+desc    = "中英双语去 AI 味终稿：删模板句、咨询腔、过度 Markdown、破折号和模型复制残留（oaicite 等），可选贴近指定作者文风"
+desc_en = "Bilingual English/Chinese de-AI final pass: removes templated phrasing, consultant-speak, heavy Markdown, em dashes and pasted model residue such as oaicite, with optional modes to match a specific author's voice"
+group   = "companion"
+stages  = ["revision"]
+format  = "skill"
+lang    = "multi"
+agents  = ["claude-code", "codex", "cursor", "gemini-cli"]
+note    = "通用润色，不专门针对小说"
+note_en = "General-purpose polishing, not specific to fiction."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "acchuang/zh-tw-humanizer"
+desc    = "繁体中文（台湾）去 AI 味：62 种 AI 写作特征、157 组两岸用语替换，--source 核对改写没编造也没漏事实，附 33 例评测"
+desc_en = "Traditional Chinese (Taiwan) de-AI editing: 62 AI writing patterns, 157 Mainland-to-Taiwan term pairs, a --source check that the rewrite neither invents nor drops facts, and a 33-case eval set"
+group   = "companion"
+stages  = ["revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "codex", "cursor"]
+note    = "通用繁中润色，不专门针对小说"
+note_en = "General Traditional Chinese polishing, not specific to fiction."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "realchendahuang/open-writing-skill"
+desc    = "个人文风去 AI 味写作骨架：用自己的范文原文打底，长文、短动态分音色防串味，禁词清单只做兜底"
+desc_en = "Skeleton for de-AI writing in your own style: anchors on your own sample texts, keeps separate voices for long pieces and short posts so they do not bleed together, and uses a banned-word list only as a backstop"
+group   = "companion"
+stages  = ["revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "cursor", "codex"]
+note    = "是要自己填范文的骨架，不放范文没效果；另有给网页聊天框用的单文件版。2026-11 新建"
+note_en = "A skeleton you fill with your own sample texts; without them it does little. A single-file version for web chat is included. Created in 2026-11."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "nagameTW/formosa-humanizer"
+desc    = "按台湾用语和中文标点重写的 blader/humanizer：去 AI 腔，同时找出混进来的大陆用语，保留「」引号"
+desc_en = "blader/humanizer rewritten for Taiwanese usage and Chinese punctuation: removes AI tone, flags Mainland Chinese terms that slipped in, and keeps 「」 quotation marks"
+group   = "companion"
+stages  = ["revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "codex"]
+note    = "通用繁中润色，不专门针对小说"
+note_en = "General Traditional Chinese polishing, not specific to fiction."
+checked = 2026-11-16
+
 # ───────────────────────── 写作基本功 ─────────────────────────
 
 [[skills]]
@@ -2058,6 +2199,19 @@ agents  = ["claude-code", "openclaw"]
 note    = "CLI 工具（TypeScript 源码在仓库），导出的 .skill 档案在 Claude Code / OpenClaw 里游玩；官方安装脚本从作者的 Cloudflare 下载二进制，也可以从源码构建"
 note_en = "A CLI tool (TypeScript source in the repo); exported .skill archives are played in Claude Code / OpenClaw. The official install script downloads binaries from the author's Cloudflare, or you can build from source."
 checked = 2026-10-14
+
+[[skills]]
+repo    = "lyra-planet/galforge"
+desc    = "一句话做出可玩的像素视觉小说：agent 写剧本、分支和多结局，立绘、场景、配乐全用代码现写，不用图片素材"
+desc_en = "Turns one sentence into a playable pixel-art visual novel: the agent writes the script, branches and multiple endings, and draws portraits, scenes and music in code without any image assets"
+group   = "beyond"
+stages  = ["structure", "drafting"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "codex", "cursor", "gemini-cli", "opencode"]
+note    = "附试玩、截图和台词导出脚本，示例作品能在线试玩。2026-11 新建"
+note_en = "Includes playtest, screenshot and dialogue-export scripts; the sample game can be played online. Created in 2026-11."
+checked = 2026-11-16
 
 # ───────────────────────── 翻译 · 出海 ─────────────────────────
 
@@ -2530,6 +2684,199 @@ lang    = "zh"
 note    = "书源由机器人定时同步更新；Git 仓库不支持一键导入，从 legado.aoaostar.com 导入"
 note_en = "Book sources are synced on a schedule by a bot; the Git repo doesn't support one-click import, so import from legado.aoaostar.com"
 checked = 2026-10-14
+
+[[skills]]
+repo    = "freeok/so-novel"
+desc    = "聚合多书源的小说搜索下载器（Java）：TUI、Web UI、命令行三种用法，导出 EPUB/TXT/PDF，可用 Docker 部署"
+desc_en = "Novel search and download tool that aggregates many book sources (Java): TUI, Web UI and command line, exports EPUB/TXT/PDF, and can be deployed with Docker"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "README 把它写成「通用网页内容处理与导出工具」；书源规则放在 rules 目录，可以自己改"
+note_en = "The README describes it as a \"general web content processing and export tool\"; book source rules live in the rules directory and can be edited."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "AhJxs/so-novel-rs"
+desc    = "So Novel 的 Rust 桌面版：多书源并发搜索、选章下载、简繁转换，导出 EPUB/TXT/HTML/PDF，带书源管理和测速"
+desc_en = "Rust desktop take on So Novel: concurrent search across book sources, chapter selection, Simplified/Traditional conversion, export to EPUB/TXT/HTML/PDF, plus book source management and speed tests"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "和 freeok/so-novel 同名，书源规则也放在 ~/.sonovel/rules，README 没写和原版的关系"
+note_en = "Shares its name with freeok/so-novel and also keeps book source rules in ~/.sonovel/rules; the README does not say how it relates to the original."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "spiritLHLS/novel-downloader"
+desc    = "异步小说下载工具包（Python）：插件式站点解析、断点续爬，导出 TXT/EPUB/HTML，去广告、繁简转换，图片章节可 OCR"
+desc_en = "Async novel download toolkit (Python): plugin-based site parsers, resumable crawling, TXT/EPUB/HTML export, ad removal and Simplified/Traditional conversion, with optional OCR for image chapters; CLI plus a web UI"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "README 写明基于 saudadez21/novel-downloader（2025-12 后没再更新）继续维护，每天同步内置的「阅读」书源；部分站点要手动配 Cookie"
+note_en = "The README says it continues saudadez21/novel-downloader (no updates since 2025-12) and it syncs its bundled Legado book sources daily; some sites need cookies set by hand."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "lingyi-ling/novel-downloader"
+desc    = "小说下载工具包：59 个站点聚合搜索、84 个站点下载，断点续爬、多格式导出，有命令行、本地 REST API、桌面和安卓端"
+desc_en = "Novel download toolkit: aggregated search across 59 sites and downloads from 84, resumable crawling and multi-format export, available as a CLI, local REST API, desktop app and Android app"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "同样源自 saudadez21/novel-downloader（LICENSE 保留了原作者的版权行，README 没写），另加了 REST API、桌面和安卓端；还内置 28 个音乐平台下载"
+note_en = "Also derived from saudadez21/novel-downloader (the LICENSE keeps the original author's copyright line; the README does not mention it), adding a REST API, desktop and Android apps; it also bundles music downloads from 28 platforms."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "addallno/fqdt"
+desc    = "番茄小说下载命令行（Rust）：搜索、按章节范围下载导出 TXT/EPUB、增量更新、书架管理，还能下官方有声书"
+desc_en = "Fanqie Novel download CLI (Rust): search, download by chapter range to TXT/EPUB, incremental updates and bookshelf management, plus official audiobook downloads"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+sites   = ["fanqie"]
+note    = "子命令能用管道串起来（fn），适合脚本和 agent 调用；另带文字转语音"
+note_en = "Subcommands can be piped together (fn), which suits scripts and agents; text-to-speech is also included."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "liufuyou/read"
+desc    = "「阅读」App 书源索引：汇集 XIU2、Yiove、YCK 等多家小说书源，另有筛过的 267 条和 714 条两份，附导入步骤和分支版本对照"
+desc_en = "Book source index for the Legado reader app: gathers novel sources from XIU2, Yiove, YCK and others, plus two filtered sets of 267 and 714 sources, with import steps and a comparison of app forks"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "gedoor/legado 原仓库 2026 年已清空，README 列了还在更新的分支；只做链接汇总，书源字段照抄上游"
+note_en = "The original gedoor/legado repo was wiped in 2026; the README lists forks that are still updated. It only aggregates links, and source fields are copied from upstream."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "DowneyRem/PixivSource"
+desc    = "「阅读」App 的 Pixiv 小说书源：搜索、发现、单篇与系列、插图，另含 Linpx 和兽人小说两个源"
+desc_en = "Pixiv novel book source for the Legado reader app: search, discovery, single works and series, illustrations, plus two more sources for Linpx and furry fiction"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "要登录 Pixiv 账号；README 推荐配合 Luoyacheng/legado-E 使用"
+note_en = "Requires logging in to a Pixiv account; the README recommends pairing it with Luoyacheng/legado-E."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "xuejianxianzun/PixivBatchDownloader"
+desc    = "Pixiv 批量下载浏览器扩展：按用户、收藏、排行、搜索结果批量下插画和小说，小说存成 TXT 或 EPUB"
+desc_en = "Pixiv batch download browser extension: downloads illustrations and novels in bulk by user, bookmarks, rankings or search results, saving novels as TXT or EPUB"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "multi"
+note    = "以插画为主，小说是其中一项功能；界面有简繁中文、日、英、韩、俄"
+note_en = "Mainly for illustrations, with novels as one feature; the UI comes in Simplified and Traditional Chinese, Japanese, English, Korean and Russian."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "XziXmn/legado-hub"
+desc    = "自托管的「阅读」后端书源服务：书源统一维护，服务端抓取缓存章节，主源只给 VIP 预览时从候选源补全，多人共享书库"
+desc_en = "Self-hosted backend book source service for Legado: sources maintained in one place, chapters fetched and cached on the server, missing VIP chapters filled from fallback sources, and a library shared by multiple readers"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "要自己部署服务端（Python）；配套阅读客户端是同作者的 XziXmn/legado-X"
+note_en = "You deploy the server yourself (Python); the companion reader app is the same author's XziXmn/legado-X."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "Summerburier/wenku2epub"
+desc    = "轻小说文库（wenku8）下载器（Rust）：整本或多选分卷，生成 EPUB 2/3，封面可选网站封面、卷首插图或本地图片"
+desc_en = "Light novel downloader for wenku8 (Rust): whole books or a multi-select of volumes, generates EPUB 2 or 3, with the cover taken from the site, the first illustration of the volume or a local image"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+checked = 2026-11-16
+
+[[skills]]
+repo    = "allen3206/BiliNovelDownloader"
+desc    = "哔哩轻小说下载图形界面：预览书讯，按分卷范围下载 EPUB，自动同时输出简体和繁体两份"
+desc_en = "GUI downloader for Bilinovel: previews book info, downloads EPUBs by volume range, and outputs both Simplified and Traditional Chinese copies automatically"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "下载核心是 Montaro2017/bili_novel_packer，本仓库加了图形界面和 opencc 简繁转换；界面和说明是繁体中文"
+note_en = "The download core is Montaro2017/bili_novel_packer; this repo adds the GUI and OpenCC Simplified/Traditional conversion. UI and docs are in Traditional Chinese."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "George01230123/novel-downloader"
+desc    = "Windows 小说下载器：按书名搜索、勾选章节、导出 UTF-8 TXT，内置番茄和笔趣阁两版共三个源，可自动挑最快的源"
+desc_en = "Windows novel downloader: search by title, tick chapters and export UTF-8 TXT, with three built-in sources (Fanqie Novel and two Biquge versions) and automatic selection of the fastest one"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+sites   = ["fanqie"]
+note    = "C# 源码在仓库，编译出来是一个约 220 KB 的单文件 exe，依赖系统自带的 .NET Framework 4.8"
+note_en = "C# source is in the repo; it builds into a single exe of about 220 KB that relies on the .NET Framework 4.8 bundled with Windows."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "fysh1010/mcp-server-fanqie"
+desc    = "番茄小说 MCP 和独立 Skill：搜书、看目录和官网可见正文、读书评；扫码登录后读自己的书架、进度和划线"
+desc_en = "Fanqie Novel MCP server and standalone skill: search books, view tables of contents and the chapter text visible on the official site, read reviews, and after QR-code login read your own bookshelf, progress and highlights"
+group   = "sources"
+stages  = ["market"]
+format  = "skill"
+lang    = "zh"
+sites   = ["fanqie"]
+note    = "只读官网公开可见的章节；需要 Node.js 22+。当前版本没发到 npm，旧 npm 包功能不全，要从源码或 Release 装；另有 DeepSeek Harness 图形插件"
+note_en = "Only reads chapters publicly visible on the official site; needs Node.js 22+. The current version is not on npm and the old npm package lacks features, so install from source or a Release; a DeepSeek Harness GUI plugin is also included."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "bingxl/tampermonkey"
+desc    = "小说下载油猴脚本：在约 10 个小说站的目录页一键下载全本，另附作者自用的「阅读」书源"
+desc_en = "Tampermonkey script for novel downloads: one click on the table-of-contents page of about 10 novel sites downloads the whole book, plus the author's own Legado book sources"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "作者自用整理，没有声明许可证；支持的站点见 doc/siteList.md"
+note_en = "The author's personal collection with no declared license; supported sites are listed in doc/siteList.md."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "BaldYang/QQBrowser_novel_switch"
+desc    = "安卓工具：把 QQ 浏览器里已下载的小说网页缓存提取、分段、合并成可读的 TXT"
+desc_en = "Android tool that extracts the novels you have downloaded in QQ Browser from their web-page cache and splits and merges them into readable TXT"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "要先在 QQ 浏览器里下载小说（看广告或开会员）；Android 11 以上要用 Shizuku 授权；暂不支持 HarmonyOS 3 及以上和 iOS"
+note_en = "Novels must first be downloaded in QQ Browser (by watching ads or with a membership); Android 11+ needs Shizuku permission; HarmonyOS 3+ and iOS are not supported yet."
+checked = 2026-11-16
+
+[[skills]]
+repo    = "Mios-dream/SFNovel-ReaderProject"
+desc    = "菠萝包轻小说（SF）阅读下载桌面应用：搜索作品，按卷或章节下载正文存为 Markdown，下载有声章节 MP3，断点续下"
+desc_en = "Desktop reader and downloader for SF Light Novel (sfacg): search works, download text by volume or chapter as Markdown, download audio chapters as MP3, and resume interrupted downloads"
+group   = "sources"
+stages  = ["market"]
+format  = "app"
+lang    = "zh"
+note    = "Tauri 2 + Rust 写的本地应用；也能看漫画和听有声章节"
+note_en = "A local app built with Tauri 2 and Rust; it can also show comics and play audio chapters."
+checked = 2026-11-16
 
 # ───────────────────────── 相关开源应用（完整应用，非 skill） ─────────────────────────
 

@@ -656,3 +656,677 @@ reason = "完整应用，未到 1000★ 门槛（923★）；作者已建议改�
 [[ignored]]
 repo   = "imerzzhu/ai-novel-writing-skills"
 reason = "改名换皮：7 个核心 skill 与 xindoo/sumeru 同文（.sumeru 改成 .webnovel），只多了热梗、女频素材两个参考 skill，未注明来源"
+
+# ───── 11-16 候选 issue ─────
+
+[[ignored]]
+repo   = "forthespada/CS-Books"
+reason = "计算机书籍资源合集，与小说创作无关"
+
+[[ignored]]
+repo   = "putyy/res-downloader"
+reason = "视频、音乐等网络资源下载器，不下载小说"
+
+[[ignored]]
+repo   = "zhouxiaoka/autoclip"
+reason = "AI 视频剪辑桌面工具，非小说创作"
+
+[[ignored]]
+repo   = "hoochanlon/hamuleite"
+reason = "学术、金融、教育资源导航，非小说创作"
+
+[[ignored]]
+repo   = "certimate-go/certimate"
+reason = "SSL 证书管理工具，与小说无关"
+
+[[ignored]]
+repo   = "rachelos/we-mp-rss"
+reason = "微信公众号 RSS 订阅与导出，非小说创作"
+
+[[ignored]]
+repo   = "certd/certd"
+reason = "SSL 证书管理工具，与小说无关"
+
+[[ignored]]
+repo   = "ZJU-REAL/Easel"
+reason = "社交媒体内容 agent，非小说创作"
+
+[[ignored]]
+repo   = "AlephAITech/WorkBuddyGuide"
+reason = "WorkBuddy 使用教程，非小说创作"
+
+[[ignored]]
+repo   = "whiteguo233/OpenBiliClaw"
+reason = "跨平台内容发现 agent，非小说创作"
+
+[[ignored]]
+repo   = "FB208/OpenBidKit_Yibiao"
+reason = "AI 标书写作工具，非小说创作"
+
+[[ignored]]
+repo   = "zqzess/MyWebStorage"
+reason = "没有 README；爬虫每周自动合并网上的香色闺阁源，影视、音乐、漫画源混在一起，按只收有说明的大型书源合集的口径不收"
+
+[[ignored]]
+repo   = "whykang/ssts--Android"
+reason = "聚合听书 App，不是写作或拆书工具"
+
+[[ignored]]
+repo   = "Dodaios/ste80-humanizer"
+reason = "通用英文去 AI 味（改写成 ASD-STE100 简化技术英语），同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "hawkli-1994/deerflow-book"
+reason = "DeerFlow 二次开发教程书，非小说创作"
+
+[[ignored]]
+repo   = "roxycon-dev/Ciallo-Reader"
+reason = "小说漫画阅读器 App，下载是为了离线阅读，不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "threerocks/article2media"
+reason = "文章转小红书图文和口播视频，非小说创作"
+
+[[ignored]]
+repo   = "yucezerey/turkish-anti-ai-skill"
+reason = "通用土耳其语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "pengcw/legado.koplugin"
+reason = "KOReader 阅读插件，不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "CandyMuj/ResourceInterface"
+reason = "以 TVBox 影视接口为主的资源接口收集，书源只是附带"
+
+[[ignored]]
+repo   = "Aminark/legado-ios"
+reason = "阅读器 App（iOS），不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "xiaofang142/hivemtk"
+reason = "私域营销 SCRM 系统，非小说创作"
+
+[[ignored]]
+repo   = "rongxinzy/RongxinAI"
+reason = "通用桌面 AI agent，非小说创作"
+
+[[ignored]]
+repo   = "skka3134/TrollStore"
+reason = "iOS 应用和签名资源库，与小说无关"
+
+[[ignored]]
+repo   = "tmwgsicp/ForgeRSS"
+reason = "网站转 RSS 订阅工具，非小说创作"
+
+[[ignored]]
+repo   = "aweijll/LINUXDO_XIAOZHUSHOU"
+reason = "Linux.do 社区助手 App 的下载说明，与小说无关"
+
+[[ignored]]
+repo   = "sleep2agi/agent-network"
+reason = "多 agent 组网工具，非小说创作"
+
+[[ignored]]
+repo   = "yzfly/LightRead"
+reason = "电子书阅读器，不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "hebijunge/musicfree-plugins"
+reason = "音乐播放器插件源，与小说无关"
+
+[[ignored]]
+repo   = "itsmechinmoy/Dantotsu"
+reason = "Anilist 动漫客户端，与小说无关"
+
+[[ignored]]
+repo   = "owlman/myebook"
+reason = "个人电子书备份，没有工具也没有创作方法"
+
+[[ignored]]
+repo   = "anhnx000/viet-nhu-nguoi"
+reason = "通用越南语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "zongchenghuan0318/TVBox-fashion-UI"
+reason = "影视播放客户端，与小说无关"
+
+[[ignored]]
+repo   = "CloudZao/Metalio-E-INK4-Plus"
+reason = "墨水屏硬件项目，非小说创作"
+
+[[ignored]]
+repo   = "drdon1234/Hentai-Park"
+reason = "成人内容聚合客户端，以漫画、图集、视频为主，小说只是其中一类，不是拆书下载工具"
+
+[[ignored]]
+repo   = "Dante-dan/pi-agent-book"
+reason = "Pi Agent 教程书，非小说创作"
+
+[[ignored]]
+repo   = "romcere/fanqienovel-decryptor"
+reason = "README 写明受验证码和全文限制，没有番茄 SVIP 下载不全；番茄下载已收 zhongbai2333/Tomato-Novel-Downloader 等"
+
+[[ignored]]
+repo   = "hiyufan/shizhen"
+reason = "图片和视频原图提取工具，与小说无关"
+
+[[ignored]]
+repo   = "kxdebug/Timbre"
+reason = "有声书播放器，不是写作或拆书工具"
+
+[[ignored]]
+repo   = "yunkst/Whimread"
+reason = "阅读器 App（含 AI 改书续书），完整应用未到 1000★；仓库里的 SKILL.md 是开发用的通用 skill"
+
+[[ignored]]
+repo   = "intel/dokimi"
+reason = "skill 和 agent 文档的测试工具，非小说创作"
+
+[[ignored]]
+repo   = "radiumCN/inkwell"
+reason = "阅读器 App，不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "Sywyar/PixivDownloader"
+reason = "以插画为主的 Pixiv 本地下载和画廊工具，小说是附带功能；Pixiv 小说已收 xuejianxianzun/PixivBatchDownloader 和 DowneyRem/PixivSource"
+
+[[ignored]]
+repo   = "FactorCitrus/Juyue"
+reason = "阅读器 App（iOS），不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "whut09/MultiPublish"
+reason = "短视频多平台发布工具，不发小说"
+
+[[ignored]]
+repo   = "zsy2099/shuohao-skills"
+reason = "eternityspring/shuohao-skills 的镜像（每日自动同步）"
+
+[[ignored]]
+repo   = "Glaube-TY/siyuan-douban"
+reason = "思源笔记读书笔记插件，非小说创作"
+
+[[ignored]]
+repo   = "RoutineMiku/MoRead-Windows"
+reason = "阅读器（Windows），不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "Slumber999/JMComic-Shelf"
+reason = "漫画站客户端，小说是附带功能"
+
+[[ignored]]
+repo   = "gotonote/awesome-agent-boom"
+reason = "AI Agent 书单教程合集，非小说创作"
+
+[[ignored]]
+repo   = "Jweokk/ai-native-organization-book"
+reason = "AI 原生组织的开源书，非小说创作"
+
+[[ignored]]
+repo   = "bennytsai1234/Night-Reader"
+reason = "阅读器 App，不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "ferr079/humanizer-fr"
+reason = "通用法语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "evergreentree97/K-Humanizer"
+reason = "英译韩的客服文案改写，非中文、非小说向"
+
+[[ignored]]
+repo   = "xingyan4117-sketch/OpenDM40-Chinese"
+reason = "万用表固件汉化，与小说无关"
+
+[[ignored]]
+repo   = "DevVettel/turkish-humanizer"
+reason = "通用土耳其语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "gejifeng/Hermes_Soul_patch"
+reason = "Hermes agent 陪伴插件，非小说创作"
+
+[[ignored]]
+repo   = "brunoflma/jusmanizer"
+reason = "葡萄牙语法律文书润色，非中文、非小说向"
+
+[[ignored]]
+repo   = "RajaskaJanuardani/motion-craft"
+reason = "Remotion 动效视频 skill，非小说创作"
+
+[[ignored]]
+repo   = "huguryildiz/ieee-acm-paper-writing"
+reason = "IEEE/ACM 论文写作，属学术写作"
+
+[[ignored]]
+repo   = "lsjtv/fqsp-fabuye"
+reason = "番茄视频 App 的发布页，与小说无关"
+
+[[ignored]]
+repo   = "reelbenchai/reelscript"
+reason = "短剧视频资料下载 skill（ReelDown），不是写作"
+
+[[ignored]]
+repo   = "zhuyansen/awesome-humanizer-skills"
+reason = "同类清单（去 AI 味资源合集），不是 skill"
+
+[[ignored]]
+repo   = "niobium617/prompt-reverse-engineer-skill"
+reason = "生图生视频提示词逆向，非小说创作"
+
+[[ignored]]
+repo   = "nordefors-max/claude-humanizer-svenska"
+reason = "通用瑞典语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "yifanchen12/shiye"
+reason = "小说书城和阅读器 App，不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "apoapostolov/humanizer"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "seizue/Shuka"
+reason = "面向英文读者：下载中文网文后机翻成英文 EPUB 来读，不面向中文拆书或作者出海"
+
+[[ignored]]
+repo   = "EVZheng-Lab/ad-asset-bible"
+reason = "广告片剧本的场景、服装、道具资产盘点，属视频制作环节"
+
+[[ignored]]
+repo   = "webkubor/writing-standard-skills"
+reason = "职场写作规范合集（汇报、RFC、平台语气、客诉），去 AI 味只是其中一步，与小说无关"
+
+[[ignored]]
+repo   = "AvCompDev/humanizer-en"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "rchdliang/CopyManga_Neo"
+reason = "漫画站客户端，轻小说是附带功能"
+
+[[ignored]]
+repo   = "304939905/minimaxH3-ai-video-agent"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（MiniMax H3 视频生成流程）"
+
+[[ignored]]
+repo   = "anthonyli/vi-say"
+reason = "讲解视频和海报制作，非小说创作"
+
+[[ignored]]
+repo   = "LearnPrompt/vibecoding-humanizer"
+reason = "给网页、SVG、3D 等界面产物去 AI 味，与写作无关"
+
+[[ignored]]
+repo   = "zdresearch/p3n"
+reason = "通用英文写作与 AI 检测 skill，附托管 API，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "Ironieser/haibao-scifi-2026"
+reason = "科幻征文获奖作品展示站，不是工具"
+
+[[ignored]]
+repo   = "ydh0411/physics-lab-report-skill"
+reason = "大学物理实验报告写作，非小说"
+
+[[ignored]]
+repo   = "ouxxyy/storyboard-scavenger"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（分镜与视频提示词）"
+
+[[ignored]]
+repo   = "Weeexiao/skills"
+reason = "选题和剧本 skill 写死在作者自己的《赵叔踩坑日记》系列上，其余是 MiniMax H3 分镜、出图和成片工具，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "beatra-ai/ai-image-realism-skill"
+reason = "AI 人像图片去 AI 感，与写作无关"
+
+[[ignored]]
+repo   = "alexgorby/claude-skills"
+reason = "乌克兰语写作插件（技术文档和乌克兰语小说），规则针对乌克兰语"
+
+[[ignored]]
+repo   = "xiaoshengxianjun/51mazi-website"
+reason = "51mazi 写作软件的官网仓库，不是软件本身；软件 xiaoshengxianjun/51mazi 已看过不收"
+
+[[ignored]]
+repo   = "cshuangyy/videdown"
+reason = "视频下载工具，与小说无关"
+
+[[ignored]]
+repo   = "gitcoffee-os/postbot"
+reason = "图文视频多平台同步发布工具，不面向小说平台"
+
+[[ignored]]
+repo   = "P1kaj1uu/ChattyPlay-Agent"
+reason = "视频会员解析等多功能工具集，与小说无关"
+
+[[ignored]]
+repo   = "xingwudao/xquant-beginner"
+reason = "量化交易入门书，与小说无关"
+
+[[ignored]]
+repo   = "op7418/dsh-guizang-design"
+reason = "设计类 DeepSeek Harness 插件，里面的去 AI 味 skill 就是已收的 op7418/Humanizer-zh"
+
+[[ignored]]
+repo   = "liuhaisi2026212-maker/taishang-laojun"
+reason = "抖音、小红书短视频口播创作，非小说"
+
+[[ignored]]
+repo   = "modelscope/ms-cookbook"
+reason = "ModelScope 开发指南，与小说无关"
+
+[[ignored]]
+repo   = "ziguishian/MxPage"
+reason = "电商图片工作台，与小说无关"
+
+[[ignored]]
+repo   = "awangwang123/jianhao-travel-planner"
+reason = "旅行攻略 skill，与小说无关"
+
+[[ignored]]
+repo   = "FreeBSD-Ask/FreeBSD-Ask"
+reason = "FreeBSD 教程书，与小说无关"
+
+[[ignored]]
+repo   = "czyt1988/IndustrialSoftwareOfQt"
+reason = "Qt 工业软件开发电子书，与小说无关"
+
+[[ignored]]
+repo   = "miloquinn/origo-x"
+reason = "电子书阅读器，不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "whykang/ssts"
+reason = "聚合听书工具（桌面版），不是写作或拆书工具"
+
+[[ignored]]
+repo   = "cropflre/nowen-reader"
+reason = "本地漫画管理阅读工具，与小说无关"
+
+[[ignored]]
+repo   = "BadKid90s/Spreado"
+reason = "短视频多平台发布工具，不发小说"
+
+[[ignored]]
+repo   = "wang1212/awesome-favorites-list"
+reason = "个人收藏的开源项目列表，非小说创作"
+
+[[ignored]]
+repo   = "qimingjiu/twig-memory"
+reason = "面向陪伴类 agent 的记忆基础设施，不是写小说用的长篇记忆"
+
+[[ignored]]
+repo   = "Quor-a/ZorvAI"
+reason = "安卓通用 AI 助手，非小说创作"
+
+[[ignored]]
+repo   = "geesmart/yokimind"
+reason = "知识库工具，非小说创作"
+
+[[ignored]]
+repo   = "duliangkuan/raise-an-ai"
+reason = "AI 养成陪伴平台，非小说创作"
+
+[[ignored]]
+repo   = "akira399/sakura-read"
+reason = "阅读器 App，不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "lixiaoxiao9888-create/forest-laoli-h3"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（MiniMax H3 投喂稿和机检，README 写明不负责把剧本写好看）"
+
+[[ignored]]
+repo   = "gmastergreatee/Fanfiction-Manager"
+reason = "英文的追更阅读管理器：章节存进自己的 SQLite 书库，README 没写导出 TXT/EPUB，拆书取原文不方便"
+
+[[ignored]]
+repo   = "tttg2010/tj-short"
+reason = "带货短剧视频生成，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "dotoridot/korean-humanizer"
+reason = "韩语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "arslanrakh/write-human"
+reason = "英文 LLM 腔统计检查器，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "10291124jcjc-dotcom/ai-fable-series"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（动物寓言短片，固定开头公式加即梦提示词）"
+
+[[ignored]]
+repo   = "yeomin4242/humanize-sepia"
+reason = "韩语写作和去 AI 味，非中文"
+
+[[ignored]]
+repo   = "skymanbp/sci-paper"
+reason = "科研论文写作与去 AI 改写，属学术写作"
+
+[[ignored]]
+repo   = "Dexxter182/humanizer-hu"
+reason = "匈牙利语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "vikiboss/60s"
+reason = "每日新闻、热搜等开放 API，与小说无关"
+
+[[ignored]]
+repo   = "rust-boom/rust-boom"
+reason = "Rust 学习资源合集，与小说无关"
+
+[[ignored]]
+repo   = "xixihhhh/clipforge"
+reason = "带货短视频生成工具，与小说无关"
+
+[[ignored]]
+repo   = "jhljx/RecSys-Industrial-Book"
+reason = "推荐系统书稿，与小说无关"
+
+[[ignored]]
+repo   = "xixihhhh/hotclip"
+reason = "长视频切片工具，与小说无关"
+
+[[ignored]]
+repo   = "howie6879/Sanic-For-Pythoneer"
+reason = "Sanic 教程，与小说无关"
+
+[[ignored]]
+repo   = "CCSSNE/legadoC"
+reason = "阅读器 App（「阅读」的改版），不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "BlackCCCat/ResourceforHamster"
+reason = "输入法皮肤和脚本资源，与小说无关"
+
+[[ignored]]
+repo   = "DND5eChm/DND5e_chm"
+reason = "D&D 5E 规则书中文资料整合，不是写作工具"
+
+[[ignored]]
+repo   = "FleyX/bookmark"
+reason = "网页书签应用，与小说无关"
+
+[[ignored]]
+repo   = "SepineTam/cnki-mcp"
+reason = "知网文献检索，属学术研究"
+
+[[ignored]]
+repo   = "10291124jcjc-dotcom/ai-science-series"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（科普短片，查证加即梦分镜提示词）"
+
+[[ignored]]
+repo   = "dotoricode/korean-humanizer"
+reason = "韩语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "ayati/novel_downloader"
+reason = "面向日文读者：把なろう、カクヨム等日本网文整理成青空文库格式和竖排 ePub 来读，不面向中文拆书"
+
+[[ignored]]
+repo   = "kane50613/native-writing"
+reason = "英文产品文案和文档写作，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "Dogwind221/DWcinematic-whitebox"
+reason = "剧本转 Blender 白模预演，属视频制作"
+
+[[ignored]]
+repo   = "LinYeeGiong/academic-deai"
+reason = "中英文学术写作去 AI 味，属学术写作"
+
+[[ignored]]
+repo   = "alchaincyf/hermes-agent-orange-book"
+reason = "Hermes Agent 教程书，与小说无关"
+
+[[ignored]]
+repo   = "dmzz-yyhyy/LightNovelReader"
+reason = "轻小说阅读器 App，以阅读为主，EPUB 导出只是附带功能"
+
+[[ignored]]
+repo   = "ShilongLee/Crawler"
+reason = "抖音、电商等平台爬虫，不抓小说"
+
+[[ignored]]
+repo   = "VanGong1999/juben"
+reason = "完整应用，未到 1000★ 门槛"
+
+[[ignored]]
+repo   = "bayshier/voicestudio-zh"
+reason = "语音克隆和配音工具，非小说创作"
+
+[[ignored]]
+repo   = "Kequans/legado-for-mac-pub"
+reason = "阅读器（macOS），不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "VanGong1999/skills"
+reason = "短剧剧本 docx/pdf 与拉片资料库，没有 skill 或创作方法"
+
+[[ignored]]
+repo   = "junbolian/Academic-Humanizer"
+reason = "学术写作去 AI 味，属学术写作"
+
+[[ignored]]
+repo   = "wip3l/qingye-reader"
+reason = "阅读器 App（鸿蒙），不是拆书用的下载或书源工具"
+
+[[ignored]]
+repo   = "cq10086123/Timbre"
+reason = "有声书播放器，不是写作或拆书工具"
+
+[[ignored]]
+repo   = "Win-Hao/music-mv"
+reason = "音乐 MV 制作，非小说创作"
+
+[[ignored]]
+repo   = "TakaHoshino/Wenku8Reader"
+reason = "轻小说文库阅读客户端，不是拆书用的下载工具"
+
+[[ignored]]
+repo   = "onesoira/humanizer-bahasa-indonesia"
+reason = "印尼语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "johnakande/AI-Humanizer-Skill"
+reason = "通用英文去 AI 味（主打绕过检测），同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "t2vi/arrgh"
+reason = "以漫画为主的自托管下载阅读器，小说来源是英文和英译网站"
+
+[[ignored]]
+repo   = "miciatefara58/academic-paper-skills"
+reason = "论文写作、审稿与去 AI 味，属学术写作"
+
+[[ignored]]
+repo   = "IsaacEryn/humanizer-ko"
+reason = "韩语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "rephrasyai/rephrasy-skills"
+reason = "英文内容营销与去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "Liujifa/Moyu_Novels"
+reason = "上班摸鱼用的桌面阅读器，下载网页小说只是附带功能"
+
+[[ignored]]
+repo   = "weslynn/AlphaTree-graphic-deep-neural-network"
+reason = "AI 学习路线图，与小说无关"
+
+[[ignored]]
+repo   = "ssnangua/ColorTxt"
+reason = "TXT 小说阅读器，不是写作或拆书工具"
+
+[[ignored]]
+repo   = "xiaodou-official/xiaodou-market"
+reason = "数字商品交易平台，与小说无关"
+
+[[ignored]]
+repo   = "wangzhengpengjay/AI-Health-Steward"
+reason = "家庭健康管理，与小说无关"
+
+[[ignored]]
+repo   = "ascendho/code-2nd"
+reason = "《编码》读书资料，与小说无关"
+
+[[ignored]]
+repo   = "tomatoparkdao/omniailab-ai-director"
+reason = "影视导演全流程，偏广告、宣传片和视觉制作，见 awesome-short-drama-skills"
+
+[[ignored]]
+repo   = "CloudZao/Metalio-E-INK4"
+reason = "墨水屏硬件项目，非小说创作"
+
+[[ignored]]
+repo   = "jaikydota/BullFlow"
+reason = "企业 RAG 方案，非小说创作"
+
+[[ignored]]
+repo   = "virjar/team-talk"
+reason = "团队沟通软件，与小说无关"
+
+[[ignored]]
+repo   = "aritusama/betterwords"
+reason = "通用英文写作改进，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "Work-Fisher/fisher-storylens"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（角色场景图片提示词和分镜）"
+
+[[ignored]]
+repo   = "arslanr-com/writehuman"
+reason = "英文 LLM 腔统计检查器，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "daguaid341-cpu/write-30-second-storyboards"
+reason = "主交付 30 秒分镜提示词与角色三视图，剧本环节只整理用户给的剧情；新版核心是闭源本地引擎，本仓库只留旧版"
+
+[[ignored]]
+repo   = "joeinvents/humanizerskill"
+reason = "通用英文去 AI 味，同类已收 blader/humanizer"
+
+[[ignored]]
+repo   = "2332239652/novelai-assistant"
+reason = "NovelAI 生图提示词转 Danbooru 标签，与小说写作无关"
+
+[[ignored]]
+repo   = "tejassunny/chinese-novelist-skill"
+reason = "可疑：照搬 PenglongHuang/chinese-novelist-skill，README 改成下载页，所有链接指向仓库里的 zip，还让用户下载 exe/dmg"
+
+[[ignored]]
+repo   = "ilyautov/humanizer-it"
+reason = "通用意大利语去 AI 味，非中文、非小说向"
+
+[[ignored]]
+repo   = "Prani11/VGGT-Diff"
+reason = "计算机视觉的新视角合成（novel view synthesis），与小说无关"
+
+[[ignored]]
+repo   = "ADC1920/AI-short-play-video-creation"
+reason = "短剧/剧本类，见 awesome-short-drama-skills（Seedance/即梦出片流程）"

@@ -62,6 +62,19 @@
       "stars": 24,
       "status": "ok"
     },
+    "AhJxs/so-novel-rs": {
+      "archived": false,
+      "description": "小说下载｜网文下载 | 网络小说",
+      "first_seen": "2026-11-16",
+      "forks": 6,
+      "full_name": "AhJxs/so-novel-rs",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-11-13",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 18,
+      "status": "ok"
+    },
     "AharaOoO/acheng-director-skill": {
       "archived": false,
       "description": "Acheng Director — 电影级导演综合引擎 · 影视工业级 AI 导演中枢 (MiniMax H3 / Seedance / 132运镜白模)",
@@ -74,6 +87,19 @@
       "stars": 68,
       "status": "ok"
     },
+    "Anarcadia/chuanban-chaishu-skills": {
+      "archived": false,
+      "description": "船板的网文拆书分析skills",
+      "first_seen": "2026-11-16",
+      "forks": 12,
+      "full_name": "Anarcadia/chuanban-chaishu-skills",
+      "license": null,
+      "pushed_at": "2026-11-04",
+      "skill_count": 6,
+      "skill_count_truncated": false,
+      "stars": 60,
+      "status": "ok"
+    },
     "Anarcadia/chuanban-jp-novel-translator": {
       "archived": false,
       "description": "日语长篇小说翻译工作流 — Claude Code Skills 系统（主调度 + sub-agent 架构，11 个 skill 协作，支持断点续翻 / 术语管理 / 审改分离润色 / 三向比对自动重译）",
@@ -84,6 +110,19 @@
       "skill_count": 11,
       "skill_count_truncated": false,
       "stars": 9,
+      "status": "ok"
+    },
+    "BaldYang/QQBrowser_novel_switch": {
+      "archived": false,
+      "description": "用于提取转换QQ浏览器中已下载的小说文本。",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "BaldYang/QQBrowser_novel_switch",
+      "license": "MIT",
+      "pushed_at": "2026-11-07",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 8,
       "status": "ok"
     },
     "Calliope-Editor/writing-skills": {
@@ -108,6 +147,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 1,
+      "status": "ok"
+    },
+    "DowneyRem/PixivSource": {
+      "archived": false,
+      "description": "最好的 Pixiv 第三方小说阅读器——开源阅读 + Pixiv 书源 / Legado with Pixiv BookSource, the Best Third-Party Novel Reader for Pixiv",
+      "first_seen": "2026-11-16",
+      "forks": 46,
+      "full_name": "DowneyRem/PixivSource",
+      "license": null,
+      "pushed_at": "2026-11-14",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 1134,
       "status": "ok"
     },
     "Elowwwen/Fanfic-background-assistant": {
@@ -216,6 +268,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 2408,
+      "status": "ok"
+    },
+    "George01230123/novel-downloader": {
+      "archived": false,
+      "description": "笔趣阁小说下载器：中文书名搜索 → 勾选章节 → 导出 UTF-8 TXT。免安装单文件 exe，零运行时依赖（Windows 自带 .NET Framework 4.8）。",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "George01230123/novel-downloader",
+      "license": "MIT",
+      "pushed_at": "2026-11-05",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 9,
       "status": "ok"
     },
     "Hao0321/ai-short-drama": {
@@ -386,6 +451,19 @@
       "stars": 164,
       "status": "ok"
     },
+    "Mios-dream/SFNovel-ReaderProject": {
+      "archived": false,
+      "description": "一个优雅的菠萝包轻小说(sfacg)的阅读器和下载器，可以下载文本，有声，漫画，并导出多种格式。",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "Mios-dream/SFNovel-ReaderProject",
+      "license": null,
+      "pushed_at": "2026-11-14",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 19,
+      "status": "ok"
+    },
     "MrGeDiao/shuorenhua": {
       "archived": false,
       "description": "说人话｜中文优先的去 AI 味改写 skill：保事实、分场景、改完可直接发。Chinese-first rewrite skill for Codex / Claude Code / Cursor / ChatGPT — removes AI tone, preserves facts.",
@@ -554,6 +632,19 @@
       "stars": 27,
       "status": "ok"
     },
+    "Summerburier/wenku2epub": {
+      "archived": false,
+      "description": "wenku8小说下载脚本",
+      "first_seen": "2026-11-16",
+      "forks": 2,
+      "full_name": "Summerburier/wenku2epub",
+      "license": null,
+      "pushed_at": "2026-10-28",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 25,
+      "status": "ok"
+    },
     "SwotAtmk/infinite-creation": {
       "archived": false,
       "description": "infinite-creation 是一个通过提交小说/剧本，本地ComfyUI-MiniMaxH3+Agent+Skill技能全自动无限生产视频，不限时长。",
@@ -662,6 +753,19 @@
       "stars": 109,
       "status": "ok"
     },
+    "Wanludrame/AI-DaLiu": {
+      "archived": false,
+      "description": "电子大刘 — AI科幻创作与短片制作引擎。基于Claude Code skills，模仿刘慈欣风格创作科幻小说，并自动生成AI短片。",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "Wanludrame/AI-DaLiu",
+      "license": null,
+      "pushed_at": "2026-11-16",
+      "skill_count": 5,
+      "skill_count_truncated": false,
+      "stars": 7,
+      "status": "ok"
+    },
     "WindXRan/fanqie-radar": {
       "archived": false,
       "description": "番茄小说榜单数据 · 扫榜选书工作台 · MCP Server · 开源 Agent Skill（Codex / Claude Code 一键安装）。内置真实榜单快照、内置扫榜采集、题材热度 / 趋势差分 / 仿写六维评分——AI 网文写作与数据驱动选书判断力。Fanqie novel rank data, webnovel scanning & book-selection workbench, agent skills for Claude Code & Codex, MCP server for AI novel writing, Chinese webnovel trend analysis.",
@@ -734,6 +838,19 @@
       "stars": 27,
       "status": "ok"
     },
+    "XziXmn/legado-hub": {
+      "archived": false,
+      "description": "一个后端管理的聚合书源，订阅你喜欢的书籍",
+      "first_seen": "2026-11-16",
+      "forks": 15,
+      "full_name": "XziXmn/legado-hub",
+      "license": "MIT",
+      "pushed_at": "2026-10-30",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 76,
+      "status": "ok"
+    },
     "YILING0013/AI_NovelGenerator": {
       "archived": false,
       "description": "使用ai生成多章节的长篇小说，自动衔接上下文、伏笔",
@@ -794,6 +911,32 @@
       "stars": 19,
       "status": "ok"
     },
+    "acchuang/zh-tw-humanizer": {
+      "archived": false,
+      "description": "繁體中文（台灣）去 AI 味 skill：62 種 AI 寫作特徵、157 組兩岸用語在地化、事實保留檢查（--source）、33 案例 eval 對照實測（0.97 vs 0.78）。Traditional Chinese (Taiwan) humanizer for Claude Code / Codex / Cursor, with a measurable no-fabrication check.",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "acchuang/zh-tw-humanizer",
+      "license": "MIT",
+      "pushed_at": "2026-11-13",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 7,
+      "status": "ok"
+    },
+    "addallno/fqdt": {
+      "archived": false,
+      "description": "📖 番茄小说下载器 - Fanqie Novel Downloader (CLI Rust)",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "addallno/fqdt",
+      "license": "GPL-3.0",
+      "pushed_at": "2026-11-14",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 5,
+      "status": "ok"
+    },
     "adoria111/emma-screenwriting-skills": {
       "archived": false,
       "description": "艾玛短剧 Beta 八技能：结构拆解、故事改编、选题迭代、期待设计、逐集钩子、集纲扩写、中文对白诊断、剧本删减。可安装，也可复制方法用于普通AI聊天。",
@@ -842,6 +985,19 @@
       "stars": 62,
       "status": "ok"
     },
+    "allen3206/BiliNovelDownloader": {
+      "archived": false,
+      "description": "基於 bili_novel_packer 打造的嗶哩輕小說自動下載與簡繁轉換 GUI 工具",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "allen3206/BiliNovelDownloader",
+      "license": "MIT",
+      "pushed_at": "2026-11-09",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 7,
+      "status": "ok"
+    },
     "allenloves/de-ai-tone": {
       "archived": false,
       "description": "去 AI 味：繁體中文寫作與翻譯的風格規範（Claude Code skill）",
@@ -876,6 +1032,19 @@
       "skill_count": 0,
       "skill_count_truncated": false,
       "stars": 7399,
+      "status": "ok"
+    },
+    "asass-11/axu-novel": {
+      "archived": false,
+      "description": "阿序AI 长篇小说工作流 4.0：从开书、大纲、逐章写作到完本的 AI Skill。",
+      "first_seen": "2026-11-16",
+      "forks": 4,
+      "full_name": "asass-11/axu-novel",
+      "license": null,
+      "pushed_at": "2026-11-07",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 38,
       "status": "ok"
     },
     "asass-11/lengdu": {
@@ -924,6 +1093,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 7,
+      "status": "ok"
+    },
+    "bingxl/tampermonkey": {
+      "archived": false,
+      "description": "多个小说网站 小说下载",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "bingxl/tampermonkey",
+      "license": null,
+      "pushed_at": "2026-10-29",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 5,
       "status": "ok"
     },
     "blader/humanizer": {
@@ -1082,6 +1264,19 @@
       "stars": 5,
       "status": "ok"
     },
+    "doublesq97-ui/su-ai-short-drama": {
+      "archived": false,
+      "description": "中文 AI 短剧编剧、导演、选角与分镜协作 Codex Skills（女频 / 男频双版本）",
+      "first_seen": "2026-11-16",
+      "forks": 5,
+      "full_name": "doublesq97-ui/su-ai-short-drama",
+      "license": "MIT",
+      "pushed_at": "2026-11-12",
+      "skill_count": 2,
+      "skill_count_truncated": false,
+      "stars": 70,
+      "status": "ok"
+    },
     "duiniwukenaihe/novel-assistant-skill": {
       "archived": false,
       "description": "基于https://github.com/worldwonderer/oh-story-claudecode 构建的一个写作小说的 skill 技能",
@@ -1166,6 +1361,19 @@
       "stars": 15,
       "status": "ok"
     },
+    "freeok/so-novel": {
+      "archived": false,
+      "description": "小说下载｜网文下载 | 网络小说",
+      "first_seen": "2026-11-16",
+      "forks": 764,
+      "full_name": "freeok/so-novel",
+      "license": "AGPL-3.0",
+      "pushed_at": "2026-10-26",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 9046,
+      "status": "ok"
+    },
     "fy-agent/humanize-chinese-writing": {
       "archived": false,
       "description": "中文去 AI 味、人性化写作与 HTML 内容密度检查 Skill",
@@ -1176,6 +1384,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 6,
+      "status": "ok"
+    },
+    "fysh1010/mcp-server-fanqie": {
+      "archived": false,
+      "description": "番茄小说 MCP、独立 Skill 与 DeepSeek Harness 阅读插件，支持搜书、阅读官网可见章节，以及查看本人书架和收藏划线。",
+      "first_seen": "2026-11-16",
+      "forks": 5,
+      "full_name": "fysh1010/mcp-server-fanqie",
+      "license": "MIT",
+      "pushed_at": "2026-10-31",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 57,
       "status": "ok"
     },
     "geslie1/kunka-screenwriting-master": {
@@ -1502,6 +1723,32 @@
       "stars": 7973,
       "status": "ok"
     },
+    "lingyi-ling/novel-downloader": {
+      "archived": false,
+      "description": "Async, extensible novel downloader toolkit with rule-driven book sources",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "lingyi-ling/novel-downloader",
+      "license": "MIT",
+      "pushed_at": "2026-11-15",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 10,
+      "status": "ok"
+    },
+    "liufuyou/read": {
+      "archived": false,
+      "description": "阅读（Legado）书源合集，自用整理、持续维护。官方仓库清空后，这里汇集 XIU2、Yiove、YCK、大灰狼等多位大佬的小说书源，附网络导入步骤与第三方版本对照，复制链接粘贴到 App 内即可导入。",
+      "first_seen": "2026-11-16",
+      "forks": 36,
+      "full_name": "liufuyou/read",
+      "license": "CC-BY-SA-4.0",
+      "pushed_at": "2026-11-07",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 749,
+      "status": "ok"
+    },
     "liuxiao20051106-prog/ai-manga-drama": {
       "archived": false,
       "description": "AI漫剧工坊 - Claude Code Skill：从零创造AI动态漫画短剧的全流程制作助手，覆盖3条工具路线、30+AI工具、8阶段完整工作流",
@@ -1634,6 +1881,19 @@
       "stars": 244,
       "status": "ok"
     },
+    "lyra-planet/galforge": {
+      "archived": false,
+      "description": "一句话做出能玩的像素视觉小说：立绘、场景、配乐全是代码现写，零图片素材。An Agent Skill that turns one sentence into a playable pixel-art visual novel.",
+      "first_seen": "2026-11-16",
+      "forks": 1,
+      "full_name": "lyra-planet/galforge",
+      "license": "MIT",
+      "pushed_at": "2026-11-02",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 5,
+      "status": "ok"
+    },
     "machina-exm/film-studio-skills": {
       "archived": false,
       "description": "7 installable agent skills that run the pipeline behind $2M AI video productions — script to locked, generation-ready shot prompts. Claude Code · Codex · Hermes · OpenCode",
@@ -1740,6 +2000,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 35,
+      "status": "ok"
+    },
+    "nagameTW/formosa-humanizer": {
+      "archived": false,
+      "description": "以台灣用語和中文標點重寫 blader/humanizer，含中國用語偵測。支援 Claude Code、Codex、Claude.ai",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "nagameTW/formosa-humanizer",
+      "license": "MIT",
+      "pushed_at": "2026-10-22",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 27,
       "status": "ok"
     },
     "nanachi1212/novelDownloader": {
@@ -1898,6 +2171,19 @@
       "stars": 114,
       "status": "ok"
     },
+    "realchendahuang/open-writing-skill": {
+      "archived": false,
+      "description": "喂出你个人文风的开源去 AI 味写作 Skill 骨架（范文原文打底 + 多音色分流防串味 + 精简禁词兜底，支持 Claude Code / Cursor / Codex / Antigravity 与网页端）",
+      "first_seen": "2026-11-16",
+      "forks": 4,
+      "full_name": "realchendahuang/open-writing-skill",
+      "license": "MIT",
+      "pushed_at": "2026-11-11",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 7,
+      "status": "ok"
+    },
     "ricky-theseus/DaisyWriter": {
       "archived": false,
       "description": "AI-powered writing toolkit — Web novels, Short stories, Tech blogs, Publishing automation. An OpenCode/Claude Code/Codex CLI skill collection.",
@@ -1932,6 +2218,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 33,
+      "status": "ok"
+    },
+    "sanxsnr/ai-short-drama-from-zero": {
+      "archived": false,
+      "description": "AI短剧从0到1｜零基础完成你的第一部剧面向零基础新人的AI短剧制作Skill：从灵感、小说改编、剧本与分镜，到角色场景提示词、Seedance 2.0视频生成、问题诊断与成片交付。",
+      "first_seen": "2026-11-16",
+      "forks": 3,
+      "full_name": "sanxsnr/ai-short-drama-from-zero",
+      "license": "MIT",
+      "pushed_at": "2026-10-12",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 10,
       "status": "ok"
     },
     "senmanx/novel-to-manju": {
@@ -1992,6 +2291,19 @@
       "skill_count": 11,
       "skill_count_truncated": false,
       "stars": 7,
+      "status": "ok"
+    },
+    "spiritLHLS/novel-downloader": {
+      "archived": false,
+      "description": "小说下载工具",
+      "first_seen": "2026-11-16",
+      "forks": 4,
+      "full_name": "spiritLHLS/novel-downloader",
+      "license": "MIT",
+      "pushed_at": "2026-11-16",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 16,
       "status": "ok"
     },
     "suihe1/short-drama-production": {
@@ -2162,6 +2474,19 @@
       "stars": 21,
       "status": "ok"
     },
+    "weijt606/anti-vibe-writing": {
+      "archived": false,
+      "description": "Make AI writing sound human, in English and 中文. A Claude Code / Codex / any-agent skill that strips templated phrasing, consultant-speak, markdown clutter, em-dashes, and copy-paste model residue while keeping the meaning.",
+      "first_seen": "2026-11-16",
+      "forks": 11,
+      "full_name": "weijt606/anti-vibe-writing",
+      "license": "MIT",
+      "pushed_at": "2026-11-15",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 135,
+      "status": "ok"
+    },
     "wgwtest/novel-project-strategy": {
       "archived": false,
       "description": "Codex skill for longform fiction workflow, chapter-state tracking, and project recovery.",
@@ -2184,6 +2509,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 56,
+      "status": "ok"
+    },
+    "wwaa34682-lab/novel-to-short-drama-skill": {
+      "archived": false,
+      "description": "小说→AI短剧 7步流水线通用技能（改编/验收/压节奏/分镜/资产/分镜图/图生视频） | Novel-to-AI-short-drama 7-step pipeline skill",
+      "first_seen": "2026-11-16",
+      "forks": 0,
+      "full_name": "wwaa34682-lab/novel-to-short-drama-skill",
+      "license": "MIT",
+      "pushed_at": "2026-10-19",
+      "skill_count": 1,
+      "skill_count_truncated": false,
+      "stars": 15,
       "status": "ok"
     },
     "wwenj/zu-article-polisher-skill": {
@@ -2304,6 +2642,19 @@
       "skill_count": 1,
       "skill_count_truncated": false,
       "stars": 39,
+      "status": "ok"
+    },
+    "xuejianxianzun/PixivBatchDownloader": {
+      "archived": false,
+      "description": "Powerful Pixiv batch downloader. Batch download artworks and novels, filter works, rename when downloading, convert animated images, and more. 浏览器扩展程序，批量下载 Pixiv 上的插画和小说。过滤作品、下载时重命名、转换动态图片等。",
+      "first_seen": "2026-11-16",
+      "forks": 313,
+      "full_name": "xuejianxianzun/PixivBatchDownloader",
+      "license": "GPL-3.0",
+      "pushed_at": "2026-10-29",
+      "skill_count": 0,
+      "skill_count_truncated": false,
+      "stars": 5805,
       "status": "ok"
     },
     "xwcai999/opencreator-novel": {
@@ -2436,6 +2787,19 @@
       "skill_count": 4,
       "skill_count_truncated": false,
       "stars": 336,
+      "status": "ok"
+    },
+    "zhanghao123vip/ai-manju-skills": {
+      "archived": false,
+      "description": "21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek",
+      "first_seen": "2026-11-16",
+      "forks": 153,
+      "full_name": "zhanghao123vip/ai-manju-skills",
+      "license": "MIT",
+      "pushed_at": "2026-11-01",
+      "skill_count": 21,
+      "skill_count_truncated": false,
+      "stars": 847,
       "status": "ok"
     },
     "zhlmi/narrative-to-screen-reader": {
