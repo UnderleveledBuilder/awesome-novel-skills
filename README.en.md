@@ -12,6 +12,8 @@ Most projects come from the Chinese web-novel scene (Qidian, Fanqie Novel, Jinji
 
 239 skills and tools + 6 related open-source apps · metadata updated 2026-11-16
 
+✍️ **Turn an idea into a vertical short-drama script**: [dramawriter](https://write.shortdramaskills.com) is a site made by this list's maintainer. You write one sentence; three screenwriting skills (zenstory, Shanyin and jtydhr88) each write a pitch, and you pick one blind, then see who wrote it. The pitches, the full skeleton, the characters and outline episodes 1–5 are free; after that you pay with credits. It has no effect on what gets listed or how it ranks.
+
 ## Which skill to install for premises
 
 Round 2 (2026-10-20): 10 skills from this list that can come up with a premise from scratch, 0xsline/short-drama from the short drama list, and a control with no skill installed each chose a premise 3 times for the same kind of revenge-fantasy story, one that could become a web novel or a vertical short drama. Every entry was compared blind with every other and ranked by points. The reviewers ask whether viewers would keep watching once AI makes it. Both AI reviewers (Opus and GPT) put the same three skills on top; all three beat the control in all 3 runs, and all three are in this list:
