@@ -3024,3 +3024,68 @@ lang    = "multi"
 note    = "定位是协同写作，不做一键成书。README 里有 API 中转商的推广链接"
 note_en = "Positioned as collaborative writing, not one-click book generation. The README contains promotional links for an API reseller."
 checked = 2026-10-14
+
+[[skills]]
+repo    = "blankym/inkbone"
+desc    = "中文长篇小说套件：8 阶段写作 skill 加 MCP 和命令行，活账本防剧透、防死人复活，本地脚本逐行查套话、语域和主语链"
+desc_en = "Chinese long-form fiction suite: an 8-stage writing skill plus MCP server and CLI; a live ledger blocks spoilers and dead characters returning, and a zero-dependency local engine checks clichés, register and subject chains line by line"
+group   = "pipeline"
+stages  = ["structure", "drafting", "memory", "revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "codex", "opencode", "cursor"]
+sites   = ["qidian", "fanqie", "qimao", "jjwxc"]
+note    = "另有纯浏览器的整书体检页和 VS Code 扩展；能导出起点、番茄、七猫、晋江的投稿格式。2026-11 新建"
+note_en = "Also has an in-browser whole-book checker and a VS Code extension, and exports submission formats for Qidian, Fanqie, Qimao and Jinjiang. Created 2026-11."
+checked = 2026-11-23
+
+[[skills]]
+repo    = "VanGong1999/openwriting-skills"
+desc    = "160 多个写作 skill：男频、女频长篇和短篇生产线，拆书、结构、人物、质检，另有短剧、漫剧、新媒体和公文"
+desc_en = "160+ writing skills: production lines for male- and female-oriented long-form and short fiction, teardowns, structure, characters and QC, plus short drama, manju, new media and business documents"
+group   = "pipeline"
+stages  = ["market", "character", "structure", "drafting", "revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["claude-code", "codex", "opencode"]
+note    = "README 说内容蒸馏自写作网课；公文和飞书办公那一套与小说无关"
+note_en = "The README says the content is distilled from online writing courses; the business-document and Feishu set is unrelated to fiction"
+checked = 2026-11-23
+
+[[skills]]
+repo    = "guohuiyuan/novel-scan"
+desc    = "网文扫书 skill：一本 txt 进去，出带 8 维评分、雷点、男女主人物卡的扫书稿，引文逐字可查，可按外貌出人物图"
+desc_en = "Web-novel review skill: feed in a .txt book and get a publishable review with an 8-dimension score, deal-breaker notes and cards for the leads; every quote is verbatim and searchable, and character images can be drawn from the described looks"
+group   = "tools"
+stages  = ["market", "character"]
+format  = "skill"
+lang    = "zh"
+note    = "评分口径是网文圈的雷点、郁闷点和纯洁度；出图用 latent.moe"
+note_en = "Scoring follows web-novel reader conventions for deal-breakers and character purity; images are generated with latent.moe"
+checked = 2026-11-23
+
+[[skills]]
+repo    = "bbroot/novel-bug-checker"
+desc    = "中文小说叙事审计：查逻辑漏洞、OOC、节奏和伏笔断裂，分四级出报告，每个问题给 3 种以上改法"
+desc_en = "Narrative audit for Chinese fiction: finds plot holes, out-of-character moments, pacing problems and dropped foreshadowing, reports them in four severity levels and offers at least three fixes for each"
+group   = "tools"
+stages  = ["memory", "revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["openclaw"]
+note    = "同作者已收 novel-master，用它写的书能读其设定图谱做反向校验；没有声明许可证"
+note_en = "Same author as the listed novel-master; for books written with it, it cross-checks against its setting graph. No license declared"
+checked = 2026-11-23
+
+[[skills]]
+repo    = "ChinaYouShen/ai-short-drama"
+desc    = "短剧技能包：选题、大纲、人物、剧本、对白、钩子、审稿到分镜和 MiniMax H3 提示词，武戏收了 221 招特效"
+desc_en = "Short-drama skill pack: topic, outline, characters, script, dialogue, hooks and review through storyboards and MiniMax H3 prompts; its action-scene library has 221 moves, each tied to a drawable effect"
+group   = "script"
+stages  = ["market", "adaptation", "structure", "drafting", "revision"]
+format  = "skill"
+lang    = "zh"
+agents  = ["cursor", "codex", "workbuddy"]
+note    = "不装软件、不调接口，也适配豆包、文心一言和 DeepSeek Harness"
+note_en = "Installs nothing and calls no APIs; also works with Doubao, ERNIE Bot and DeepSeek Harness"
+checked = 2026-11-23

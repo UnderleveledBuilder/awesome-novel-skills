@@ -1362,3 +1362,67 @@ reason = "视频拆剧本、分镜表和风格指南的拉片工具，见 awesom
 [[ignored]]
 repo   = "jjjjjinshan/aigc-drama-workflow"
 reason = "与已收录的 zenstory-ai/drama-skills 高度重合（10 个 skill 和校验脚本同名），主要多一个 Google Flow 出口"
+
+[[ignored]]
+repo   = "bojieli/ai-agent-book"
+reason = "AI Agent 技术书的书稿，和小说无关"
+
+[[ignored]]
+repo   = "bojieli/ai-infra-book"
+reason = "AI Infra 技术书的书稿，和小说无关"
+
+[[ignored]]
+repo   = "chuxuan861119/zhichan-xiaozhan-work"
+reason = "专利撰写编辑器，和小说无关"
+
+[[ignored]]
+repo   = "XL-lab-bigdata/DataMining"
+reason = "数据挖掘教材，和小说无关"
+
+[[ignored]]
+repo   = "Xcy8010/Chevoink"
+reason = "AI 小说创作与阅读平台，是完整应用，不到 1k 星"
+
+[[ignored]]
+repo   = "Lyee0011/leetools"
+reason = "个人小工具合集（提词器、视频下载），没有小说相关内容"
+
+[[ignored]]
+repo   = "liuchaoqi-7/DA_Multi_Agent_Workflow"
+reason = "电商数据治理中台，和小说无关"
+
+[[ignored]]
+repo   = "liangdabiao/dsh-realman-studio"
+reason = "已收的 seedance-storyboard-generator-realman 的 DeepSeek Harness 插件版，重点是出图出片，归短剧清单"
+
+[[ignored]]
+repo   = "Lucian-Wang/smsforwarder"
+reason = "安卓短信转发应用，和小说无关"
+
+[[ignored]]
+repo   = "ATboy-web/AI_NovelWriter"
+reason = "AI 长篇小说创作完整应用，不到 1k 星"
+
+[[ignored]]
+repo   = "alexconner-79/ill-communication"
+reason = "英文 UX 文案去 AI 味，「去 AI 味」一节只收针对中文的"
+
+[[ignored]]
+repo   = "HaoyanZhang123/control-your-skills"
+reason = "个人自用的发版和论文配图 skill，和小说无关"
+
+[[ignored]]
+repo   = "ProjectNox-org/nox-extension-developer"
+reason = "给漫画、小说阅读器开发扩展的 skill，不是写作工具"
+
+[[ignored]]
+repo   = "adrianhaj/ste80"
+reason = "英文去 AI 味，「去 AI 味」一节只收针对中文的"
+
+[[ignored]]
+repo   = "lukasxai/humanizer-skill"
+reason = "德文去 AI 味，「去 AI 味」一节只收针对中文的"
+
+[[ignored]]
+repo   = "starrybodies/reword"
+reason = "按用户样稿学文风的英文改写 skill，「去 AI 味」一节只收针对中文的"
